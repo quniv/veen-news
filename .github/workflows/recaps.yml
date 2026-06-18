@@ -1,0 +1,47 @@
+name: Generate Recaps
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'   # 02:00 UTC every Monday (weekly recap)
+    - cron: '0 2 1 * *'   # 02:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recaps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Generate recaps
+        run: uv run python -m veen.recaps
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          VEEN_AI_MODEL: ${{ vars.VEEN_AI_MODEL || 'deepseek/deepseek-v4-flash' }}
+
+      - name: Commit and push recaps
+        run: |
+          git config user.name  "veen-bot"
+          git config user.email "veen-bot@users.noreply.github.com"
+          git add data/weekly/ data/monthly/ data/index.json
+          if git diff --staged --quiet; then
+            echo "No recap changes."
+          else
+            git commit -m "chore: recap $(date -u +%Y-%m-%d)"
+            git push
+          fi

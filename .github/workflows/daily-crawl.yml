@@ -1,0 +1,52 @@
+name: Daily News Crawl
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 01:00 UTC daily
+  workflow_dispatch:        # manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run crawler
+        run: uv run python -m veen.crawl
+
+      - name: Run AI pipeline
+        run: uv run python -m veen.ai_pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          VEEN_AI_MODEL: ${{ vars.VEEN_AI_MODEL || 'deepseek/deepseek-v4-flash' }}
+
+      - name: Export JSON files
+        run: uv run python -m veen.export
+
+      - name: Commit and push data
+        run: |
+          git config user.name  "veen-bot"
+          git config user.email "veen-bot@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No new data — skipping commit."
+          else
+            git commit -m "chore: daily crawl $(date -u +%Y-%m-%d)"
+            git push
+          fi

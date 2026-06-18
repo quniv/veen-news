@@ -1,0 +1,332 @@
+sources:
+  # ── Technology ──────────────────────────────────────────────────────────────
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    feed_type: atom
+    category: technology
+    active: true
+
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Wired
+    url: https://www.wired.com/feed/rss
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Hacker News (Top)
+    url: https://hnrss.org/frontpage
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Hacker News (Quality)
+    url: https://hnrss.org/newest?points=50
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Lobste.rs
+    url: https://lobste.rs/rss
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Reddit r/technology
+    url: https://www.reddit.com/r/technology/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: technology
+    active: true
+
+  - name: Reddit r/programming
+    url: https://www.reddit.com/r/programming/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: technology
+    active: false   # 429 — Reddit allows only 1 RSS request per crawl run from server IPs
+
+  # ── AI ───────────────────────────────────────────────────────────────────────
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    feed_type: atom
+    category: ai
+    active: true
+
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    feed_type: rss
+    category: ai
+    active: true
+
+  - name: Anthropic News
+    url: https://www.anthropic.com/news.rss
+    feed_type: rss
+    category: ai
+    active: false   # 404 — Anthropic has no public RSS feed
+
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/rss/
+    feed_type: rss
+    category: ai
+    active: false   # 404 — Meta AI has no public RSS feed
+
+  - name: Import AI
+    url: https://importai.substack.com/feed
+    feed_type: rss
+    category: ai
+    active: true
+
+  - name: The Gradient
+    url: https://thegradient.pub/rss/
+    feed_type: rss
+    category: ai
+    active: true
+
+  - name: Reddit r/MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: ai
+    active: false   # 429 — Reddit allows only 1 RSS request per crawl run from server IPs
+
+  - name: Reddit r/LocalLLaMA
+    url: https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: ai
+    active: false   # 429 — same Reddit rate limit
+
+  - name: Reddit r/artificial
+    url: https://www.reddit.com/r/artificial/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: ai
+    active: false   # 403/429 — same Reddit rate limit
+
+  # ── DevOps / DevSecOps ───────────────────────────────────────────────────────
+  - name: The New Stack
+    url: https://thenewstack.io/feed/
+    feed_type: rss
+    category: devops
+    active: true
+
+  - name: DevOps.com
+    url: https://devops.com/feed/
+    feed_type: rss
+    category: devops
+    active: true
+
+  - name: HashiCorp Blog
+    url: https://www.hashicorp.com/blog/feed.xml
+    feed_type: atom
+    category: devops
+    active: true
+
+  - name: CNCF Blog
+    url: https://www.cncf.io/feed/
+    feed_type: rss
+    category: devops
+    active: true
+
+  - name: Kubernetes Blog
+    url: https://kubernetes.io/feed.xml
+    feed_type: atom
+    category: devops
+    active: true
+
+  - name: AWS Blog
+    url: https://aws.amazon.com/blogs/aws/feed/
+    feed_type: rss
+    category: devops
+    active: false   # timeout — AWS blog is extremely slow to respond
+
+  - name: Cloudflare Blog
+    url: https://blog.cloudflare.com/rss/
+    feed_type: rss
+    category: devops
+    active: true
+
+  - name: Docker Blog
+    url: https://www.docker.com/blog/feed/
+    feed_type: rss
+    category: devops
+    active: true
+
+  - name: GitLab Blog
+    url: https://about.gitlab.com/atom.xml
+    feed_type: atom
+    category: devops
+    active: true
+
+  - name: Reddit r/devops
+    url: https://www.reddit.com/r/devops/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: devops
+    active: false   # 429 — same Reddit rate limit
+
+  - name: Reddit r/kubernetes
+    url: https://www.reddit.com/r/kubernetes/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: devops
+    active: false   # 429 — same Reddit rate limit
+
+  - name: Reddit r/netsec
+    url: https://www.reddit.com/r/netsec/top/.rss?t=day&limit=25
+    feed_type: rss
+    category: devops
+    active: false   # 429 — same Reddit rate limit
+
+  # ── World ────────────────────────────────────────────────────────────────────
+  - name: Reuters Top News
+    url: https://feeds.reuters.com/reuters/topNews
+    feed_type: rss
+    category: world
+    active: false   # DNS issues — re-enable when resolved
+
+  - name: AP News
+    url: https://rsshub.app/apnews/topics/apf-topnews
+    feed_type: rss
+    category: world
+    active: false   # rsshub.app returns 403
+
+  - name: BBC World
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    feed_type: rss
+    category: world
+    active: true
+
+  - name: Al Jazeera English
+    url: https://www.aljazeera.com/xml/rss/all.xml
+    feed_type: rss
+    category: world
+    active: true
+
+  - name: The Guardian World
+    url: https://www.theguardian.com/world/rss
+    feed_type: rss
+    category: world
+    active: true
+
+  # ── Vietnam ──────────────────────────────────────────────────────────────────
+  - name: VnExpress International
+    url: https://e.vnexpress.net/rss/news.rss
+    feed_type: rss
+    category: vietnam
+    active: true
+
+  - name: VnExpress Công nghệ
+    url: https://vnexpress.net/rss/khoa-hoc-cong-nghe.rss
+    feed_type: rss
+    category: vietnam
+    active: true
+
+  - name: VnExpress Kinh doanh
+    url: https://vnexpress.net/rss/kinh-doanh.rss
+    feed_type: rss
+    category: vietnam
+    active: true
+
+  - name: Vietnam News
+    url: https://vietnamnews.vn/rss/home.rss
+    feed_type: rss
+    category: vietnam
+    active: false   # returns 0 articles — feed appears broken
+
+  - name: Tuổi Trẻ Online
+    url: https://tuoitre.vn/rss/tin-moi-nhat.rss
+    feed_type: rss
+    category: vietnam
+    active: true
+
+  - name: Thanh Niên
+    url: https://thanhnien.vn/rss/home.rss
+    feed_type: rss
+    category: vietnam
+    active: true
+
+  - name: VietnamNet
+    url: https://vietnamnet.vn/rss/home.rss
+    feed_type: rss
+    category: vietnam
+    active: false   # 404 — RSS URL changed
+
+  - name: ICTnews
+    url: https://ictnews.vietnamnet.vn/rss/home.rss
+    feed_type: rss
+    category: vietnam
+    active: false   # redirects to HTML page — no usable RSS
+
+  # ── Innovations ──────────────────────────────────────────────────────────────
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com/feed/
+    feed_type: rss
+    category: innovations
+    active: true
+
+  - name: IEEE Spectrum
+    url: https://spectrum.ieee.org/feeds/feed.rss
+    feed_type: rss
+    category: innovations
+    active: true
+
+  - name: Fast Company
+    url: https://www.fastcompany.com/latest/rss
+    feed_type: rss
+    category: innovations
+    active: true
+
+  - name: Quanta Magazine
+    url: https://api.quantamagazine.org/feed/
+    feed_type: rss
+    category: innovations
+    active: true
+
+  # ── Robotics ─────────────────────────────────────────────────────────────────
+  - name: The Robot Report
+    url: https://www.therobotreport.com/feed/
+    feed_type: rss
+    category: robotics
+    active: false   # returns 403
+
+  - name: IEEE Spectrum Robotics
+    url: https://spectrum.ieee.org/feeds/blog/automaton.rss
+    feed_type: rss
+    category: robotics
+    active: false   # 404 — feed moved
+
+  # ── Open Source ──────────────────────────────────────────────────────────────
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+    feed_type: rss
+    category: open_source
+    active: true
+
+  - name: Linux Foundation Blog
+    url: https://www.linuxfoundation.org/blog/feed/
+    feed_type: rss
+    category: open_source
+    active: false   # 404 — feed URL changed
+
+  - name: FOSS Post
+    url: https://fosspost.org/feed
+    feed_type: rss
+    category: open_source
+    active: true
+
+  - name: Opensource.com
+    url: https://opensource.com/feed
+    feed_type: rss
+    category: open_source
+    active: true
+
+  - name: Netflix Tech Blog
+    url: https://netflixtechblog.com/feed
+    feed_type: rss
+    category: open_source
+    active: false   # timeout — Medium RSS too slow
