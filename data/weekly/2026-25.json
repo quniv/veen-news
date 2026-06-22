@@ -1,0 +1,499 @@
+{
+  "generated_at": "2026-06-22T03:11:38.049998+00:00",
+  "week": "2026-25",
+  "period_start": "2026-06-18",
+  "period_end": "2026-06-22",
+  "top_clusters": [
+    {
+      "id": "cluster-kubernetes-v1.36",
+      "topic": "Kubernetes v1.36 ra m\u1eaft v\u1edbi nhi\u1ec1u c\u1ea3i ti\u1ebfn v\u00e0 t\u00ednh n\u0103ng m\u1edbi",
+      "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.36 mang \u0111\u1ebfn lo\u1ea1t n\u00e2ng c\u1ea5p \u0111\u00e1ng ch\u00fa \u00fd: h\u1ed7 tr\u1ee3 User Namespaces GA, Mixed Version Proxy beta, c\u00e1c c\u1ea3i ti\u1ebfn v\u1ec1 l\u1eadp l\u1ecbch v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean. B\u1ea3n ph\u00e1t h\u00e0nh n\u00e0y t\u0103ng c\u01b0\u1eddng b\u1ea3o m\u1eadt v\u00e0 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng cho c\u00e1c c\u1ee5m l\u1edbn.",
+      "article_ids": [
+        "d940fcf7",
+        "bb0e2305",
+        "dedcac98",
+        "fc1b2583",
+        "659ee31b",
+        "4e5b8cdf",
+        "15c2ac0a",
+        "c028e7e5",
+        "865bcd7d",
+        "3951e89e",
+        "590d3068",
+        "6b220076",
+        "5b3804a1",
+        "705ed9c3",
+        "200ae3a8",
+        "f8e1b7bc",
+        "dba00b9b",
+        "ce53f76f",
+        "1156330c"
+      ],
+      "article_count": 19
+    },
+    {
+      "id": "cluster-security-breaches",
+      "topic": "Security breaches and vulnerability management",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft \u0111\u1ec1 c\u1eadp \u0111\u1ebfn c\u00e1c v\u1ee5 t\u1ea5n c\u00f4ng m\u1ea1ng do k\u1ebb t\u1ea5n c\u00f4ng k\u1ef9 n\u0103ng th\u1ea5p s\u1eed d\u1ee5ng AI, c\u00f9ng v\u1edbi c\u00e1c c\u00f4ng c\u1ee5 qu\u00e9t b\u1ea3o m\u1eadt v\u00e0 qu\u1ea3n l\u00fd chu\u1ed7i cung \u1ee9ng ph\u1ea7n m\u1ec1m \u0111\u1ec3 gi\u1ea3m thi\u1ec3u r\u1ee7i ro.",
+      "article_ids": [
+        "06bba165",
+        "abf9f734",
+        "f21c36ce",
+        "1dacc3b8",
+        "344c8d70",
+        "df5448e8"
+      ],
+      "article_count": 6
+    },
+    {
+      "id": "cluster-gemini-models",
+      "topic": "Google ra m\u1eaft d\u00f2ng s\u1ea3n ph\u1ea9m Gemini m\u1edbi v\u00e0 Gemma",
+      "summary": "Google gi\u1edbi thi\u1ec7u lo\u1ea1t s\u1ea3n ph\u1ea9m m\u1edbi bao g\u1ed3m Gemini 3.5 (d\u1ecbch gi\u1ecdng n\u00f3i t\u1ef1 nhi\u00ean), Gemma 4 (multimodal), v\u00e0 Gemini Robotics-ER (l\u00fd lu\u1eadn th\u1ec3 hi\u1ec7n). C\u00e1c b\u1ea3n n\u00e2ng c\u1ea5p t\u1eadp trung v\u00e0o bi\u1ec3u c\u1ea3m gi\u1ecdng n\u00f3i v\u00e0 kh\u1ea3 n\u0103ng t\u00e1c nh\u00e2n.",
+      "article_ids": [
+        "45b0a390",
+        "533d0694",
+        "3381a474",
+        "f53f7bc5",
+        "099f9582",
+        "281297e7"
+      ],
+      "article_count": 6
+    },
+    {
+      "id": "cluster-cloudflare-ai",
+      "topic": "Cloudflare m\u1edf r\u1ed9ng n\u1ec1n t\u1ea3ng AI v\u00e0 t\u00e1c nh\u00e2n th\u00f4ng minh",
+      "summary": "Cloudflare c\u00f4ng b\u1ed1 Agents SDK m\u1edbi, t\u00edch h\u1ee3p v\u1edbi Claude Compliance API v\u00e0 ra m\u1eaft AI Gateway v\u1edbi t\u00ednh n\u0103ng ki\u1ec3m so\u00e1t chi ph\u00ed. C\u00e1c c\u00f4ng c\u1ee5 m\u1edbi gi\u00fap tri\u1ec3n khai t\u00e1c nh\u00e2n AI v\u00e0 qu\u1ea3n l\u00fd Zero Trust d\u1ec5 d\u00e0ng h\u01a1n.",
+      "article_ids": [
+        "3b648284",
+        "f1a9fc67",
+        "50cf9db0",
+        "0f6c7754",
+        "21949b98",
+        "5cbdd373"
+      ],
+      "article_count": 6
+    },
+    {
+      "id": "cluster-AI-and-dev-tools",
+      "topic": "AI advancements and developer tool innovations",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft bao g\u1ed3m c\u00e1c k\u1ef9 thu\u1eadt tinh ch\u1ec9nh AI m\u1edbi, h\u1ee3p t\u00e1c \u0111a \u0111\u00e1m m\u00e2y gi\u1eefa Microsoft v\u00e0 AWS cho GitHub, c\u00f9ng c\u00e1c c\u00f4ng c\u1ee5 t\u1ea1m th\u1eddi v\u00e0 ph\u00e2n t\u00edch d\u1eef li\u1ec7u th\u00f4ng minh.",
+      "article_ids": [
+        "26cac670",
+        "569473be",
+        "21b28d7c",
+        "bd056869",
+        "3c538b4f"
+      ],
+      "article_count": 5
+    },
+    {
+      "id": "cluster-04",
+      "topic": "Challenges in deploying secure and reliable AI agents",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft th\u1ea3o lu\u1eadn v\u1ec1 vi\u1ec7c \u0111\u00e1nh gi\u00e1 m\u00f4 h\u00ecnh agent, t\u1ea7m quan tr\u1ecdng c\u1ee7a h\u1ea1 t\u1ea7ng \u0111\u01a1n gi\u1ea3n, ch\u1ea5t l\u01b0\u1ee3ng d\u1eef li\u1ec7u, v\u00e0 b\u1ea3o m\u1eadt c\u00f4ng c\u1ee5 cho AI agent.",
+      "article_ids": [
+        "432c23c0",
+        "0468a588",
+        "b99de32c",
+        "3a265a3e"
+      ],
+      "article_count": 4
+    },
+    {
+      "id": "cluster-1",
+      "topic": "AI training music database and developer tools",
+      "summary": "C\u00e1c b\u00e0i b\u00e1o t\u1eadp trung v\u00e0o vi\u1ec7c c\u00f4ng khai c\u01a1 s\u1edf d\u1eef li\u1ec7u \u00e2m nh\u1ea1c d\u00f9ng \u0111\u1ec3 hu\u1ea5n luy\u1ec7n AI, c\u00f9ng v\u1edbi nh\u1eefng thay \u0111\u1ed5i v\u00e0 h\u01b0\u1edbng d\u1eabn v\u1ec1 c\u00e1c c\u00f4ng c\u1ee5 d\u00e0nh cho nh\u00e0 ph\u00e1t tri\u1ec3n nh\u01b0 GitHub Copilot v\u00e0 vi\u1ec7c ng\u1eebng m\u00f4 h\u00ecnh AI mi\u1ec5n ph\u00ed.",
+      "article_ids": [
+        "549e0398",
+        "4ea9d01b",
+        "0ba3272d"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Security deadlines and AI's impact on hardware",
+      "summary": "C\u00e1c b\u00e0i b\u00e1o nh\u1ea5n m\u1ea1nh th\u1eddi h\u1ea1n quan tr\u1ecdng v\u1ec1 b\u1ea3o m\u1eadt kh\u1edfi \u0111\u1ed9ng c\u1ee7a Windows v\u00e0 Linux, l\u1ed7 h\u1ed5ng t\u1eeb kh\u00f3a Sentry c\u00f4ng khai \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn AI, v\u00e0 c\u00e1ch AI s\u1ebd thay \u0111\u1ed5i thi\u1ebft k\u1ebf chip.",
+      "article_ids": [
+        "d6b33308",
+        "7f72e98c",
+        "130f692b"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-docker-security",
+      "topic": "Docker ng\u1eebng h\u1ed7 tr\u1ee3 Docker Content Trust v\u00e0 n\u00e2ng cao b\u1ea3o m\u1eadt",
+      "summary": "Docker th\u00f4ng b\u00e1o ng\u1eebng ho\u00e0n to\u00e0n Docker Content Trust (DCT) v\u00e0 d\u1ecbch v\u1ee5 Notary v1. \u0110\u1ed3ng th\u1eddi, t\u00edch h\u1ee3p Aikido \u0111\u1ec3 qu\u00e9t l\u1ed7 h\u1ed5ng n\u00e2ng cao tr\u00ean Docker Hardened Images v\u00e0 cung c\u1ea5p h\u01b0\u1edbng d\u1eabn gi\u1ea3m thi\u1ec3u CVE-2026-31431.",
+      "article_ids": [
+        "0270ba48",
+        "e5937fd3",
+        "9d4fec3b"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-github-copilot-cli",
+      "topic": "GitHub Copilot CLI nh\u1eadn c\u1eadp nh\u1eadt m\u1edbi v\u1ec1 ng\u1eef c\u1ea3nh v\u00e0 t\u00e1c nh\u00e2n",
+      "summary": "GitHub Copilot CLI \u0111\u01b0\u1ee3c c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng x\u1eed l\u00fd ng\u1eef c\u1ea3nh v\u00e0 t\u00edch h\u1ee3p LSP \u0111\u1ec3 h\u1ed7 tr\u1ee3 th\u00f4ng minh h\u01a1n trong terminal. T\u00ednh n\u0103ng t\u00e1c nh\u00e2n t\u00f9y ch\u1ec9nh gi\u00fap chuy\u1ec3n c\u00e1c prompt \u0111\u01a1n l\u1ebb th\u00e0nh workflow l\u1eb7p l\u1ea1i \u0111\u01b0\u1ee3c.",
+      "article_ids": [
+        "c657b657",
+        "b71b55ee",
+        "1a110680"
+      ],
+      "article_count": 3
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 50,
+      "top_articles": [
+        {
+          "id": "df1ae51c",
+          "title": "Massive breach spills credentials for thousands of sensitive networks",
+          "url": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/",
+          "source": "Ars Technica",
+          "published_at": "2026-06-17T19:54:31+00:00",
+          "category": "technology",
+          "summary": "M\u1ed9t v\u1ee5 r\u00f2 r\u1ec9 d\u1eef li\u1ec7u kh\u1ed5ng l\u1ed3 l\u00e0m l\u1ed9 th\u00f4ng tin \u0111\u0103ng nh\u1eadp c\u1ee7a h\u00e0ng ngh\u00ecn m\u1ea1ng l\u01b0\u1edbi nh\u1ea1y c\u1ea3m, bao g\u1ed3m c\u00e1c t\u1ed5 ch\u1ee9c l\u1edbn nh\u01b0 Oracle, Lenovo, FedEx. Gi\u1edbi chuy\u00ean gia c\u1ea3nh b\u00e1o \u0111\u00e2y l\u00e0 v\u1ee5 vi ph\u1ea1m l\u1ed9 t\u1edbi 24 t\u1ef7 b\u1ea3n ghi d\u1eef li\u1ec7u c\u00e1 nh\u00e2n.",
+          "score": 0.9,
+          "cluster_id": "cluster-data-breaches"
+        },
+        {
+          "id": "d6b33308",
+          "title": "A Critical Deadline Is Approaching for Windows and Linux Security",
+          "url": "https://www.wired.com/story/a-critical-deadline-is-approaching-for-windows-and-linux-security/",
+          "source": "Wired",
+          "published_at": "2026-06-21T09:00:00+00:00",
+          "category": "technology",
+          "summary": "C\u00e1c b\u00e0i b\u00e1o nh\u1ea5n m\u1ea1nh th\u1eddi h\u1ea1n quan tr\u1ecdng v\u1ec1 b\u1ea3o m\u1eadt kh\u1edfi \u0111\u1ed9ng c\u1ee7a Windows v\u00e0 Linux, l\u1ed7 h\u1ed5ng t\u1eeb kh\u00f3a Sentry c\u00f4ng khai \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn AI, v\u00e0 c\u00e1ch AI s\u1ebd thay \u0111\u1ed5i thi\u1ebft k\u1ebf chip.",
+          "score": 0.85,
+          "cluster_id": "cluster-2"
+        },
+        {
+          "id": "8d93eba0",
+          "title": "Epoll vs. io_uring in Linux",
+          "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-06-20T23:07:09+00:00",
+          "category": "technology",
+          "summary": "So s\u00e1nh epoll v\u00e0 io_uring trong Linux gi\u00fap DevOps ch\u1ecdn c\u01a1 ch\u1ebf I/O t\u1ed1i \u01b0u hi\u1ec7u n\u0103ng h\u1ec7 th\u1ed1ng.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "995fa946",
+          "title": "Zero-Touch OAuth for MCP",
+          "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-06-18T21:54:10+00:00",
+          "category": "technology",
+          "summary": "Giao th\u1ee9c MCP \u0111\u01b0\u1ee3c b\u1ed5 sung l\u1edbp \u1ee7y quy\u1ec1n doanh nghi\u1ec7p, gi\u00fap b\u1ea3o m\u1eadt k\u1ebft n\u1ed1i OAuth kh\u00f4ng c\u1ea7n m\u1eadt kh\u1ea9u.",
+          "score": 0.85,
+          "cluster_id": "cluster-03"
+        },
+        {
+          "id": "d2b4a784",
+          "title": "I found 10k GitHub repositories distributing Trojan malware",
+          "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-06-18T11:45:43+00:00",
+          "category": "technology",
+          "summary": "Microsoft ph\u00e1t hi\u1ec7n backdoor nh\u1eb9 m\u1edbi \u0111\u00e1nh c\u1eafp ti\u1ec1n \u0111i\u1ec7n t\u1eed qua USB v\u00e0 Tor; c\u0169ng c\u00f3 10.000 kho GitHub ph\u00e2n ph\u1ed1i Trojan.",
+          "score": 0.85,
+          "cluster_id": "cluster-02"
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 81,
+      "top_articles": [
+        {
+          "id": "f53f7bc5",
+          "title": "Gemini 3.5: frontier intelligence with action",
+          "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+          "source": "Google DeepMind Blog",
+          "published_at": "2026-05-15T22:50:12+00:00",
+          "category": "ai",
+          "summary": "Google gi\u1edbi thi\u1ec7u lo\u1ea1t s\u1ea3n ph\u1ea9m m\u1edbi bao g\u1ed3m Gemini 3.5 (d\u1ecbch gi\u1ecdng n\u00f3i t\u1ef1 nhi\u00ean), Gemma 4 (multimodal), v\u00e0 Gemini Robotics-ER (l\u00fd lu\u1eadn th\u1ec3 hi\u1ec7n). C\u00e1c b\u1ea3n n\u00e2ng c\u1ea5p t\u1eadp trung v\u00e0o bi\u1ec3u c\u1ea3m gi\u1ecdng n\u00f3i v\u00e0 kh\u1ea3 n\u0103ng t\u00e1c nh\u00e2n.",
+          "score": 0.85,
+          "cluster_id": "cluster-gemini-models"
+        },
+        {
+          "id": "9e899a15",
+          "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+          "url": "https://huggingface.co/blog/delta-weight-sync",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-05-27T00:00:00+00:00",
+          "category": "ai",
+          "summary": "Delta Weight Sync trong TRL gi\u00fap \u0111\u1ed3ng b\u1ed9 model l\u1edbn (ngh\u00ecn t\u1ef7 tham s\u1ed1) qua Hub Bucket, ti\u1ebft ki\u1ec7m b\u0103ng th\u00f4ng.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "86a2f227",
+          "title": "Unlocking asynchronicity in continuous batching",
+          "url": "https://huggingface.co/blog/continuous_async",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-05-14T00:00:00+00:00",
+          "category": "ai",
+          "summary": "B\u00e0i vi\u1ebft v\u1ec1 b\u1ea5t \u0111\u1ed3ng b\u1ed9 trong continuous batching, gi\u00fap DevOps t\u1ed1i \u01b0u throughput inference.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "8390ec45",
+          "title": "Mixed-input matrix multiplication performance optimizations",
+          "url": "http://blog.research.google/2024/01/mixed-input-matrix-multiplication.html",
+          "source": "Google AI Blog",
+          "published_at": "2024-01-26T19:56:00+00:00",
+          "category": "ai",
+          "summary": "",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "45b0a390",
+          "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+          "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+          "source": "Google DeepMind Blog",
+          "published_at": "2026-06-09T15:16:25+00:00",
+          "category": "ai",
+          "summary": "Google gi\u1edbi thi\u1ec7u lo\u1ea1t s\u1ea3n ph\u1ea9m m\u1edbi bao g\u1ed3m Gemini 3.5 (d\u1ecbch gi\u1ecdng n\u00f3i t\u1ef1 nhi\u00ean), Gemma 4 (multimodal), v\u00e0 Gemini Robotics-ER (l\u00fd lu\u1eadn th\u1ec3 hi\u1ec7n). C\u00e1c b\u1ea3n n\u00e2ng c\u1ea5p t\u1eadp trung v\u00e0o bi\u1ec3u c\u1ea3m gi\u1ecdng n\u00f3i v\u00e0 kh\u1ea3 n\u0103ng t\u00e1c nh\u00e2n.",
+          "score": 0.8,
+          "cluster_id": "cluster-gemini-models"
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 114,
+      "top_articles": [
+        {
+          "id": "dba00b9b",
+          "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+          "url": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+          "source": "Kubernetes Blog",
+          "published_at": "2026-04-23T18:35:00+00:00",
+          "category": "devops",
+          "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.36 mang \u0111\u1ebfn lo\u1ea1t n\u00e2ng c\u1ea5p \u0111\u00e1ng ch\u00fa \u00fd: h\u1ed7 tr\u1ee3 User Namespaces GA, Mixed Version Proxy beta, c\u00e1c c\u1ea3i ti\u1ebfn v\u1ec1 l\u1eadp l\u1ecbch v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean. B\u1ea3n ph\u00e1t h\u00e0nh n\u00e0y t\u0103ng c\u01b0\u1eddng b\u1ea3o m\u1eadt v\u00e0 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng cho c\u00e1c c\u1ee5m l\u1edbn.",
+          "score": 0.95,
+          "cluster_id": "cluster-kubernetes-v1.36"
+        },
+        {
+          "id": "9d4fec3b",
+          "title": "Mitigating CVE-2026-31431 (\u201cCopy Fail\u201d) in Docker Engine",
+          "url": "https://www.docker.com/blog/mitigating-cve-2026-31431-copy-fail-in-docker-engine/",
+          "source": "Docker Blog",
+          "published_at": "2026-05-27T13:00:00+00:00",
+          "category": "devops",
+          "summary": "Docker th\u00f4ng b\u00e1o ng\u1eebng ho\u00e0n to\u00e0n Docker Content Trust (DCT) v\u00e0 d\u1ecbch v\u1ee5 Notary v1. \u0110\u1ed3ng th\u1eddi, t\u00edch h\u1ee3p Aikido \u0111\u1ec3 qu\u00e9t l\u1ed7 h\u1ed5ng n\u00e2ng cao tr\u00ean Docker Hardened Images v\u00e0 cung c\u1ea5p h\u01b0\u1edbng d\u1eabn gi\u1ea3m thi\u1ec3u CVE-2026-31431.",
+          "score": 0.95,
+          "cluster_id": "cluster-docker-security"
+        },
+        {
+          "id": "7f72e98c",
+          "title": "A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex",
+          "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
+          "source": "The New Stack",
+          "published_at": "2026-06-21T17:00:00+00:00",
+          "category": "devops",
+          "summary": "C\u00e1c b\u00e0i b\u00e1o nh\u1ea5n m\u1ea1nh th\u1eddi h\u1ea1n quan tr\u1ecdng v\u1ec1 b\u1ea3o m\u1eadt kh\u1edfi \u0111\u1ed9ng c\u1ee7a Windows v\u00e0 Linux, l\u1ed7 h\u1ed5ng t\u1eeb kh\u00f3a Sentry c\u00f4ng khai \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn AI, v\u00e0 c\u00e1ch AI s\u1ebd thay \u0111\u1ed5i thi\u1ebft k\u1ebf chip.",
+          "score": 0.9,
+          "cluster_id": "cluster-2"
+        },
+        {
+          "id": "0270ba48",
+          "title": "Docker Content Trust: Retirement and Migration Guidance",
+          "url": "https://www.docker.com/blog/docker-content-trust-retirement-and-migration-guidance/",
+          "source": "Docker Blog",
+          "published_at": "2026-06-16T18:33:29+00:00",
+          "category": "devops",
+          "summary": "Docker th\u00f4ng b\u00e1o ng\u1eebng ho\u00e0n to\u00e0n Docker Content Trust (DCT) v\u00e0 d\u1ecbch v\u1ee5 Notary v1. \u0110\u1ed3ng th\u1eddi, t\u00edch h\u1ee3p Aikido \u0111\u1ec3 qu\u00e9t l\u1ed7 h\u1ed5ng n\u00e2ng cao tr\u00ean Docker Hardened Images v\u00e0 cung c\u1ea5p h\u01b0\u1edbng d\u1eabn gi\u1ea3m thi\u1ec3u CVE-2026-31431.",
+          "score": 0.85,
+          "cluster_id": "cluster-docker-security"
+        },
+        {
+          "id": "079333a2",
+          "title": "Backporting bug fixes is dead, Project Valkey now  sends in the bots",
+          "url": "https://thenewstack.io/valkey-ai-backporting-agents/",
+          "source": "The New Stack",
+          "published_at": "2026-06-20T14:21:00+00:00",
+          "category": "devops",
+          "summary": "Project Valkey chuy\u1ec3n t\u1eeb backport th\u1ee7 c\u00f4ng sang bot t\u1ef1 \u0111\u1ed9ng v\u00e1 l\u1ed7i, gi\u1ea3m c\u00f4ng s\u1ee9c b\u1ea3o tr\u00ec cho DevOps.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "world": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "vietnam": {
+      "article_count": 3,
+      "top_articles": [
+        {
+          "id": "64cbd425",
+          "title": "Amazon Web Services l\u1ea7n \u0111\u1ea7u \u0111\u1eb7t h\u1ea1 t\u1ea7ng \u0111\u00e1m m\u00e2y t\u1ea1i Vi\u1ec7t Nam",
+          "url": "https://vnexpress.net/amazon-web-services-lan-dau-dat-ha-tang-dam-may-tai-viet-nam-5087618.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-06-19T08:01:34+00:00",
+          "category": "vietnam",
+          "summary": "AWS l\u1ea7n \u0111\u1ea7u \u0111\u1eb7t h\u1ea1 t\u1ea7ng \u0111\u00e1m m\u00e2y t\u1ea1i Vi\u1ec7t Nam, mang l\u1ea1i kh\u1ea3 n\u0103ng l\u01b0u tr\u1eef d\u1eef li\u1ec7u n\u1ed9i \u0111\u1ecba v\u00e0 \u0111\u1ed9 tr\u1ec5 th\u1ea5p h\u01a1n. \u0110\u00e2y l\u00e0 c\u01a1 h\u1ed9i l\u1edbn cho DevOps m\u1edf r\u1ed9ng ho\u1ea1t \u0111\u1ed9ng t\u1ea1i \u0110\u00f4ng Nam \u00c1.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "922131fe",
+          "title": "ASML, TSMC v\u00e0 Imec ch\u1ebf t\u1ea1o th\u00e0nh c\u00f4ng b\u00f3ng b\u00e1n d\u1eabn v\u1eadt li\u1ec7u 2D",
+          "url": "https://vnexpress.net/asml-tsmc-va-imec-che-tao-thanh-cong-bong-ban-dan-vat-lieu-2d-5088070.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-06-21T05:00:00+00:00",
+          "category": "vietnam",
+          "summary": "ASML, TSMC v\u00e0 Imec ch\u1ebf t\u1ea1o th\u00e0nh c\u00f4ng b\u00f3ng b\u00e1n d\u1eabn t\u1eeb v\u1eadt li\u1ec7u 2D, v\u01b0\u1ee3t qua gi\u1edbi h\u1ea1n c\u1ee7a silicon. \u0110\u00e2y l\u00e0 b\u01b0\u1edbc ti\u1ebfn quan tr\u1ecdng cho DevOps trong l\u0129nh v\u1ef1c s\u1ea3n xu\u1ea5t chip v\u00e0 ph\u1ea7n c\u1ee9ng t\u01b0\u01a1ng lai.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "5f5cf79a",
+          "title": "5 n\u00e2ng c\u1ea5p quan tr\u1ecdng tr\u00ean macOS 27",
+          "url": "https://vnexpress.net/5-nang-cap-quan-trong-tren-macos-27-5085953.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-06-15T08:37:36+00:00",
+          "category": "vietnam",
+          "summary": "",
+          "score": 0.6,
+          "cluster_id": null
+        }
+      ]
+    },
+    "innovations": {
+      "article_count": 7,
+      "top_articles": [
+        {
+          "id": "083bb623",
+          "title": "Regulators back Trump\u2019s plan to power AI data centers faster with grid connections",
+          "url": "https://www.fastcompany.com/91562088/power-electricity-ai-plants-data-centers-grid",
+          "source": "Fast Company",
+          "published_at": "2026-06-18T17:42:46+00:00",
+          "category": "innovations",
+          "summary": "\u1ee6y ban \u0110i\u1ec1u ti\u1ebft N\u0103ng l\u01b0\u1ee3ng Li\u00ean bang (FERC) y\u00eau c\u1ea7u c\u00e1c nh\u00e0 v\u1eadn h\u00e0nh l\u01b0\u1edbi \u0111i\u1ec7n \u01b0u ti\u00ean k\u1ebft n\u1ed1i cho trung t\u00e2m d\u1eef li\u1ec7u AI, nh\u01b0ng ch\u01b0a gi\u1ea3i quy\u1ebft t\u00ecnh tr\u1ea1ng thi\u1ebfu h\u1ee5t ngu\u1ed3n cung \u0111i\u1ec7n.",
+          "score": 0.8,
+          "cluster_id": "cluster-01"
+        },
+        {
+          "id": "130f692b",
+          "title": "How AI Will Change Chip Design",
+          "url": "https://spectrum.ieee.org/ai-chip-design-matlab",
+          "source": "IEEE Spectrum",
+          "published_at": "2022-02-08T14:00:01+00:00",
+          "category": "innovations",
+          "summary": "C\u00e1c b\u00e0i b\u00e1o nh\u1ea5n m\u1ea1nh th\u1eddi h\u1ea1n quan tr\u1ecdng v\u1ec1 b\u1ea3o m\u1eadt kh\u1edfi \u0111\u1ed9ng c\u1ee7a Windows v\u00e0 Linux, l\u1ed7 h\u1ed5ng t\u1eeb kh\u00f3a Sentry c\u00f4ng khai \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn AI, v\u00e0 c\u00e1ch AI s\u1ebd thay \u0111\u1ed5i thi\u1ebft k\u1ebf chip.",
+          "score": 0.7,
+          "cluster_id": "cluster-2"
+        },
+        {
+          "id": "bd056869",
+          "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
+          "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-06-19T10:40:24+00:00",
+          "category": "innovations",
+          "summary": "C\u00e1c b\u00e0i vi\u1ebft bao g\u1ed3m c\u00e1c k\u1ef9 thu\u1eadt tinh ch\u1ec9nh AI m\u1edbi, h\u1ee3p t\u00e1c \u0111a \u0111\u00e1m m\u00e2y gi\u1eefa Microsoft v\u00e0 AWS cho GitHub, c\u00f9ng c\u00e1c c\u00f4ng c\u1ee5 t\u1ea1m th\u1eddi v\u00e0 ph\u00e2n t\u00edch d\u1eef li\u1ec7u th\u00f4ng minh.",
+          "score": 0.7,
+          "cluster_id": "cluster-AI-and-dev-tools"
+        },
+        {
+          "id": "a795b94b",
+          "title": "Why were Waymo cars driving into active construction zones?",
+          "url": "https://www.fastcompany.com/91561926/why-were-waymo-cars-driving-into-active-construction-zones",
+          "source": "Fast Company",
+          "published_at": "2026-06-18T21:00:00+00:00",
+          "category": "innovations",
+          "summary": "Waymo thu h\u1ed3i g\u1ea7n 4.000 xe t\u1ef1 l\u00e1i do 13 s\u1ef1 c\u1ed1 l\u00e1i v\u00e0o c\u00f4ng tr\u01b0\u1eddng. B\u00e0i h\u1ecdc v\u1ec1 ki\u1ec3m th\u1eed v\u00e0 \u0111\u1ed9 tin c\u1eady cho DevOps trong h\u1ec7 th\u1ed1ng t\u1ef1 \u0111\u1ed9ng.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "785b7c42",
+          "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
+          "url": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
+          "source": "IEEE Spectrum",
+          "published_at": "2026-06-02T10:00:02+00:00",
+          "category": "innovations",
+          "summary": "",
+          "score": 0.5,
+          "cluster_id": null
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 15,
+      "top_articles": [
+        {
+          "id": "3c538b4f",
+          "title": "How we built an internal data analytics agent",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-19T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "C\u00e1c b\u00e0i vi\u1ebft bao g\u1ed3m c\u00e1c k\u1ef9 thu\u1eadt tinh ch\u1ec9nh AI m\u1edbi, h\u1ee3p t\u00e1c \u0111a \u0111\u00e1m m\u00e2y gi\u1eefa Microsoft v\u00e0 AWS cho GitHub, c\u00f9ng c\u00e1c c\u00f4ng c\u1ee5 t\u1ea1m th\u1eddi v\u00e0 ph\u00e2n t\u00edch d\u1eef li\u1ec7u th\u00f4ng minh.",
+          "score": 0.9,
+          "cluster_id": "cluster-AI-and-dev-tools"
+        },
+        {
+          "id": "b71b55ee",
+          "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+          "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-10T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot CLI \u0111\u01b0\u1ee3c c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng x\u1eed l\u00fd ng\u1eef c\u1ea3nh v\u00e0 t\u00edch h\u1ee3p LSP \u0111\u1ec3 h\u1ed7 tr\u1ee3 th\u00f4ng minh h\u01a1n trong terminal. T\u00ednh n\u0103ng t\u00e1c nh\u00e2n t\u00f9y ch\u1ec9nh gi\u00fap chuy\u1ec3n c\u00e1c prompt \u0111\u01a1n l\u1ebb th\u00e0nh workflow l\u1eb7p l\u1ea1i \u0111\u01b0\u1ee3c.",
+          "score": 0.85,
+          "cluster_id": "cluster-github-copilot-cli"
+        },
+        {
+          "id": "c657b657",
+          "title": "Getting more from each token: How Copilot improves context handling and model routing",
+          "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-17T19:41:46+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot CLI \u0111\u01b0\u1ee3c c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng x\u1eed l\u00fd ng\u1eef c\u1ea3nh v\u00e0 t\u00edch h\u1ee3p LSP \u0111\u1ec3 h\u1ed7 tr\u1ee3 th\u00f4ng minh h\u01a1n trong terminal. T\u00ednh n\u0103ng t\u00e1c nh\u00e2n t\u00f9y ch\u1ec9nh gi\u00fap chuy\u1ec3n c\u00e1c prompt \u0111\u01a1n l\u1ebb th\u00e0nh workflow l\u1eb7p l\u1ea1i \u0111\u01b0\u1ee3c.",
+          "score": 0.8,
+          "cluster_id": "cluster-github-copilot-cli"
+        },
+        {
+          "id": "5d3a5202",
+          "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+          "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-11T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "1a110680",
+          "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+          "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-09T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot CLI \u0111\u01b0\u1ee3c c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng x\u1eed l\u00fd ng\u1eef c\u1ea3nh v\u00e0 t\u00edch h\u1ee3p LSP \u0111\u1ec3 h\u1ed7 tr\u1ee3 th\u00f4ng minh h\u01a1n trong terminal. T\u00ednh n\u0103ng t\u00e1c nh\u00e2n t\u00f9y ch\u1ec9nh gi\u00fap chuy\u1ec3n c\u00e1c prompt \u0111\u01a1n l\u1ebb th\u00e0nh workflow l\u1eb7p l\u1ea1i \u0111\u01b0\u1ee3c.",
+          "score": 0.8,
+          "cluster_id": "cluster-github-copilot-cli"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 270,
+    "total_clusters": 25,
+    "days_covered": 5
+  }
+}
