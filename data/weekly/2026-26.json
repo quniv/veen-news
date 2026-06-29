@@ -1,0 +1,452 @@
+{
+  "generated_at": "2026-06-29T03:10:41.317159+00:00",
+  "week": "2026-26",
+  "period_start": "2026-06-23",
+  "period_end": "2026-06-29",
+  "top_clusters": [
+    {
+      "id": "kubernetes-v1-36",
+      "topic": "Kubernetes v1.36 feature graduations and improvements",
+      "summary": "Kubernetes v1.36 mang \u0111\u1ebfn nhi\u1ec1u t\u00ednh n\u0103ng quan tr\u1ecdng l\u00ean GA nh\u01b0 User Namespaces, Declarative Validation, Volume Group Snapshots, c\u00f9ng c\u00e1c c\u1ea3i ti\u1ebfn v\u1ec1 scheduling, API authorization v\u00e0 observability.",
+      "article_ids": [
+        "d940fcf7",
+        "bb0e2305",
+        "dedcac98",
+        "fc1b2583",
+        "659ee31b",
+        "4e5b8cdf",
+        "15c2ac0a",
+        "c028e7e5",
+        "865bcd7d",
+        "6b220076",
+        "705ed9c3",
+        "200ae3a8",
+        "f8e1b7bc",
+        "dba00b9b"
+      ],
+      "article_count": 14
+    },
+    {
+      "id": "hashicorp-ecosystem",
+      "topic": "HashiCorp ecosystem updates and AI security",
+      "summary": "HashiCorp n\u00e2ng c\u1ea5p to\u00e0n b\u1ed9 h\u1ec7 sinh th\u00e1i v\u1edbi Boundary 1.0 h\u1ed7 tr\u1ee3 ghi phi\u00ean RDP, Vault t\u0103ng c\u01b0\u1eddng b\u1ea3o m\u1eadt AI agent, c\u00f9ng c\u00e1c b\u1ea3n ph\u00e1t h\u00e0nh m\u1edbi cho Terraform, Consul 2.0 v\u00e0 t\u00edch h\u1ee3p SPIFFE.",
+      "article_ids": [
+        "704d1907",
+        "1db606e2",
+        "6458bb7b",
+        "f379c480",
+        "31807706",
+        "b49b1cdf",
+        "3b46a8df",
+        "7946a925",
+        "be45233e"
+      ],
+      "article_count": 9
+    },
+    {
+      "id": "cluster-openai-gpt56",
+      "topic": "OpenAI restricts GPT-5.6 rollout after White House request",
+      "summary": "OpenAI h\u1ea1n ch\u1ebf tri\u1ec3n khai GPT-5.6 theo y\u00eau c\u1ea7u c\u1ee7a ch\u00ednh ph\u1ee7 M\u1ef9, cho r\u1eb1ng vi\u1ec7c n\u00e0y kh\u00f4ng n\u00ean tr\u1edf th\u00e0nh ti\u00eau chu\u1ea9n d\u00e0i h\u1ea1n.",
+      "article_ids": [
+        "1656bcd1",
+        "e966d4ae",
+        "447ac804"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-3",
+      "topic": "System security and bug fixes in CPUs, Linux, and HTTP library",
+      "summary": "AMD kh\u00f4i ph\u1ee5c m\u00e3 h\u00f3a b\u1ed9 nh\u1edb sau ph\u1ea3n \u1ee9ng c\u1ee7a ng\u01b0\u1eddi d\u00f9ng; l\u1ed7i trong th\u01b0 vi\u1ec7n hyper HTTP \u0111\u01b0\u1ee3c ph\u00e1t hi\u1ec7n; ch\u1ee9ng ch\u1ec9 Secure Boot Linux s\u1eafp h\u1ebft h\u1ea1n.",
+      "article_ids": [
+        "cdea1b1b",
+        "8e7616c4",
+        "54a3bc9a"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-4",
+      "topic": "AI cybersecurity initiatives and threats from advanced models",
+      "summary": "OpenAI kh\u1edfi \u0111\u1ed9ng s\u00e1ng ki\u1ebfn 'Patch the Planet' nh\u1eb1m s\u1eeda l\u1ed7i m\u00e3 ngu\u1ed3n m\u1edf; c\u00e1c m\u00f4 h\u00ecnh AI c\u00f3 kh\u1ea3 n\u0103ng t\u1ea5n c\u00f4ng m\u1ea1ng nguy hi\u1ec3m trong v\u00e0i th\u00e1ng t\u1edbi.",
+      "article_ids": [
+        "2e4737b0",
+        "bcb349f3",
+        "12a5d02d"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-1",
+      "topic": "New AI models for local deployment, image editing, and OCR",
+      "summary": "C\u00e1c m\u00f4 h\u00ecnh AI m\u1edbi nh\u01b0 GLM-5.2 ch\u1ea1y tr\u00ean ph\u1ea7n c\u1ee9ng th\u00f4ng th\u01b0\u1eddng, Moebius n\u1ed9i suy \u1ea3nh hi\u1ec7u qu\u1ea3, PP-OCRv6 h\u1ed7 tr\u1ee3 50 ng\u00f4n ng\u1eef.",
+      "article_ids": [
+        "8846e792",
+        "616d8a1b",
+        "b497f306"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Developer tool acquisitions and new code review features",
+      "summary": "Cursor mua l\u1ea1i \u0111\u1ed1i th\u1ee7 m\u00e3 ngu\u1ed3n m\u1edf Continue; Qodo v\u00e0 GitHub ra m\u1eaft t\u00ednh n\u0103ng \u0111\u00e1nh gi\u00e1 m\u00e3 m\u1edbi.",
+      "article_ids": [
+        "81dbfffc",
+        "f4d602ef",
+        "b977ce1e"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-anthropic-mythos",
+      "topic": "Anthropic Mythos released to US companies and agencies",
+      "summary": "Ch\u00ednh quy\u1ec1n Trump cho ph\u00e9p Anthropic ph\u00e1t h\u00e0nh m\u00f4 h\u00ecnh AI Mythos 5 cho h\u01a1n 100 c\u00f4ng ty v\u00e0 c\u01a1 quan M\u1ef9, bao g\u1ed3m c\u1ea3 nh\u00e2n vi\u00ean kh\u00f4ng ph\u1ea3i ng\u01b0\u1eddi M\u1ef9.",
+      "article_ids": [
+        "da24c736",
+        "23ae11d7"
+      ],
+      "article_count": 2
+    },
+    {
+      "id": "cluster-1",
+      "topic": "OpenAI previews GPT-5.6 Sol model",
+      "summary": "OpenAI gi\u1edbi thi\u1ec7u b\u1ea3n xem tr\u01b0\u1edbc c\u1ee7a GPT-5.6 Sol, m\u1ed9t m\u00f4 h\u00ecnh th\u1ebf h\u1ec7 m\u1edbi v\u1edbi kh\u1ea3 n\u0103ng m\u1ea1nh m\u1ebd h\u01a1n trong l\u1eadp tr\u00ecnh, khoa h\u1ecdc v\u00e0 an ninh m\u1ea1ng.",
+      "article_ids": [
+        "238c8d8b",
+        "30f48121"
+      ],
+      "article_count": 2
+    },
+    {
+      "id": "cluster-3",
+      "topic": "Claude Fable 5 ban and open source security body",
+      "summary": "Sau l\u1ec7nh c\u1ea5m Claude Fable 5, Anthropic c\u00f9ng 19 t\u1ed5 ch\u1ee9c th\u00e0nh l\u1eadp c\u01a1 quan b\u1ea3o m\u1eadt m\u00e3 ngu\u1ed3n m\u1edf; \u0111\u1ed3ng th\u1eddi Fable 5 b\u1ecb \u0111\u00ecnh ch\u1ec9 tr\u00ean GitLab.",
+      "article_ids": [
+        "a3e47649",
+        "7ae2da2e"
+      ],
+      "article_count": 2
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 53,
+      "top_articles": [
+        {
+          "id": "d6bb4be6",
+          "title": "OpenAI unveils its first custom chip, built by Broadcom",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "source": "TechCrunch",
+          "published_at": "2026-06-24T14:54:46+00:00",
+          "category": "technology",
+          "summary": "OpenAI v\u00e0 Broadcom \u0111\u00e3 c\u00f4ng b\u1ed1 chip t\u00f9y ch\u1ec9nh mang t\u00ean Jalape\u00f1o, \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf ri\u00eang \u0111\u1ec3 t\u1ed1i \u01b0u h\u00f3a kh\u1ea3 n\u0103ng suy lu\u1eadn cho c\u00e1c m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u1edbn, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn quan tr\u1ecdng trong cu\u1ed9c \u0111ua s\u1ea3n xu\u1ea5t silicon cho AI.",
+          "score": 0.9,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "3481c120",
+          "title": "OpenAI and Broadcom announce chip designed for LLM inference at scale",
+          "url": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/",
+          "source": "Ars Technica",
+          "published_at": "2026-06-24T22:28:18+00:00",
+          "category": "technology",
+          "summary": "OpenAI v\u00e0 Broadcom \u0111\u00e3 c\u00f4ng b\u1ed1 chip t\u00f9y ch\u1ec9nh mang t\u00ean Jalape\u00f1o, \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf ri\u00eang \u0111\u1ec3 t\u1ed1i \u01b0u h\u00f3a kh\u1ea3 n\u0103ng suy lu\u1eadn cho c\u00e1c m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u1edbn, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn quan tr\u1ecdng trong cu\u1ed9c \u0111ua s\u1ea3n xu\u1ea5t silicon cho AI.",
+          "score": 0.9,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "5bbe0a21",
+          "title": "Sophon PFG-1: a monolithic-3D AI ASIC with 330 GB of on-die DRAM and no HBM",
+          "url": "https://www.phantafield.com/whitepaper",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-06-29T01:23:38+00:00",
+          "category": "technology",
+          "summary": "Sophon PFG-1 l\u00e0 ASIC AI 3D nguy\u00ean kh\u1ed1i v\u1edbi 330 GB DRAM t\u00edch h\u1ee3p, lo\u1ea1i b\u1ecf nhu c\u1ea7u HBM, mang l\u1ea1i hi\u1ec7u n\u0103ng cao cho AI.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "da24c736",
+          "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+          "source": "TechCrunch",
+          "published_at": "2026-06-27T01:01:37+00:00",
+          "category": "technology",
+          "summary": "Ch\u00ednh quy\u1ec1n Trump cho ph\u00e9p Anthropic ph\u00e1t h\u00e0nh m\u00f4 h\u00ecnh AI Mythos 5 cho h\u01a1n 100 c\u00f4ng ty v\u00e0 c\u01a1 quan M\u1ef9, bao g\u1ed3m c\u1ea3 nh\u00e2n vi\u00ean kh\u00f4ng ph\u1ea3i ng\u01b0\u1eddi M\u1ef9.",
+          "score": 0.85,
+          "cluster_id": "cluster-anthropic-mythos"
+        },
+        {
+          "id": "23ae11d7",
+          "title": "Trump Administration Allows Anthropic to Release  Mythos to Select US Organizations",
+          "url": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
+          "source": "Wired",
+          "published_at": "2026-06-27T00:26:14+00:00",
+          "category": "technology",
+          "summary": "Ch\u00ednh quy\u1ec1n Trump cho ph\u00e9p Anthropic ph\u00e1t h\u00e0nh m\u00f4 h\u00ecnh AI Mythos 5 cho h\u01a1n 100 c\u00f4ng ty v\u00e0 c\u01a1 quan M\u1ef9, bao g\u1ed3m c\u1ea3 nh\u00e2n vi\u00ean kh\u00f4ng ph\u1ea3i ng\u01b0\u1eddi M\u1ef9.",
+          "score": 0.85,
+          "cluster_id": "cluster-anthropic-mythos"
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 28,
+      "top_articles": [
+        {
+          "id": "855db08b",
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-24T06:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI v\u00e0 Broadcom ra m\u1eaft chip Jalape\u00f1o t\u1ed1i \u01b0u cho suy lu\u1eadn LLM; c\u1ea3i thi\u1ec7n hi\u1ec7u n\u0103ng v\u00e0 chi ph\u00ed v\u1eadn h\u00e0nh m\u00f4 h\u00ecnh l\u1edbn, t\u00e1c \u0111\u1ed9ng tr\u1ef1c ti\u1ebfp \u0111\u1ebfn ki\u1ebfn tr\u00fac h\u1ea1 t\u1ea7ng AI.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "42b1adc7",
+          "title": "Holo3.1: Fast & Local Computer Use Agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-06-02T14:13:23+00:00",
+          "category": "ai",
+          "summary": "Gi\u1edbi thi\u1ec7u Holo3.1 \u2013 agent t\u01b0\u01a1ng t\u00e1c m\u00e1y t\u00ednh nhanh v\u00e0 ch\u1ea1y local, gi\u00fap DevOps t\u1ef1 \u0111\u1ed9ng h\u00f3a t\u00e1c v\u1ee5 m\u00e0 kh\u00f4ng c\u1ea7n cloud hay \u0111\u1ed9 tr\u1ec5 cao.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "be3ad971",
+          "title": "Direct Preference Optimization Beyond\u00a0Chatbots",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-06-03T12:55:11+00:00",
+          "category": "ai",
+          "summary": "K\u1ef9 thu\u1eadt Direct Preference Optimization (DPO) \u0111\u01b0\u1ee3c m\u1edf r\u1ed9ng ngo\u00e0i chatbot; \u0111\u00e1ng ch\u00fa \u00fd v\u00ec t\u1ed1i \u01b0u h\u00f3a AI tr\u00ean d\u1eef li\u1ec7u \u01b0u ti\u00ean m\u00e0 kh\u00f4ng c\u1ea7n RL ph\u1ee9c t\u1ea1p.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "30f48121",
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-26T10:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI gi\u1edbi thi\u1ec7u b\u1ea3n xem tr\u01b0\u1edbc c\u1ee7a GPT-5.6 Sol, m\u1ed9t m\u00f4 h\u00ecnh th\u1ebf h\u1ec7 m\u1edbi v\u1edbi kh\u1ea3 n\u0103ng m\u1ea1nh m\u1ebd h\u01a1n trong l\u1eadp tr\u00ecnh, khoa h\u1ecdc v\u00e0 an ninh m\u1ea1ng.",
+          "score": 0.8,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "5d2de915",
+          "title": "Run a vLLM Server on HF Jobs in One Command",
+          "url": "https://huggingface.co/blog/vllm-jobs",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-06-26T00:00:00+00:00",
+          "category": "ai",
+          "summary": "H\u01b0\u1edbng d\u1eabn ch\u1ea1y m\u00e1y ch\u1ee7 vLLM tr\u00ean HF Jobs ch\u1ec9 b\u1eb1ng m\u1ed9t l\u1ec7nh; gi\u00fap DevOps tri\u1ec3n khai suy lu\u1eadn m\u00f4 h\u00ecnh ng\u00f4n ng\u1eef l\u1edbn nhanh ch\u00f3ng m\u00e0 kh\u00f4ng c\u1ea7n t\u1ef1 qu\u1ea3n l\u00fd h\u1ea1 t\u1ea7ng ph\u1ee9c t\u1ea1p.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 104,
+      "top_articles": [
+        {
+          "id": "df5448e8",
+          "title": "Reduce supply chain risk with SBOM-based dependency scanning",
+          "url": "https://about.gitlab.com/blog/sbom-based-dependency-scanning/",
+          "source": "GitLab Blog",
+          "published_at": "2026-05-26T00:00:00+00:00",
+          "category": "devops",
+          "summary": "SBOM gi\u00fap gi\u1ea3m r\u1ee7i ro chu\u1ed7i cung \u1ee9ng b\u1eb1ng c\u00e1ch qu\u00e9t ph\u1ee5 thu\u1ed9c, \u0111\u1eb7c bi\u1ec7t quan tr\u1ecdng khi AI l\u00e0m t\u0103ng ph\u1ee9c t\u1ea1p.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "dba00b9b",
+          "title": "Kubernetes v1.36: User Namespaces in Kubernetes are finally GA",
+          "url": "https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/",
+          "source": "Kubernetes Blog",
+          "published_at": "2026-04-23T18:35:00+00:00",
+          "category": "devops",
+          "summary": "Kubernetes v1.36 mang \u0111\u1ebfn nhi\u1ec1u t\u00ednh n\u0103ng quan tr\u1ecdng l\u00ean GA nh\u01b0 User Namespaces, Declarative Validation, Volume Group Snapshots, c\u00f9ng c\u00e1c c\u1ea3i ti\u1ebfn v\u1ec1 scheduling, API authorization v\u00e0 observability.",
+          "score": 0.85,
+          "cluster_id": "kubernetes-v1-36"
+        },
+        {
+          "id": "0270ba48",
+          "title": "Docker Content Trust: Retirement and Migration Guidance",
+          "url": "https://www.docker.com/blog/docker-content-trust-retirement-and-migration-guidance/",
+          "source": "Docker Blog",
+          "published_at": "2026-06-16T18:33:29+00:00",
+          "category": "devops",
+          "summary": "Docker ch\u00ednh th\u1ee9c ng\u1eebng d\u1ecbch v\u1ee5 Docker Content Trust v\u00e0 Notary v1, \u0111\u1ed3ng th\u1eddi h\u1ee3p t\u00e1c v\u1edbi Aikido \u0111\u1ec3 t\u0103ng c\u01b0\u1eddng qu\u00e9t l\u1ed7 h\u1ed5ng tr\u00ean Docker Hardened Images v\u1edbi h\u1ed7 tr\u1ee3 VEX.",
+          "score": 0.85,
+          "cluster_id": "docker-security"
+        },
+        {
+          "id": "97cdb7a3",
+          "title": "Building Jaeger\u2019s ClickHouse backend: 8.6\u00d7 compression on 10 million spans",
+          "url": "https://www.cncf.io/blog/2026/06/23/building-jaegers-clickhouse-backend-8-6x-compression-on-10-million-spans/",
+          "source": "CNCF Blog",
+          "published_at": "2026-06-23T11:00:00+00:00",
+          "category": "devops",
+          "summary": "Jaeger v2.18 h\u1ed7 tr\u1ee3 backend ClickHouse v\u1edbi t\u1ec9 l\u1ec7 n\u00e9n 8.6x tr\u00ean 10 tri\u1ec7u spans \u2014 DevOps c\u00f3 th\u1ec3 l\u01b0u tr\u1eef v\u00e0 truy v\u1ea5n tracing data r\u1ebb h\u01a1n, nhanh h\u01a1n m\u00e0 v\u1eabn gi\u1eef \u0111\u01b0\u1ee3c chi ti\u1ebft.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "5ed21e9c",
+          "title": "Okta is the first to bring AI agent governance inside FedRAMP boundaries",
+          "url": "https://thenewstack.io/okta-ai-agents-fedramp/",
+          "source": "The New Stack",
+          "published_at": "2026-06-28T13:49:00+00:00",
+          "category": "devops",
+          "summary": "Okta t\u00edch h\u1ee3p qu\u1ea3n tr\u1ecb AI agent trong khu\u00f4n kh\u1ed5 FedRAMP, \u0111\u1ea3m b\u1ea3o tu\u00e2n th\u1ee7 v\u00e0 b\u1ea3o m\u1eadt.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "world": {
+      "article_count": 2,
+      "top_articles": [
+        {
+          "id": "12a5d02d",
+          "title": "AI models capable of devastating attacks on governments and business months away, rare Five Eyes statement warns",
+          "url": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+          "source": "The Guardian World",
+          "published_at": "2026-06-22T13:00:24+00:00",
+          "category": "world",
+          "summary": "OpenAI kh\u1edfi \u0111\u1ed9ng s\u00e1ng ki\u1ebfn 'Patch the Planet' nh\u1eb1m s\u1eeda l\u1ed7i m\u00e3 ngu\u1ed3n m\u1edf; c\u00e1c m\u00f4 h\u00ecnh AI c\u00f3 kh\u1ea3 n\u0103ng t\u1ea5n c\u00f4ng m\u1ea1ng nguy hi\u1ec3m trong v\u00e0i th\u00e1ng t\u1edbi.",
+          "score": 0.8,
+          "cluster_id": "cluster-4"
+        },
+        {
+          "id": "362aed5b",
+          "title": "Germany rail network briefly halted nationwide due to IT malfunction",
+          "url": "https://www.bbc.co.uk/news/articles/crm0ek4z7ggo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "published_at": "2026-06-23T23:46:01+00:00",
+          "category": "world",
+          "summary": "L\u1ed7i IT khi\u1ebfn h\u1ec7 th\u1ed1ng \u0111\u01b0\u1eddng s\u1eaft \u0110\u1ee9c ng\u1eebng ho\u1ea1t \u0111\u1ed9ng h\u01a1n 2 gi\u1edd. Nh\u1ea5n m\u1ea1nh t\u00e1c \u0111\u1ed9ng c\u1ee7a h\u1ea1 t\u1ea7ng CNTT l\u00ean an to\u00e0n v\u00e0 li\u00ean t\u1ee5c kinh doanh.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "vietnam": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "innovations": {
+      "article_count": 3,
+      "top_articles": [
+        {
+          "id": "7395a1af",
+          "title": "A popular password manager was hit by a hack. What you need to know\u2014and how to keep your data safe",
+          "url": "https://www.fastcompany.com/91564445/lastpass-password-manager-hack-data-breach-security-risks-how-to-stay-safe",
+          "source": "Fast Company",
+          "published_at": "2026-06-24T19:30:00+00:00",
+          "category": "innovations",
+          "summary": "LastPass b\u1ecb hack qua b\u00ean th\u1ee9 ba \u2013 l\u1eddi nh\u1eafc v\u1ec1 r\u1ee7i ro chu\u1ed7i cung \u1ee9ng v\u1edbi m\u1eadt kh\u1ea9u. DevOps c\u1ea7n \u0111\u00e1nh gi\u00e1 l\u1ea1i b\u1ea3o m\u1eadt cho credential management.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "2fd12549",
+          "title": "Anthropic\u2019s testing reveals classified U.S. government systems have vulnerabilities, says anonymous source",
+          "url": "https://www.fastcompany.com/91564262/anthropics-testing-reveals-classified-u-s-government-systems-vulnerabilities-says-anonymous-source",
+          "source": "Fast Company",
+          "published_at": "2026-06-24T16:22:01+00:00",
+          "category": "innovations",
+          "summary": "AI Anthropic ph\u00e1t hi\u1ec7n l\u1ed7 h\u1ed5ng trong h\u1ec7 th\u1ed1ng ch\u00ednh ph\u1ee7 M\u1ef9. Cho th\u1ea5y AI c\u00f3 th\u1ec3 h\u1ed7 tr\u1ee3 pentest t\u1ef1 \u0111\u1ed9ng, nh\u01b0ng c\u0169ng \u0111\u1eb7t ra v\u1ea5n \u0111\u1ec1 b\u1ea3o m\u1eadt d\u1eef li\u1ec7u nh\u1ea1y c\u1ea3m.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "9976f622",
+          "title": "IBM has unveiled chip technology that could help extend Moore\u2019s Law another decade",
+          "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-06-25T10:00:00+00:00",
+          "category": "innovations",
+          "summary": "IBM c\u00f4ng b\u1ed1 c\u00f4ng ngh\u1ec7 chip d\u01b0\u1edbi 1 nanomet \u0111\u1ea7u ti\u00ean tr\u00ean th\u1ebf gi\u1edbi, v\u1edbi m\u1eadt \u0111\u1ed9 b\u00f3ng b\u00e1n d\u1eabn g\u1ea5p \u0111\u00f4i so v\u1edbi c\u00e1c th\u1ebf h\u1ec7 tr\u01b0\u1edbc, h\u1ee9a h\u1eb9n k\u00e9o d\u00e0i th\u00eam m\u1ed9t th\u1eadp k\u1ef7 cho \u0110\u1ecbnh lu\u1eadt Moore.",
+          "score": 0.7,
+          "cluster_id": "ibm-chip"
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 7,
+      "top_articles": [
+        {
+          "id": "3c538b4f",
+          "title": "How we built an internal data analytics agent",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-19T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub x\u00e2y d\u1ef1ng m\u1ed9t t\u00e1c nh\u00e2n ph\u00e2n t\u00edch d\u1eef li\u1ec7u n\u1ed9i b\u1ed9 (Copilot-powered data analytics agent) cho ph\u00e9p nh\u00e2n vi\u00ean h\u1ecfi d\u1eef li\u1ec7u b\u1eb1ng ng\u00f4n ng\u1eef t\u1ef1 nhi\u00ean; \u0111i\u1ec1u n\u00e0y cho th\u1ea5y c\u00e1ch c\u00e1c t\u1ed5 ch\u1ee9c c\u00f3 th\u1ec3 t\u1eadn d\u1ee5ng AI v\u00e0 prompt engineering \u0111\u1ec3 gi\u1ea3m t\u1ea3i c\u00f4ng vi\u1ec7c truy v\u1ea5n d\u1eef li\u1ec7u th\u1ee7 c\u00f4ng cho \u0111\u1ed9i ng\u0169 DevOps v\u00e0 k\u1ef9 thu\u1eadt.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "0d180708",
+          "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+          "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-25T22:59:45+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot t\u1ed1i \u01b0u hi\u1ec7u su\u1ea5t qua agentic harness \u0111a m\u00f4 h\u00ecnh, c\u1ea3i thi\u1ec7n x\u1eed l\u00fd ng\u1eef c\u1ea3nh v\u00e0 \u0111\u1ecbnh tuy\u1ebfn m\u00f4 h\u00ecnh \u0111\u1ec3 t\u0103ng hi\u1ec7u qu\u1ea3 s\u1eed d\u1ee5ng token v\u00e0 ti\u1ebft ki\u1ec7m credits.",
+          "score": 0.8,
+          "cluster_id": "github-copilot"
+        },
+        {
+          "id": "96fb7a7c",
+          "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+          "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-15T19:17:30+00:00",
+          "category": "open_source",
+          "summary": "B\u1ed9 d\u1eef li\u1ec7u \u0111a ng\u00f4n ng\u1eef tr\u00ean GitHub (CC0-1.0) v\u1ec1 README, issue, PR gi\u00fap x\u00e2y d\u1ef1ng AI \u0111a ng\u00f4n ng\u1eef\u2014t\u0103ng t\u1ed1c \u0111\u1ed9 ph\u00e1t tri\u1ec3n c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3 developer to\u00e0n c\u1ea7u.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "cfc38970",
+          "title": "How pull request limits are cutting down the noise",
+          "url": "https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-18T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "Gi\u1edbi h\u1ea1n pull request gi\u00fap gi\u1ea3m nhi\u1ec5u trong repo l\u1edbn, \u1ed5n \u0111\u1ecbnh workflow cho maintainer v\u00e0 t\u1ef1 \u0111\u1ed9ng h\u00f3a CI/CD.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "2f0101a4",
+          "title": "What are git worktrees, and why should I use them?",
+          "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-16T20:58:54+00:00",
+          "category": "open_source",
+          "summary": "Git worktrees cho ph\u00e9p l\u00e0m vi\u1ec7c song song tr\u00ean nhi\u1ec1u nh\u00e1nh m\u00e0 kh\u00f4ng c\u1ea7n stash hay clone l\u1ea1i, t\u1ed1i \u01b0u cho developer v\u00e0 DevOps c\u1ea7n context switching nhanh.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 197,
+    "total_clusters": 24,
+    "days_covered": 7
+  }
+}
