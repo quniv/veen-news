@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T01:45:22.585831+00:00",
+  "updated_at": "2026-07-01T03:03:44.654361+00:00",
   "latest_date": "2026-07-01",
   "daily": [
     {
@@ -85,5 +85,11 @@
       "article_count": 270
     }
   ],
-  "monthly": []
+  "monthly": [
+    {
+      "month": "2026-07",
+      "path": "data/monthly/2026-07.json",
+      "article_count": 20
+    }
+  ]
 }

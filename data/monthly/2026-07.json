@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-07-01T03:03:44.653945+00:00",
+  "month": "2026-07",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-01",
+  "headline": "",
+  "top_clusters": [
+    {
+      "id": "cluster-1",
+      "topic": "Anthropic Launches Cheaper Claude Sonnet 5 Model",
+      "summary": "Anthropic ra m\u1eaft Claude Sonnet 5 v\u1edbi gi\u00e1 r\u1ebb h\u01a1n, kh\u1ea3 n\u0103ng t\u00e1c nh\u00e2n m\u1ea1nh m\u1ebd h\u01a1n v\u00e0 c\u1ea3i thi\u1ec7n an to\u00e0n, \u0111\u1ecbnh v\u1ecb l\u00e0 gi\u1ea3i ph\u00e1p thay th\u1ebf r\u1ebb h\u01a1n cho c\u00e1c t\u00e1c nh\u00e2n AI.",
+      "article_ids": [
+        "a2fd93ac",
+        "4307222b"
+      ],
+      "article_count": 2
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Anthropic Introduces Claude Science Workbench for Scientists",
+      "summary": "Anthropic ra m\u1eaft Claude Science, m\u1ed9t m\u00f4i tr\u01b0\u1eddng l\u00e0m vi\u1ec7c t\u00edch h\u1ee3p cho ph\u00e9p c\u00e1c nh\u00e0 khoa h\u1ecdc th\u1ef1c hi\u1ec7n nghi\u00ean c\u1ee9u t\u00ednh to\u00e1n trong m\u1ed9t kh\u00f4ng gian duy nh\u1ea5t, thay v\u00ec ph\u1ea3i chuy\u1ec3n \u0111\u1ed5i gi\u1eefa nhi\u1ec1u c\u00f4ng c\u1ee5.",
+      "article_ids": [
+        "0c2252c9",
+        "319975cb"
+      ],
+      "article_count": 2
+    },
+    {
+      "id": "cluster-3",
+      "topic": "GeneBench-Pro Benchmark for AI in Genomics and Biology",
+      "summary": "GeneBench-Pro l\u00e0 m\u1ed9t chu\u1ea9n \u0111\u00e1nh gi\u00e1 m\u1edbi \u0111\u1ec3 ki\u1ec3m tra hi\u1ec7u su\u1ea5t AI trong l\u0129nh v\u1ef1c gen v\u00e0 sinh h\u1ecdc, s\u1eed d\u1ee5ng c\u00e1c b\u1ed9 d\u1eef li\u1ec7u ph\u1ee9c t\u1ea1p t\u1eeb th\u1ebf gi\u1edbi th\u1ef1c.",
+      "article_ids": [
+        "0b8dc247",
+        "617f4573"
+      ],
+      "article_count": 2
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 7
+    },
+    "ai": {
+      "article_count": 7
+    },
+    "devops": {
+      "article_count": 4
+    },
+    "world": {
+      "article_count": 0
+    },
+    "vietnam": {
+      "article_count": 0
+    },
+    "innovations": {
+      "article_count": 2
+    },
+    "robotics": {
+      "article_count": 0
+    },
+    "open_source": {
+      "article_count": 0
+    }
+  },
+  "stats": {
+    "total_articles": 20,
+    "total_clusters": 3,
+    "days_covered": 1
+  }
+}
