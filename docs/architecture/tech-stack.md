@@ -12,8 +12,6 @@ Every layer lists the chosen tool, the rationale, and two alternatives with a tr
 | Data storage | JSON files in Git | Zero cost, versioned, CDN-ready | PostgreSQL | SQLite file |
 | AI gateway | OpenRouter | Model-agnostic gateway — swap model via env var; OpenAI-compatible SDK | Direct Anthropic SDK | Ollama (local) |
 | RSS parsing | feedparser + httpx | Battle-tested Python libraries | Scrapy | newspaper3k |
-| Frontend framework | SvelteKit (static) | Lean bundle, static export, familiar | Next.js | Astro |
-| Frontend hosting | Cloudflare Pages | Free, global CDN, git integration | Vercel | GitHub Pages |
 | Data delivery | GitHub raw URLs / jsDelivr CDN | Zero cost, global CDN | GitHub Pages | Cloudflare R2 |
 | Source config | YAML in repo | Git-diffable, no UI needed | JSON | Database table |
 | Secrets | GitHub Actions Secrets | Native, zero setup | Vault | .env (local only) |
@@ -38,9 +36,7 @@ Article data is written as structured JSON files committed to the same repositor
 
 See [ADR-001](adr/ADR-001-git-as-database.md) for the full decision record.
 
-**Alt A — PostgreSQL**: Powerful for complex queries and relational integrity, but requires running a server somewhere. Either a paid managed database ($15–25/month for the cheapest tier) or a home K8s deployment (home-infra dependency). No SQL aggregation is needed — all "queries" are JSON reads on the frontend.
-
-**Alt B — SQLite file in repo**: Closer to the "file in git" approach but binary format means git diffs are meaningless, merge conflicts are unresolvable, and the file cannot be served directly as a CDN asset. JSON is human-readable, diffable, and directly consumable by the frontend without any parsing layer.
+**Alt A — PostgreSQL**: Powerful for complex queries and relational integrity, but requires running a server somewhere. Either a paid managed database ($15–25/month for the cheapest tier) or a home K8s deployment (home-infra dependency). No SQL aggregation is needed — all "queries" are JSON reads done by consumers.
 
 ---
 
@@ -65,28 +61,6 @@ See [ADR-003](adr/ADR-003-ai-gateway.md) and [ADR-006](adr/ADR-006-ai-agent-fram
 **Alt A — Scrapy**: Full-featured web scraping framework with middleware, pipelines, and JS rendering support via Splash. Significant overkill for fetching structured RSS feeds. Scrapy introduces its own async model (Twisted), which does not compose well with Python's native `asyncio`.
 
 **Alt B — newspaper3k**: Designed for scraping full article text from HTML pages, not RSS feeds. Useful if full-text extraction is needed later, but for now the feed description/snippet is sufficient for AI processing. Adds unnecessary complexity for the current scope.
-
----
-
-### Frontend Framework — SvelteKit (static)
-
-SvelteKit with `@sveltejs/adapter-static` produces a fully static directory (HTML/JS/CSS) deployable to any CDN. Svelte's compiler-based approach means no virtual DOM overhead — bundles are smaller and runtime performance is better than React or Vue for equivalent UI complexity. File-based routing (`+page.svelte`) keeps navigation straightforward.
-
-See [ADR-004](adr/ADR-004-static-frontend.md) for the full decision record.
-
-**Alt A — Next.js**: Excellent ecosystem and DX, but React bundles are larger and SSR requires a Node.js runtime. The static export mode works but is a secondary concern in the Next.js ecosystem. For a read-only personal dashboard, React's conceptual overhead (hooks, context, memoization) adds complexity for no benefit.
-
-**Alt B — Astro**: Purpose-built for static sites with excellent island architecture for partial hydration. Solid choice, but SvelteKit is already part of this stack's familiar tooling. Astro's Svelte integration works, but running SvelteKit directly avoids an adapter layer.
-
----
-
-### Frontend Hosting — Cloudflare Pages
-
-Free tier includes unlimited bandwidth, automatic HTTPS, global CDN, and git-connected deployments. Push to `main` triggers a build in ~30 seconds. No configuration beyond connecting the GitHub repo.
-
-**Alt A — Vercel**: Equivalent DX and free tier, but Vercel's free plan caps bandwidth at 100 GB/month and limits builds. For a personal project Vercel would work fine, but Cloudflare Pages has no bandwidth cap on free tier and the CDN is consistently fast globally.
-
-**Alt B — GitHub Pages**: Free and integrated with the repo, but requires a custom GitHub Actions workflow for any non-trivial build (SvelteKit needs `pnpm build`). No built-in CDN edge caching at the level of Cloudflare. Custom domains require DNS configuration that Cloudflare Pages handles automatically.
 
 ---
 
