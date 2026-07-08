@@ -31,6 +31,7 @@ veen-news/
 │   ├── sources.yaml        ← RSS source configuration
 │   ├── latest.json         ← most recent daily digest
 │   ├── index.json          ← index of all available digests
+│   ├── pagination.json     ← page-size/count metadata for index.json
 │   ├── daily/              ← YYYY-MM-DD.json
 │   ├── weekly/             ← YYYY-WW.json
 │   └── monthly/            ← YYYY-MM.json
@@ -46,6 +47,14 @@ veen-news/
 - [Architecture overview](docs/architecture/README.md)
 - [Tech stack decisions](docs/architecture/tech-stack.md)
 - [Data model](docs/architecture/data-model.md)
+- [Consuming the data from another site](docs/architecture/consuming-the-api.md)
 - [GitHub Actions workflow](docs/architecture/github-actions-workflow.md)
 - [Roadmap](docs/architecture/roadmap.md)
 - [ADRs](docs/architecture/adr/)
+
+## Using this data in your own frontend
+
+Veen has no API server — everything is static JSON served straight from this
+repo. Any site can fetch it over CORS-enabled raw GitHub / jsDelivr URLs with
+no auth and no backend. See [Consuming the API](docs/architecture/consuming-the-api.md)
+for the base URL, endpoint list, and a copy-pasteable fetch template.

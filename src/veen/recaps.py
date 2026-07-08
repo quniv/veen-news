@@ -4,6 +4,7 @@ import logging
 from datetime import datetime, timedelta, timezone
 
 from . import config
+from .export import write_pagination
 
 log = logging.getLogger(__name__)
 
@@ -34,6 +35,7 @@ def _update_index_entry(key: str, entry_key: str, entry: dict) -> None:
     index[key].insert(0, entry)
     index["updated_at"] = datetime.now(timezone.utc).isoformat()
     index_file.write_text(json.dumps(index, indent=2))
+    write_pagination()
 
 
 def generate_weekly() -> None:

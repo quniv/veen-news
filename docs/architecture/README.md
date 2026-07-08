@@ -171,5 +171,6 @@ Cloudflare Pages hosts the SvelteKit static build. The frontend fetches `data/la
 - [Tech Stack Decisions](tech-stack.md) — layer-by-layer decision table with rejected alternatives
 - [GitHub Actions Workflow](github-actions-workflow.md) — workflow design and step breakdown
 - [Data Model](data-model.md) — JSON schemas for all data files
+- [Consuming the API](consuming-the-api.md) — how a third-party frontend can fetch and render this data
 - [Roadmap](roadmap.md) — phased implementation plan
 - ADRs: [001 Git-as-DB](adr/ADR-001-git-as-database.md) · [002 GH Actions](adr/ADR-002-github-actions-compute.md) · [003 AI Gateway](adr/ADR-003-ai-gateway.md) · [004 Static Frontend](adr/ADR-004-static-frontend.md) · [005 Source Config](adr/ADR-005-source-config.md) · [006 AI Agent Framework](adr/ADR-006-ai-agent-framework.md)

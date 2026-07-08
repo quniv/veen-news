@@ -34,6 +34,17 @@ export async function fetchIndex(): Promise<{
   return res.json();
 }
 
+export async function fetchPagination(): Promise<{
+  updated_at: string | null;
+  page_size: number;
+  sections: Record<'daily' | 'weekly' | 'monthly', { total_items: number; total_pages: number }>;
+}> {
+  const url = dataUrl('data/pagination.json');
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Failed to fetch pagination: ${res.status}`);
+  return res.json();
+}
+
 export async function fetchWeekly(week: string): Promise<unknown> {
   const url = dataUrl(`data/weekly/${week}.json`);
   const res = await fetch(url);

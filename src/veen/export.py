@@ -15,6 +15,34 @@ CATEGORIES = [
     "vietnam", "innovations", "robotics", "open_source",
 ]
 
+PAGE_SIZE = 30
+
+
+def write_pagination(page_size: int = PAGE_SIZE) -> None:
+    """Derive data/pagination.json from the current data/index.json.
+
+    There's no server, so this only publishes counts/page-size metadata —
+    consumers slice index.json's daily/weekly/monthly arrays client-side.
+    """
+    index_file = config.DATA_DIR / "index.json"
+    try:
+        index = json.loads(index_file.read_text()) if index_file.exists() else {}
+    except Exception:
+        index = {}
+
+    sections = {}
+    for key in ("daily", "weekly", "monthly"):
+        total_items = len(index.get(key, []))
+        total_pages = -(-total_items // page_size) if total_items else 0
+        sections[key] = {"total_items": total_items, "total_pages": total_pages}
+
+    pagination = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "page_size": page_size,
+        "sections": sections,
+    }
+    (config.DATA_DIR / "pagination.json").write_text(json.dumps(pagination, indent=2))
+
 
 def _count_raw() -> int:
     if config.TMP_RAW.exists():
@@ -95,6 +123,7 @@ def export() -> None:
     latest.write_text(json.dumps(digest, indent=2, default=str))
 
     _update_index(today, len(output.articles))
+    write_pagination()
     print(f"✓ Exported {len(output.articles)} articles → {daily_file}")
 
 
