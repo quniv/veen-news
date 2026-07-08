@@ -2,8 +2,6 @@
 
 Organized into four phases, each delivering a usable increment. Effort estimates assume solo development at ~1–2 hours per evening.
 
-> **Note (2026-07-08)**: This roadmap documents the original build plan, including the SvelteKit frontend from Phase 0/3. The frontend was later removed — see [ADR-007](adr/ADR-007-remove-frontend.md). Kept here as historical record; the frontend-related items below no longer reflect the current architecture.
-
 ---
 
 ## Phase 0 — Foundation (Week 1)

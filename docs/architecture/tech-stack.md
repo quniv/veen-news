@@ -38,8 +38,6 @@ See [ADR-001](adr/ADR-001-git-as-database.md) for the full decision record.
 
 **Alt A — PostgreSQL**: Powerful for complex queries and relational integrity, but requires running a server somewhere. Either a paid managed database ($15–25/month for the cheapest tier) or a home K8s deployment (home-infra dependency). No SQL aggregation is needed — all "queries" are JSON reads done by consumers.
 
-**Alt B — SQLite file in repo**: Closer to the "file in git" approach but binary format means git diffs are meaningless, merge conflicts are unresolvable, and the file cannot be served directly as a CDN asset. JSON is human-readable, diffable, and directly consumable by any consumer without any parsing layer.
-
 ---
 
 ### AI Gateway — OpenRouter
@@ -63,12 +61,6 @@ See [ADR-003](adr/ADR-003-ai-gateway.md) and [ADR-006](adr/ADR-006-ai-agent-fram
 **Alt A — Scrapy**: Full-featured web scraping framework with middleware, pipelines, and JS rendering support via Splash. Significant overkill for fetching structured RSS feeds. Scrapy introduces its own async model (Twisted), which does not compose well with Python's native `asyncio`.
 
 **Alt B — newspaper3k**: Designed for scraping full article text from HTML pages, not RSS feeds. Useful if full-text extraction is needed later, but for now the feed description/snippet is sufficient for AI processing. Adds unnecessary complexity for the current scope.
-
----
-
-### Frontend — removed
-
-Veen shipped a SvelteKit static frontend early on (see [ADR-004](adr/ADR-004-static-frontend.md)), but it was never deployed and nobody used it. It was removed in favor of publishing data only — see [ADR-007](adr/ADR-007-remove-frontend.md). Third parties consuming this data bring their own frontend; see [Consuming the API](consuming-the-api.md).
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Veen is a personal AI-powered news data pipeline built entirely on free-tier infrastructure. GitHub Actions runs a Python crawler daily, fetches RSS/API sources, processes articles through an AI pipeline (OpenRouter), and commits the output as JSON files directly into this repository under `data/`. Any consumer fetches those JSON files straight from GitHub raw URLs — no backend server, no database, no Kubernetes cluster, no frontend, no hosting cost. Veen itself ships no UI (see [ADR-007](adr/ADR-007-remove-frontend.md)); it's a pure data provider that third-party sites consume (see [Consuming the API](consuming-the-api.md)).
+Veen is a personal AI-powered news data pipeline built entirely on free-tier infrastructure. GitHub Actions runs a Python crawler daily, fetches RSS/API sources, processes articles through an AI pipeline (OpenRouter), and commits the output as JSON files directly into this repository under `data/`. Any consumer fetches those JSON files straight from GitHub raw URLs — no backend server, no database, no Kubernetes cluster, no frontend, no hosting cost. Veen itself ships no UI; it's a pure data provider that third-party sites consume (see [Consuming the API](consuming-the-api.md)).
 
 The core insight is treating **Git as a database**: JSON files are versioned, diff-able, and served at zero cost via CDN (raw.githubusercontent.com or jsDelivr). GitHub Actions free tier provides 2000 min/month for private repos (unlimited for public) — a daily crawl job uses ~5–10 minutes. Total monthly infrastructure cost: **$0** (assuming low AI usage cost via cheap OpenRouter models).
 
@@ -166,4 +166,4 @@ There is no serving step of our own. Any consumer — a third-party frontend, sc
 - [Data Model](data-model.md) — JSON schemas for all data files
 - [Consuming the API](consuming-the-api.md) — how a third-party frontend can fetch and render this data
 - [Roadmap](roadmap.md) — phased implementation plan
-- ADRs: [001 Git-as-DB](adr/ADR-001-git-as-database.md) · [002 GH Actions](adr/ADR-002-github-actions-compute.md) · [003 AI Gateway](adr/ADR-003-ai-gateway.md) · [004 Static Frontend (superseded)](adr/ADR-004-static-frontend.md) · [005 Source Config](adr/ADR-005-source-config.md) · [006 AI Agent Framework](adr/ADR-006-ai-agent-framework.md) · [007 Remove Frontend](adr/ADR-007-remove-frontend.md)
+- ADRs: [001 Git-as-DB](adr/ADR-001-git-as-database.md) · [002 GH Actions](adr/ADR-002-github-actions-compute.md) · [003 AI Gateway](adr/ADR-003-ai-gateway.md) · [005 Source Config](adr/ADR-005-source-config.md) · [006 AI Agent Framework](adr/ADR-006-ai-agent-framework.md)
