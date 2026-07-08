@@ -10,8 +10,8 @@
     label?: string;
     date_range?: { start: string; end: string };
     total_articles?: number;
-    clusters?: Cluster[];
-    categories?: Record<Category, { articles: import('$lib/types').Article[]; count: number }>;
+    top_clusters?: Cluster[];
+    categories?: Record<Category, { top_articles: import('$lib/types').Article[]; article_count: number }>;
     stats?: { fetched: number; published: number };
   }
 
@@ -29,12 +29,12 @@
     return data.week ?? '';
   });
 
-  const topClusters = $derived(data?.clusters?.slice(0, 5) ?? []);
+  const topClusters = $derived(data?.top_clusters?.slice(0, 5) ?? []);
 
   onMount(async () => {
     try {
       const index = await fetchIndex();
-      const latest = index.weekly?.at(-1);
+      const latest = index.weekly?.[0];
       if (!latest) {
         data = null;
         return;
@@ -100,14 +100,14 @@
         <h2 class="section-title">By Category</h2>
         {#each CATEGORIES as cat (cat)}
           {@const catData = data.categories?.[cat]}
-          {#if catData && catData.articles?.length > 0}
+          {#if catData && catData.top_articles?.length > 0}
             <div class="cat-section">
               <h3 class="cat-title">
                 {CATEGORY_LABELS[cat]}
-                <span class="cat-count">{catData.count ?? catData.articles.length}</span>
+                <span class="cat-count">{catData.article_count ?? catData.top_articles.length}</span>
               </h3>
               <div class="article-list">
-                {#each catData.articles.slice(0, 5) as article (article.id)}
+                {#each catData.top_articles.slice(0, 5) as article (article.id)}
                   <ArticleCard {article} />
                 {/each}
               </div>

@@ -5,15 +5,14 @@
   import type { Cluster, Category } from '$lib/types';
 
   interface CategorySummary {
-    count: number;
-    top_sources?: string[];
+    article_count: number;
   }
 
   interface MonthlyData {
     month: string;
     label?: string;
     total_articles?: number;
-    clusters?: Cluster[];
+    top_clusters?: Cluster[];
     categories?: Record<Category, CategorySummary>;
     stats?: { fetched: number; published: number; sources_crawled?: number };
   }
@@ -38,20 +37,20 @@
     return data.month ?? '';
   });
 
-  const topClusters = $derived(data?.clusters?.slice(0, 8) ?? []);
+  const topClusters = $derived(data?.top_clusters?.slice(0, 8) ?? []);
 
   const categoryBreakdown = $derived.by(() => {
     if (!data?.categories) return [];
     return CATEGORIES
-      .filter(cat => (data!.categories![cat]?.count ?? 0) > 0)
+      .filter(cat => (data!.categories![cat]?.article_count ?? 0) > 0)
       .map(cat => ({ cat, ...data!.categories![cat] }))
-      .sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
+      .sort((a, b) => (b.article_count ?? 0) - (a.article_count ?? 0));
   });
 
   onMount(async () => {
     try {
       const index = await fetchIndex();
-      const latest = index.monthly?.at(-1);
+      const latest = index.monthly?.[0];
       if (!latest) {
         data = null;
         return;
@@ -130,16 +129,13 @@
             <div class="breakdown-row">
               <div class="breakdown-left">
                 <span class="breakdown-label">{CATEGORY_LABELS[item.cat]}</span>
-                {#if item.top_sources?.length}
-                  <span class="breakdown-sources">{item.top_sources.slice(0, 3).join(', ')}</span>
-                {/if}
               </div>
               <div class="breakdown-right">
-                <span class="breakdown-count">{item.count}</span>
+                <span class="breakdown-count">{item.article_count}</span>
                 <div class="breakdown-bar-wrap">
                   <div
                     class="breakdown-bar"
-                    style="width: {Math.min(100, (item.count / (data?.total_articles || item.count)) * 100 * 3)}%"
+                    style="width: {Math.min(100, (item.article_count / (data?.total_articles || item.article_count)) * 100 * 3)}%"
                   ></div>
                 </div>
               </div>
@@ -279,14 +275,6 @@
     font-size: 0.88rem;
     font-weight: 600;
     color: var(--text);
-  }
-
-  .breakdown-sources {
-    font-size: 0.72rem;
-    color: var(--text-dim);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .breakdown-right {
