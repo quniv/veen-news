@@ -1,6 +1,6 @@
 # Veen — Data Model
 
-No database. All data is stored as JSON files in the `data/` directory of this repository. The frontend reads these files directly. No migration tooling, no connection management.
+No database. All data is stored as JSON files in the `data/` directory of this repository. Consumers read these files directly. No migration tooling, no connection management.
 
 ---
 
@@ -175,7 +175,7 @@ The primary output of the daily crawl job.
 
 ## `data/latest.json`
 
-An exact copy of the most recent daily file. Written by the export step after `data/daily/YYYY-MM-DD.json`. The frontend uses this as the default data source to avoid needing to know today's date.
+An exact copy of the most recent daily file. Written by the export step after `data/daily/YYYY-MM-DD.json`. Consumers use this as the default data source to avoid needing to know today's date.
 
 Schema: identical to `data/daily/YYYY-MM-DD.json`.
 
@@ -202,7 +202,7 @@ Master index of all available data files. Updated by the export step on every ru
 }
 ```
 
-The frontend uses `index.json` to populate a date picker or history browser without needing a server-side list endpoint.
+Consumers use `index.json` to populate a date picker or history browser without needing a server-side list endpoint.
 
 ---
 
@@ -262,7 +262,7 @@ Weekly recap generated every Monday. Aggregates the past 7 days of daily files.
 }
 ```
 
-`top_articles` inside each category is an array of up to 5 article objects (highest-scoring) — enough for the frontend to render a quick recap card without loading all daily files.
+`top_articles` inside each category is an array of up to 5 article objects (highest-scoring) — enough for a consumer to render a quick recap card without loading all daily files.
 
 ---
 

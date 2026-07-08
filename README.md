@@ -1,13 +1,15 @@
 # Veen
 
-A personal, zero-cost news aggregator. Daily crawls trusted RSS sources, filters trash and clickbait with AI, and delivers a clean curated digest — no ads, no noise.
+A personal, zero-cost news data pipeline. Daily crawls trusted RSS sources, filters trash and clickbait with AI, and publishes a clean curated digest as static JSON — no ads, no noise, no server.
 
 ## How it works
 
 1. **GitHub Actions** runs daily, crawling RSS/API feeds across 8 topic categories
 2. **AI pipeline** (OpenRouter) filters, clusters, and summarizes articles
 3. **Output** is committed as JSON files to this repository under `data/`
-4. **SvelteKit frontend** on Cloudflare Pages fetches the JSON and renders the digest
+4. Any site can fetch that JSON directly over CORS-enabled raw GitHub / jsDelivr URLs — see [Consuming the API](docs/architecture/consuming-the-api.md)
+
+Veen is a data provider, not a website — there's no frontend or API server in this repo.
 
 ## Topics
 
@@ -20,7 +22,6 @@ Technology · AI · DevOps/DevSecOps · World Trends · Vietnam · Innovations �
 | Compute | GitHub Actions (free tier) |
 | AI | OpenRouter (DeepSeek / any model via env var) |
 | Data store | JSON files in this repo |
-| Frontend | SvelteKit → Cloudflare Pages |
 | Source config | `data/sources.yaml` |
 
 ## Project structure
@@ -36,7 +37,6 @@ veen-news/
 │   ├── weekly/             ← YYYY-WW.json
 │   └── monthly/            ← YYYY-MM.json
 ├── src/                    ← Python crawler + AI pipeline
-├── frontend/               ← SvelteKit app
 ├── .github/workflows/      ← daily-crawl.yml, recaps.yml
 └── docs/
     └── architecture/       ← design docs, ADRs, roadmap

@@ -35,28 +35,6 @@ recaps:
 # Run the full pipeline: crawl → ai → export
 run: crawl ai export
 
-# ── Frontend ──────────────────────────────────────────────────────────────────
-
-# Start the SvelteKit dev server
-dev:
-    cd frontend && npm run dev
-
-# Build the frontend for production
-build:
-    cd frontend && npm run build
-
-# Preview the production build locally
-preview:
-    cd frontend && npm run preview
-
-# Type-check the frontend with svelte-check
-check:
-    cd frontend && npm run check
-
-# Install frontend npm dependencies
-frontend-install:
-    cd frontend && npm install
-
 # ── Data ─────────────────────────────────────────────────────────────────────
 
 # Show recent daily digests

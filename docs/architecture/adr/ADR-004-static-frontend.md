@@ -1,6 +1,6 @@
 # ADR-004 — Frontend: SvelteKit Static Build on Cloudflare Pages
 
-**Status**: Accepted
+**Status**: Superseded by [ADR-007](ADR-007-remove-frontend.md)
 **Date**: 2026-06-18
 
 ---

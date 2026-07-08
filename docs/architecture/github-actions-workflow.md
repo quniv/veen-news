@@ -44,7 +44,7 @@ flowchart TD
     COMMIT -- "git diff empty" --> SKIP["Skip commit\n(no new articles)"]
     COMMIT -- "new data" --> PUSH["git push\ncommit: chore: daily crawl YYYY-MM-DD"]
 
-    PUSH --> CF["☁ Cloudflare Pages\nauto-build on push\nfrontend/build/ → CDN"]
+    PUSH --> CONSUMERS["📄 raw.githubusercontent.com / jsDelivr\nany third-party consumer fetches JSON"]
 
     style CRON fill:#2d2d2d,color:#fff
     style MANUAL fill:#2d2d2d,color:#fff
@@ -98,7 +98,6 @@ flowchart LR
 | ④ | `veen.ai_pipeline` | `/tmp/veen-raw.json` | `/tmp/veen-processed.json` | model = `VEEN_AI_MODEL` env var |
 | ⑤ | `veen.export` | `/tmp/veen-processed.json` | `data/daily/`, `data/latest.json`, `data/index.json` | |
 | ⑥ | Commit & push | `data/` diff | git commit | skipped if no new data |
-| ⑦ | Cloudflare Pages | git push event | static site deployed | automatic, no extra config |
 
 ---
 
@@ -120,21 +119,16 @@ flowchart LR
 
 ---
 
-## Data Flow: Frontend
+## Data Flow: Consumption
 
 ```mermaid
 flowchart LR
-    PUSH["git push to main"] --> CF_BUILD["Cloudflare Pages\nnpm run build"]
-    CF_BUILD --> STATIC["frontend/build/\nstatic HTML + JS"]
-    STATIC --> CDN["Global CDN edge"]
-
-    USER["Browser"] --> CDN
-    CDN --> PAGE["SvelteKit page"]
-    PAGE --> API["fetchLatest()\nGET data/latest.json"]
-    API --> RENDER["Render:\nTopicTabs → ArticleCard list → DailyRecap"]
+    PUSH["git push to main"] --> RAW["raw.githubusercontent.com\n(or jsDelivr CDN)"]
+    RAW --> CONSUMER["Third-party frontend / script"]
+    CONSUMER --> FETCH["GET data/latest.json\nor data/daily/YYYY-MM-DD.json"]
 ```
 
-`data/latest.json` is served directly from the repo as a static asset. No API server. No database.
+`data/latest.json` is served directly from the repo as a static asset. No API server. No database. See [Consuming the API](consuming-the-api.md) for the full endpoint list and a fetch template.
 
 ---
 
