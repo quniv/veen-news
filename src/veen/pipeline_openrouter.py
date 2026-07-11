@@ -169,6 +169,32 @@ Return JSON: {{"clusters": [{{"cluster_id": "cluster-xyz", "article_ids": ["id1"
     return mapping
 
 
+def _select_cluster_representatives(
+    articles: list[RawArticle], cluster_map: dict[str, str], scores: dict[str, float]
+) -> list[RawArticle]:
+    """Keep every standalone article and the best article from each story cluster."""
+    representatives: dict[str, RawArticle] = {}
+    for article in articles:
+        cluster_id = cluster_map.get(article.id)
+        if not cluster_id:
+            continue
+
+        current = representatives.get(cluster_id)
+        if current is None or (
+            scores.get(article.id, 0.5), article.published_at or "", article.id
+        ) > (
+            scores.get(current.id, 0.5), current.published_at or "", current.id
+        ):
+            representatives[cluster_id] = article
+
+    return [
+        article
+        for article in articles
+        if not (cluster_id := cluster_map.get(article.id))
+        or representatives[cluster_id].id == article.id
+    ]
+
+
 # ── Summarize ─────────────────────────────────────────────────────────────────
 
 def _summarize_clusters(
@@ -324,6 +350,18 @@ def process(raw_articles: list[RawArticle]) -> ProcessedOutput:
         if cid:
             clusters_by_id.setdefault(cid, []).append(a)
 
+    published = _select_cluster_representatives(scored, cluster_map, scores)
+    representative_ids = {
+        cluster_map[a.id]: a.id
+        for a in published
+        if cluster_map.get(a.id)
+    }
+    log.info(
+        "After cluster deduplication: %d articles (dropped %d duplicate coverage records)",
+        len(published),
+        len(scored) - len(published),
+    )
+
     standalone = [a for a in scored if a.id not in cluster_map]
 
     # ── Summarize clusters + standalone in parallel ───────────────────────────
@@ -355,7 +393,7 @@ def process(raw_articles: list[RawArticle]) -> ProcessedOutput:
 
     # ── Build output ──────────────────────────────────────────────────────────
     processed: list[ProcessedArticle] = []
-    for a in scored:
+    for a in published:
         cid = cluster_map.get(a.id)
         summary = (
             cluster_summaries[cid].get("summary", "") if cid and cid in cluster_summaries
@@ -382,6 +420,7 @@ def process(raw_articles: list[RawArticle]) -> ProcessedOutput:
             summary=info.get("summary", ""),
             article_ids=[a.id for a in arts],
             article_count=len(arts),
+            representative_id=representative_ids[cid],
         ))
 
     # ── Daily Recap ───────────────────────────────────────────────────────────

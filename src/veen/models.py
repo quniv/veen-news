@@ -61,6 +61,7 @@ class Cluster(BaseModel):
     summary: str
     article_ids: list[str]
     article_count: int
+    representative_id: str
 
 
 class DailyRecap(BaseModel):
