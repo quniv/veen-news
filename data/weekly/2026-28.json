@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-07-13T05:33:51.686258+00:00",
+  "week": "2026-28",
+  "period_start": "2026-07-07",
+  "period_end": "2026-07-13",
+  "top_clusters": [
+    {
+      "id": "cluster-7",
+      "topic": "Kubernetes, Terraform MCP, and AI infrastructure evolution",
+      "summary": "Lo\u1ea1t b\u00e0i \u0111\u1ec1 c\u1eadp \u0111\u1ebfn Terraform MCP Server gi\u00fap AI agent ra quy\u1ebft \u0111\u1ecbnh h\u1ea1 t\u1ea7ng, vi\u1ec7c ngh\u1ec9 h\u01b0u c\u1ee7a ingress-nginx, s\u00e1ch tr\u1eafng v\u1ec1 l\u01b0u tr\u1eef d\u1eef li\u1ec7u cho AI tr\u00ean cloud native, sandboxing agent ch\u01b0a \u0111\u1ee7, ti\u1ebfn h\u00f3a platform engineering cho AI, DRA trong Kubernetes 1.35, etcd v3.7.0, Memory QoS trong K8s 1.36, v\u00e0 t\u1ea7m quan tr\u1ecdng c\u1ee7a c\u00f4 l\u1eadp AI agent.",
+      "article_ids": [
+        "734c70bd",
+        "888b1a74",
+        "376951b9",
+        "2e06dd71",
+        "1b71e4e2",
+        "8baabb9d",
+        "f52a3dc5",
+        "5b3804a1",
+        "b2595eb0"
+      ],
+      "article_count": 9
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Kubernetes v1.36: Major Updates and Deprecations",
+      "summary": "Kubernetes v1.36 mang \u0111\u1ebfn nhi\u1ec1u c\u1ea3i ti\u1ebfn: Mixed Version Proxy beta, User Namespaces GA, l\u1eadp l\u1ecbch theo kh\u1ed1i l\u01b0\u1ee3ng c\u00f4ng vi\u1ec7c, v\u00e0 lo\u1ea1i b\u1ecf tr\u01b0\u1eddng ExternalIPs.",
+      "article_ids": [
+        "bb0e2305",
+        "dedcac98",
+        "fc1b2583",
+        "15c2ac0a",
+        "c028e7e5",
+        "3951e89e",
+        "f8e1b7bc",
+        "dba00b9b"
+      ],
+      "article_count": 8,
+      "representative_id": "dedcac98"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "OpenAI launches GPT-5.6 and ChatGPT Work",
+      "summary": "OpenAI ch\u00ednh th\u1ee9c ra m\u1eaft d\u00f2ng m\u00f4 h\u00ecnh GPT-5.6 sau khi \u0111\u01b0\u1ee3c ch\u00ednh ph\u1ee7 ph\u00ea duy\u1ec7t, h\u1ee9a h\u1eb9n c\u1ea3i thi\u1ec7n v\u1ec1 an ninh m\u1ea1ng v\u00e0 hi\u1ec7u su\u1ea5t, \u0111\u1ed3ng th\u1eddi c\u00f4ng b\u1ed1 d\u1ecbch v\u1ee5 'ChatGPT Work' \u2013 m\u1ed9t t\u00e1c nh\u00e2n AI c\u00f3 th\u1ec3 th\u1ef1c hi\u1ec7n c\u00e1c t\u00e1c v\u1ee5 ph\u1ee9c t\u1ea1p tr\u00ean nhi\u1ec1u \u1ee9ng d\u1ee5ng v\u00e0 t\u1ec7p tin.",
+      "article_ids": [
+        "40c4cf91",
+        "9cf9c4c9",
+        "caaa735c",
+        "b98a594e",
+        "e19fbb75",
+        "dcf90fac",
+        "5bcfdde6"
+      ],
+      "article_count": 7
+    },
+    {
+      "id": "cluster-4",
+      "topic": "Hugging Face expands with managed compute, voice AI, OCR, and robotics",
+      "summary": "Hugging Face gi\u1edbi thi\u1ec7u nhi\u1ec1u c\u1eadp nh\u1eadt: m\u00f4 h\u00ecnh tr\u00ean n\u1ec1n t\u1ea3ng Foundry Managed Compute, h\u1ee3p t\u00e1c v\u1edbi Cerebras cho AI gi\u1ecdng n\u00f3i th\u1eddi gian th\u1ef1c Gemma 4, ra m\u1eaft PP-OCRv6 h\u1ed7 tr\u1ee3 50 ng\u00f4n ng\u1eef, v\u00e0 t\u00edch h\u1ee3p robot v\u1edbi Strands Agents v\u00e0 LeRobot.",
+      "article_ids": [
+        "1ec294ad",
+        "e4a02290",
+        "b497f306",
+        "2eb5bcc3",
+        "270262b3"
+      ],
+      "article_count": 5
+    },
+    {
+      "id": "cluster-1",
+      "topic": "OpenAI's GPT-5.6 powers Microsoft Copilot and new autonomous agent",
+      "summary": "OpenAI ra m\u1eaft GPT-5.6, \u0111\u01b0\u1ee3c Microsoft ch\u1ecdn l\u00e0m m\u00f4 h\u00ecnh \u01b0u ti\u00ean cho Copilot 365, \u0111\u1ed3ng th\u1eddi gi\u1edbi thi\u1ec7u c\u00f4ng c\u1ee5 Codex m\u1edbi c\u00f3 kh\u1ea3 n\u0103ng th\u1ef1c hi\u1ec7n c\u00e1c t\u00e1c v\u1ee5 \u0111\u1ed9c l\u1eadp trong nhi\u1ec1u gi\u1edd, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn trong AI h\u1ed7 tr\u1ee3 c\u00f4ng vi\u1ec7c.",
+      "article_ids": [
+        "5390181b",
+        "0b004c60",
+        "cf000205",
+        "7c72cfe9"
+      ],
+      "article_count": 4
+    },
+    {
+      "id": "cluster-2",
+      "topic": "GitLab Multiple Patch Releases for Security Fixes",
+      "summary": "GitLab ph\u00e1t h\u00e0nh lo\u1ea1t b\u1ea3n v\u00e1 b\u1ea3o m\u1eadt cho c\u00e1c phi\u00ean b\u1ea3n 18.x v\u00e0 19.x, bao g\u1ed3m c\u00e1c b\u1ea3n c\u1eadp nh\u1eadt 18.8.11, 19.1.1, 19.0.3, 18.11.6, v.v.",
+      "article_ids": [
+        "62830243",
+        "59526ed6",
+        "8ba63a28"
+      ],
+      "article_count": 3,
+      "representative_id": "62830243"
+    },
+    {
+      "id": "cluster-6",
+      "topic": "AI agents testing and self-healing infrastructure patterns",
+      "summary": "C\u00e1c b\u00e0i b\u00e1o th\u1ea3o lu\u1eadn v\u1ec1 Shadow Mode Continuous Integration nh\u01b0 l\u1edbp ki\u1ec3m th\u1eed c\u00f2n thi\u1ebfu cho AI agent, x\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng t\u1ef1 ph\u1ee5c h\u1ed3i cho s\u1ef1 c\u1ed1 port-down, v\u00e0 t\u1ef1 \u0111\u1ed9ng h\u00f3a nh\u1eadn th\u1ee9c v\u1edbi LLM v\u00e0 Ansible \u0111\u1ec3 t\u0103ng \u0111\u1ed9 tin c\u1eady h\u1ea1 t\u1ea7ng.",
+      "article_ids": [
+        "ecde85fd",
+        "102d0a4c",
+        "b5c55d47"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-9",
+      "topic": "Anthropic reveals internal reasoning of Claude and Git updates",
+      "summary": "Anthropic ph\u00e1t tri\u1ec3n k\u1ef9 thu\u1eadt cho th\u1ea5y ho\u1ea1t \u0111\u1ed9ng b\u00ean trong m\u00f4 h\u00ecnh Claude khi n\u00f3 x\u1eed l\u00fd c\u00e1c kh\u00e1i ni\u1ec7m; GitHub gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 s\u1edf h\u1eefu kho l\u01b0u tr\u1eef; Git 2.55 ra m\u1eaft v\u1edbi nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi.",
+      "article_ids": [
+        "c5eec3a9",
+        "b2b36465",
+        "d3034b0a"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-1",
+      "topic": "GitHub AI agent security and automation",
+      "summary": "C\u00e1c b\u00e0i b\u00e1o th\u1ea3o lu\u1eadn v\u1ec1 vi\u1ec7c khai th\u00e1c l\u1ed7 h\u1ed5ng b\u1ea3o m\u1eadt c\u1ee7a AI agent GitHub, t\u1ef1 \u0111\u1ed9ng h\u00f3a t\u00e0i li\u1ec7u li\u00ean kho l\u01b0u tr\u1eef v\u00e0 c\u1ea5u h\u00ecnh DNS kh\u00f4ng c\u1ea7n ch\u1ec9nh s\u1eeda th\u1ee7 c\u00f4ng.",
+      "article_ids": [
+        "cf7d6d2d",
+        "fed88e5c",
+        "826a407a"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "cluster-4",
+      "topic": "AI model deployment and cloud integration",
+      "summary": "C\u00e1c b\u00e0i b\u00e1o t\u1eadp trung v\u00e0o vi\u1ec7c tri\u1ec3n khai m\u00f4 h\u00ecnh AI v\u1edbi t\u1ed1c \u0111\u1ed9 g\u1ed1c, t\u00edch h\u1ee3p m\u1ed9t c\u00fa nh\u1ea5p chu\u1ed9t t\u1eeb Hugging Face sang SageMaker v\u00e0 l\u01b0u tr\u1eef kh\u00f4ng egress tr\u00ean \u0111\u00e1m m\u00e2y.",
+      "article_ids": [
+        "3ce97f6a",
+        "77d64de2",
+        "8125b5dd"
+      ],
+      "article_count": 3
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 37,
+      "top_articles": [
+        {
+          "id": "599d0355",
+          "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
+          "url": "https://github.com/V4bel/Januscape",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-07-06T17:35:03+00:00",
+          "category": "technology",
+          "summary": "Ph\u00e1t hi\u1ec7n l\u1ed7 h\u1ed5ng Januscape trong KVM/x86 cho ph\u00e9p tho\u00e1t kh\u1ecfi m\u00e1y kh\u00e1ch (CVE-2026-53359), c\u00f9ng v\u1edbi m\u1ed1i \u0111e d\u1ecda Cordyceps nh\u1eafm v\u00e0o CI/CD pipeline v\u00e0 kh\u1ea3 n\u0103ng AI th\u1ef1c hi\u1ec7n to\u00e0n b\u1ed9 cu\u1ed9c t\u1ea5n c\u00f4ng m\u1ea1ng.",
+          "score": 0.95,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "5390181b",
+          "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter",
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+          "source": "TechCrunch",
+          "published_at": "2026-07-10T00:16:54+00:00",
+          "category": "technology",
+          "summary": "OpenAI ra m\u1eaft GPT-5.6, \u0111\u01b0\u1ee3c Microsoft ch\u1ecdn l\u00e0m m\u00f4 h\u00ecnh \u01b0u ti\u00ean cho Copilot 365, \u0111\u1ed3ng th\u1eddi gi\u1edbi thi\u1ec7u c\u00f4ng c\u1ee5 Codex m\u1edbi c\u00f3 kh\u1ea3 n\u0103ng th\u1ef1c hi\u1ec7n c\u00e1c t\u00e1c v\u1ee5 \u0111\u1ed9c l\u1eadp trong nhi\u1ec1u gi\u1edd, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn trong AI h\u1ed7 tr\u1ee3 c\u00f4ng vi\u1ec7c.",
+          "score": 0.9,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "097c6068",
+          "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+          "url": "https://nebusec.ai/research/ionstack-part-2/",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-07-10T20:43:02+00:00",
+          "category": "technology",
+          "summary": "L\u1ed7 h\u1ed5ng GhostLock t\u1ed3n t\u1ea1i 15 n\u0103m trong m\u1ecdi b\u1ea3n ph\u00e2n ph\u1ed1i Linux cho ph\u00e9p leo thang \u0111\u1eb7c quy\u1ec1n c\u1ee5c b\u1ed9. \u0110\u00e2y l\u00e0 l\u1ed7i stack UAF nghi\u00eam tr\u1ecdng, bu\u1ed9c \u0111\u1ed9i ng\u0169 v\u1eadn h\u00e0nh ph\u1ea3i r\u00e0 so\u00e1t l\u1ea1i to\u00e0n b\u1ed9 h\u1ec7 th\u1ed1ng v\u00e0 \u01b0u ti\u00ean v\u00e1 l\u1ed7i kernel ngay l\u1eadp t\u1ee9c.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "a004d3c5",
+          "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+          "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/",
+          "source": "Ars Technica",
+          "published_at": "2026-07-08T19:01:19+00:00",
+          "category": "technology",
+          "summary": "Google tr\u1ea3 250.000 USD cho l\u1ed7 h\u1ed5ng Linux cho ph\u00e9p tho\u00e1t kh\u1ecfi m\u00e1y \u1ea3o kh\u00e1ch v\u00e0 leo thang \u0111\u1eb7c quy\u1ec1n root. \u0110i\u1ec1u n\u00e0y \u1ea3nh h\u01b0\u1edfng tr\u1ef1c ti\u1ebfp \u0111\u1ebfn b\u1ea3o m\u1eadt h\u1ea1 t\u1ea7ng \u1ea3o h\u00f3a, \u0111\u00f2i h\u1ecfi DevOps ph\u1ea3i v\u00e1 ngay.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "e23d99c6",
+          "title": "OpenSSH 10.4/10.4p1 Released",
+          "url": "https://www.openssh.org/txt/release-10.4",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-07-06T22:32:58+00:00",
+          "category": "technology",
+          "summary": "OpenSSH phi\u00ean b\u1ea3n 10.4 v\u00e0 10.4p1 v\u1eeba \u0111\u01b0\u1ee3c ph\u00e1t h\u00e0nh, mang \u0111\u1ebfn c\u00e1c b\u1ea3n c\u1eadp nh\u1eadt b\u1ea3o m\u1eadt v\u00e0 t\u00ednh n\u0103ng m\u1edbi cho giao th\u1ee9c SSH.",
+          "score": 0.9,
+          "cluster_id": "cluster-1"
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 28,
+      "top_articles": [
+        {
+          "id": "30f48121",
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-26T10:00:00+00:00",
+          "category": "ai",
+          "summary": "GPT-5.6 Sol l\u00e0 m\u00f4 h\u00ecnh AI th\u1ebf h\u1ec7 m\u1edbi c\u1ee7a OpenAI, nhanh h\u01a1n 2.2 l\u1ea7n v\u00e0 r\u1ebb h\u01a1n 27%, v\u1edbi kh\u1ea3 n\u0103ng v\u01b0\u1ee3t tr\u1ed9i trong l\u1eadp tr\u00ecnh, khoa h\u1ecdc v\u00e0 an ninh m\u1ea1ng.",
+          "score": 0.9,
+          "cluster_id": "cluster-5"
+        },
+        {
+          "id": "855db08b",
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-24T06:00:00+00:00",
+          "category": "ai",
+          "summary": "",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "ad312ce4",
+          "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+          "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-06-24T16:00:13+00:00",
+          "category": "ai",
+          "summary": "NVIDIA NeMo AutoModel gi\u00fap t\u0103ng t\u1ed1c fine-tuning transformer, gi\u1ea3m th\u1eddi gian v\u00e0 chi ph\u00ed cho DevOps/AI engineer khi tri\u1ec3n khai m\u00f4 h\u00ecnh.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "3d99cf87",
+          "title": "How agents are transforming work",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-25T02:00:00+00:00",
+          "category": "ai",
+          "summary": "Nghi\u00ean c\u1ee9u c\u1ee7a OpenAI cho th\u1ea5y AI agent \u0111ang thay \u0111\u1ed5i c\u00e1ch l\u00e0m vi\u1ec7c, cho ph\u00e9p th\u1ef1c hi\u1ec7n t\u00e1c v\u1ee5 ph\u1ee9c t\u1ea1p h\u01a1n v\u00e0 m\u1edf r\u1ed9ng n\u0103ng su\u1ea5t, \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn chi\u1ebfn l\u01b0\u1ee3c t\u1ef1 \u0111\u1ed9ng h\u00f3a.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "b63e5cb3",
+          "title": "Daybreak: Tools for securing every organization in the world",
+          "url": "https://openai.com/index/daybreak-securing-the-world",
+          "source": "OpenAI Blog",
+          "published_at": "2026-06-22T10:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI ra m\u1eaft Daybreak v\u1edbi Codex Security v\u00e0 GPT-5.5-Cyber nh\u1eb1m t\u1ef1 \u0111\u1ed9ng h\u00f3a ph\u00e1t hi\u1ec7n v\u00e0 v\u00e1 l\u1ed7 h\u1ed5ng. DevOps c\u1ea7n theo d\u00f5i s\u00e1t v\u00ec c\u00f4ng c\u1ee5 n\u00e0y c\u00f3 th\u1ec3 thay \u0111\u1ed5i ho\u00e0n to\u00e0n pipeline b\u1ea3o m\u1eadt v\u00e0 c\u00e1ch v\u1eadn h\u00e0nh quy tr\u00ecnh DevSecOps.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 62,
+      "top_articles": [
+        {
+          "id": "8baabb9d",
+          "title": "Understanding dynamic resource allocation in Kubernetes",
+          "url": "https://www.cncf.io/blog/2026/07/01/understanding-dynamic-resource-allocation-in-kubernetes/",
+          "source": "CNCF Blog",
+          "published_at": "2026-07-01T11:00:00+00:00",
+          "category": "devops",
+          "summary": "Lo\u1ea1t b\u00e0i \u0111\u1ec1 c\u1eadp \u0111\u1ebfn Terraform MCP Server gi\u00fap AI agent ra quy\u1ebft \u0111\u1ecbnh h\u1ea1 t\u1ea7ng, vi\u1ec7c ngh\u1ec9 h\u01b0u c\u1ee7a ingress-nginx, s\u00e1ch tr\u1eafng v\u1ec1 l\u01b0u tr\u1eef d\u1eef li\u1ec7u cho AI tr\u00ean cloud native, sandboxing agent ch\u01b0a \u0111\u1ee7, ti\u1ebfn h\u00f3a platform engineering cho AI, DRA trong Kubernetes 1.35, etcd v3.7.0, Memory QoS trong K8s 1.36, v\u00e0 t\u1ea7m quan tr\u1ecdng c\u1ee7a c\u00f4 l\u1eadp AI agent.",
+          "score": 0.85,
+          "cluster_id": "cluster-7"
+        },
+        {
+          "id": "c7c4662a",
+          "title": "What running Kubernetes across millions of clusters taught AWS about zonal failures",
+          "url": "https://thenewstack.io/eks-zonal-shift-resilience/",
+          "source": "The New Stack",
+          "published_at": "2026-07-10T15:00:00+00:00",
+          "category": "devops",
+          "summary": "AWS chia s\u1ebb b\u00e0i h\u1ecdc t\u1eeb vi\u1ec7c v\u1eadn h\u00e0nh Kubernetes tr\u00ean h\u00e0ng tri\u1ec7u cluster v\u1ec1 x\u1eed l\u00fd l\u1ed7i zone, cung c\u1ea5p insight cho thi\u1ebft k\u1ebf h\u1ea1 t\u1ea7ng \u0111a v\u00f9ng v\u00e0 chi\u1ebfn l\u01b0\u1ee3c high availability.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "7a49293a",
+          "title": "OpenAI is folding Codex into the ChatGPT app \u2014 and taking aim at Claude Cowork",
+          "url": "https://thenewstack.io/openai-codex-work-atlas/",
+          "source": "The New Stack",
+          "published_at": "2026-07-09T18:55:19+00:00",
+          "category": "devops",
+          "summary": "OpenAI t\u00edch h\u1ee3p Codex v\u00e0o ChatGPT, c\u1ea1nh tranh tr\u1ef1c ti\u1ebfp v\u1edbi Claude Cowork, thay \u0111\u1ed5i c\u1ee5c di\u1ec7n th\u1ecb tr\u01b0\u1eddng AI coding assistant v\u00e0 \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn l\u1ef1a ch\u1ecdn c\u00f4ng c\u1ee5 c\u1ee7a developer.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "704d1907",
+          "title": "Boundary 1.0 releases RDP session recording and improved management",
+          "url": "https://www.hashicorp.com/blog/boundary-1-releases-with-rdp-session-recording-and-improved-management",
+          "source": "HashiCorp Blog",
+          "published_at": "2026-06-25T07:09:00+00:00",
+          "category": "devops",
+          "summary": "HashiCorp Boundary 1.0 ra m\u1eaft v\u1edbi h\u1ed7 tr\u1ee3 tri\u1ec3n khai tr\u00ean Kubernetes qua Helm charts, ghi l\u1ea1i phi\u00ean RDP v\u00e0 m\u1edf r\u1ed9ng b\u1ea3o m\u1eadt cho truy c\u1eadp AI agent.",
+          "score": 0.8,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "6458bb7b",
+          "title": "Introducing tfctl: The CLI for HCP Terraform and TFE",
+          "url": "https://www.hashicorp.com/blog/introducing-tfctl-the-cli-for-hcp-terraform-and-tfe",
+          "source": "HashiCorp Blog",
+          "published_at": "2026-06-16T20:00:00+00:00",
+          "category": "devops",
+          "summary": "tfctl l\u00e0 CLI chuy\u00ean d\u1ee5ng cho HCP Terraform v\u00e0 Terraform Enterprise, c\u00f9ng v\u1edbi Terraform MCP server 1.0 gi\u00fap qu\u1ea3n l\u00fd h\u1ea1 t\u1ea7ng nh\u1ea5t qu\u00e1n tr\u00ean to\u00e0n t\u1ed5 ch\u1ee9c.",
+          "score": 0.8,
+          "cluster_id": "cluster-4"
+        }
+      ]
+    },
+    "world": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "vietnam": {
+      "article_count": 6,
+      "top_articles": [
+        {
+          "id": "cf000205",
+          "title": "OpenAI ra t\u00e1c nh\u00e2n m\u1edbi v\u00e0 GPT-5.6",
+          "url": "https://vnexpress.net/openai-ra-tac-nhan-moi-va-gpt-5-6-5095813.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-07-10T04:36:42+00:00",
+          "category": "vietnam",
+          "summary": "OpenAI ra m\u1eaft GPT-5.6, \u0111\u01b0\u1ee3c Microsoft ch\u1ecdn l\u00e0m m\u00f4 h\u00ecnh \u01b0u ti\u00ean cho Copilot 365, \u0111\u1ed3ng th\u1eddi gi\u1edbi thi\u1ec7u c\u00f4ng c\u1ee5 Codex m\u1edbi c\u00f3 kh\u1ea3 n\u0103ng th\u1ef1c hi\u1ec7n c\u00e1c t\u00e1c v\u1ee5 \u0111\u1ed9c l\u1eadp trong nhi\u1ec1u gi\u1edd, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn trong AI h\u1ed7 tr\u1ee3 c\u00f4ng vi\u1ec7c.",
+          "score": 0.85,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "057e21e4",
+          "title": "AI c\u00f3 th\u1ec3 \u0111\u00e3 t\u1ef1 th\u1ef1c hi\u1ec7n to\u00e0n b\u1ed9 m\u1ed9t cu\u1ed9c t\u1ea5n c\u00f4ng m\u1ea1ng",
+          "url": "https://vnexpress.net/ai-co-the-da-tu-thuc-hien-toan-bo-mot-cuoc-tan-cong-mang-5093733.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-07-06T22:00:00+00:00",
+          "category": "vietnam",
+          "summary": "Ph\u00e1t hi\u1ec7n l\u1ed7 h\u1ed5ng Januscape trong KVM/x86 cho ph\u00e9p tho\u00e1t kh\u1ecfi m\u00e1y kh\u00e1ch (CVE-2026-53359), c\u00f9ng v\u1edbi m\u1ed1i \u0111e d\u1ecda Cordyceps nh\u1eafm v\u00e0o CI/CD pipeline v\u00e0 kh\u1ea3 n\u0103ng AI th\u1ef1c hi\u1ec7n to\u00e0n b\u1ed9 cu\u1ed9c t\u1ea5n c\u00f4ng m\u1ea1ng.",
+          "score": 0.85,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "d81c4f0c",
+          "title": "Meta ra m\u00f4 h\u00ecnh AI t\u1ea1o \u1ea3nh m\u1edbi",
+          "url": "https://vnexpress.net/meta-ra-mo-hinh-ai-tao-anh-moi-5094979.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-07-08T11:00:00+00:00",
+          "category": "vietnam",
+          "summary": "Meta ra m\u1eaft Muse Image, m\u00f4 h\u00ecnh AI t\u1ea1o \u1ea3nh m\u1edbi, m\u1edf r\u1ed9ng kh\u1ea3 n\u0103ng sinh \u1ea3nh trong \u1ee9ng d\u1ee5ng. DevOps c\u1ea7n c\u00e2n nh\u1eafc t\u00e0i nguy\u00ean t\u00ednh to\u00e1n v\u00e0 b\u1ea3o m\u1eadt khi t\u00edch h\u1ee3p.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "27213337",
+          "title": "41% doanh nghi\u1ec7p kh\u00f3 t\u00edch h\u1ee3p AI v\u00e0o h\u1ec7 th\u1ed1ng hi\u1ec7n c\u00f3",
+          "url": "https://vnexpress.net/41-doanh-nghiep-kho-tich-hop-ai-vao-he-thong-hien-co-5095564.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-07-09T13:30:00+00:00",
+          "category": "vietnam",
+          "summary": "41% doanh nghi\u1ec7p g\u1eb7p kh\u00f3 kh\u0103n khi t\u00edch h\u1ee3p AI v\u00e0o h\u1ec7 th\u1ed1ng hi\u1ec7n c\u00f3 theo nghi\u00ean c\u1ee9u c\u1ee7a FPT. V\u1edbi DevOps, \u0111\u00e2y l\u00e0 t\u00edn hi\u1ec7u cho th\u1ea5y nhu c\u1ea7u c\u1ea5p thi\u1ebft v\u1ec1 ki\u1ebfn tr\u00fac h\u1ea1 t\u1ea7ng linh ho\u1ea1t v\u00e0 pipeline MLOps chuy\u00ean nghi\u1ec7p.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "0ff6e54b",
+          "title": "SpaceXAI c\u1ee7a Musk ra m\u00f4 h\u00ecnh \u0111\u1ea7u ti\u00ean sau khi \u0111\u1ed5i t\u00ean",
+          "url": "https://vnexpress.net/spacexai-cua-musk-ra-mo-hinh-dau-tien-sau-khi-doi-ten-5095246.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-07-09T08:31:53+00:00",
+          "category": "vietnam",
+          "summary": "SpaceXAI (c\u1ee7a Elon Musk) ra m\u1eaft Grok 4.5, m\u00f4 h\u00ecnh \u0111\u1ea7u ti\u00ean sau khi \u0111\u1ed5i t\u00ean, v\u1edbi gi\u00e1 c\u1ea1nh tranh cho t\u00e1c nh\u00e2n l\u1eadp tr\u00ecnh, th\u00e1ch th\u1ee9c OpenAI v\u00e0 Anthropic.",
+          "score": 0.7,
+          "cluster_id": "cluster-2"
+        }
+      ]
+    },
+    "innovations": {
+      "article_count": 8,
+      "top_articles": [
+        {
+          "id": "c5eec3a9",
+          "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+          "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-07-09T20:22:28+00:00",
+          "category": "innovations",
+          "summary": "Anthropic ph\u00e1t tri\u1ec3n k\u1ef9 thu\u1eadt cho th\u1ea5y ho\u1ea1t \u0111\u1ed9ng b\u00ean trong m\u00f4 h\u00ecnh Claude khi n\u00f3 x\u1eed l\u00fd c\u00e1c kh\u00e1i ni\u1ec7m; GitHub gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 s\u1edf h\u1eefu kho l\u01b0u tr\u1eef; Git 2.55 ra m\u1eaft v\u1edbi nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi.",
+          "score": 0.75,
+          "cluster_id": "cluster-9"
+        },
+        {
+          "id": "130f692b",
+          "title": "How AI Will Change Chip Design",
+          "url": "https://spectrum.ieee.org/ai-chip-design-matlab",
+          "source": "IEEE Spectrum",
+          "published_at": "2022-02-08T14:00:01+00:00",
+          "category": "innovations",
+          "summary": "C\u01a1n kh\u00e1t chip AI \u0111ang lan sang linh ki\u1ec7n v\u00e0 v\u1eadt li\u1ec7u b\u00e1n d\u1eabn, \u0111\u1ed3ng th\u1eddi AI s\u1ebd thay \u0111\u1ed5i c\u00e1ch thi\u1ebft k\u1ebf chip trong t\u01b0\u01a1ng lai.",
+          "score": 0.75,
+          "cluster_id": "cluster-5"
+        },
+        {
+          "id": "7bada5fd",
+          "title": "AI\u2019s Volatile Power Use Quietly Tests Grid Limits",
+          "url": "https://spectrum.ieee.org/data-centers-grid-instability",
+          "source": "IEEE Spectrum",
+          "published_at": "2026-07-03T12:00:01+00:00",
+          "category": "innovations",
+          "summary": "",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "7c72cfe9",
+          "title": "The Download: Claude\u2019s inner workings and OpenAI\u2019s \u201csuper app\u201d",
+          "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-07-10T12:10:00+00:00",
+          "category": "innovations",
+          "summary": "OpenAI ra m\u1eaft GPT-5.6, \u0111\u01b0\u1ee3c Microsoft ch\u1ecdn l\u00e0m m\u00f4 h\u00ecnh \u01b0u ti\u00ean cho Copilot 365, \u0111\u1ed3ng th\u1eddi gi\u1edbi thi\u1ec7u c\u00f4ng c\u1ee5 Codex m\u1edbi c\u00f3 kh\u1ea3 n\u0103ng th\u1ef1c hi\u1ec7n c\u00e1c t\u00e1c v\u1ee5 \u0111\u1ed9c l\u1eadp trong nhi\u1ec1u gi\u1edd, \u0111\u00e1nh d\u1ea5u b\u01b0\u1edbc ti\u1ebfn trong AI h\u1ed7 tr\u1ee3 c\u00f4ng vi\u1ec7c.",
+          "score": 0.7,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "50a84fa6",
+          "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+          "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-07-09T12:10:00+00:00",
+          "category": "innovations",
+          "summary": "B\u1ea3n tin t\u1ed5ng h\u1ee3p v\u1ec1 c\u1ed9t m\u1ed1c h\u1ea1t nh\u00e2n t\u1ea1i M\u1ef9 v\u00e0 vi\u1ec7c Trung Qu\u1ed1c nh\u1eafm \u0111\u1ebfn chip Nvidia. Nh\u00e0 v\u1eadn h\u00e0nh h\u1ea1 t\u1ea7ng c\u1ea7n theo d\u00f5i bi\u1ebfn \u0111\u1ed9ng \u0111\u1ecba ch\u00ednh tr\u1ecb v\u00ec \u1ea3nh h\u01b0\u1edfng tr\u1ef1c ti\u1ebfp \u0111\u1ebfn chu\u1ed7i cung \u1ee9ng GPU, gi\u00e1 th\u00e0nh v\u00e0 chi\u1ebfn l\u01b0\u1ee3c \u0111\u1eb7t m\u00e1y.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 12,
+      "top_articles": [
+        {
+          "id": "9d0b7cca",
+          "title": "6 security settings every GitHub maintainer should enable this week",
+          "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+          "source": "GitHub Blog",
+          "published_at": "2026-07-01T15:59:29+00:00",
+          "category": "open_source",
+          "summary": "",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "1c4dac25",
+          "title": "GitHub availability report: June 2026",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-june-2026/",
+          "source": "GitHub Blog",
+          "published_at": "2026-07-08T19:35:51+00:00",
+          "category": "open_source",
+          "summary": "GitHub b\u00e1o c\u00e1o 6 s\u1ef1 c\u1ed1 trong th\u00e1ng 6/2026 \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn hi\u1ec7u n\u0103ng. V\u1edbi senior engineer, \u0111\u00e2y l\u00e0 d\u1eef li\u1ec7u tham kh\u1ea3o \u0111\u1ec3 \u0111\u00e1nh gi\u00e1 \u0111\u1ed9 tin c\u1eady c\u1ee7a n\u1ec1n t\u1ea3ng v\u00e0 l\u1eadp k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng cho CI/CD pipeline.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "b2b36465",
+          "title": "How GitHub gave every repository a durable owner",
+          "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+          "source": "GitHub Blog",
+          "published_at": "2026-07-09T16:29:37+00:00",
+          "category": "open_source",
+          "summary": "Anthropic ph\u00e1t tri\u1ec3n k\u1ef9 thu\u1eadt cho th\u1ea5y ho\u1ea1t \u0111\u1ed9ng b\u00ean trong m\u00f4 h\u00ecnh Claude khi n\u00f3 x\u1eed l\u00fd c\u00e1c kh\u00e1i ni\u1ec7m; GitHub gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 s\u1edf h\u1eefu kho l\u01b0u tr\u1eef; Git 2.55 ra m\u1eaft v\u1edbi nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi.",
+          "score": 0.8,
+          "cluster_id": "cluster-9"
+        },
+        {
+          "id": "c3c2afe1",
+          "title": "How GitHub maintains compliance for open source dependencies",
+          "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+          "source": "GitHub Blog",
+          "published_at": "2026-06-30T17:28:16+00:00",
+          "category": "open_source",
+          "summary": "GitHub d\u00f9ng s\u1ea3n ph\u1ea9m tu\u00e2n th\u1ee7 gi\u1ea5y ph\u00e9p m\u1edbi \u0111\u1ec3 qu\u1ea3n l\u00fd ph\u1ee5 thu\u1ed9c m\u00e3 ngu\u1ed3n m\u1edf \u1edf quy m\u00f4 l\u1edbn, gi\u00fap t\u1ef1 \u0111\u1ed9ng h\u00f3a ki\u1ec3m so\u00e1t r\u1ee7i ro ph\u00e1p l\u00fd v\u00e0 b\u1ea3o v\u1ec7 chu\u1ed7i cung \u1ee9ng ph\u1ea7n m\u1ec1m \u2013 \u0111i\u1ec1u quan tr\u1ecdng v\u1edbi chuy\u00ean gia DevOps c\u1ea7n \u0111\u1ea3m b\u1ea3o tu\u00e2n th\u1ee7 v\u00e0 an to\u00e0n.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "e0d96313",
+          "title": "How GitHub used secret scanning to reach inbox zero",
+          "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+          "source": "GitHub Blog",
+          "published_at": "2026-07-02T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub d\u00f9ng secret scanning \u0111\u1ec3 gi\u1ea3m t\u1eeb 20.000 c\u1ea3nh b\u00e1o xu\u1ed1ng inbox zero trong 9 th\u00e1ng. \u0110\u00e2y l\u00e0 case study m\u1eabu m\u1ef1c v\u1ec1 c\u00e1ch x\u00e2y d\u1ef1ng quy tr\u00ecnh remediation t\u1ef1 \u0111\u1ed9ng, gi\u00fap DevOps qu\u1ea3n l\u00fd l\u1ed7 h\u1ed5ng hi\u1ec7u qu\u1ea3 m\u00e0 kh\u00f4ng qu\u00e1 t\u1ea3i.",
+          "score": 0.75,
+          "cluster_id": null
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 153,
+    "total_clusters": 29,
+    "days_covered": 7
+  }
+}
