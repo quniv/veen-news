@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-07-24T04:03:32.054319+00:00",
-  "latest_date": "2026-07-24",
+  "updated_at": "2026-07-25T03:58:54.403799+00:00",
+  "latest_date": "2026-07-25",
   "daily": [
+    {
+      "date": "2026-07-25",
+      "path": "data/daily/2026-07-25.json",
+      "article_count": 19
+    },
     {
       "date": "2026-07-24",
       "path": "data/daily/2026-07-24.json",
