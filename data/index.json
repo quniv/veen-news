@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T04:26:06.707281+00:00",
+  "updated_at": "2026-08-03T05:38:22.788315+00:00",
   "latest_date": "2026-08-03",
   "daily": [
     {
@@ -239,6 +239,11 @@
     }
   ],
   "weekly": [
+    {
+      "week": "2026-31",
+      "path": "data/weekly/2026-31.json",
+      "article_count": 135
+    },
     {
       "week": "2026-30",
       "path": "data/weekly/2026-30.json",
