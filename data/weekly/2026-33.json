@@ -1,0 +1,441 @@
+{
+  "generated_at": "2026-08-17T02:55:10.719168+00:00",
+  "week": "2026-33",
+  "period_start": "2026-08-11",
+  "period_end": "2026-08-17",
+  "top_clusters": [
+    {
+      "id": "cluster-7",
+      "topic": "New AI models and tools for developers",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft gi\u1edbi thi\u1ec7u nhi\u1ec1u m\u00f4 h\u00ecnh v\u00e0 c\u00f4ng c\u1ee5 AI m\u1edbi nh\u01b0 Needle2 (14MB), Ante, NVIDIA Magpie TTS, v\u00e0 Muse Glimmer c\u1ee7a Meta, t\u1eadp trung v\u00e0o kh\u1ea3 n\u0103ng ch\u1ea1y offline, \u0111a ph\u01b0\u01a1ng th\u1ee9c v\u00e0 m\u00e3 ngu\u1ed3n m\u1edf.",
+      "article_ids": [
+        "f0fa1fe6",
+        "c5055bc2",
+        "d7dddac5",
+        "4ebe2b50",
+        "5890b1cf",
+        "dfb58613",
+        "6ea2c856"
+      ],
+      "article_count": 7,
+      "representative_id": "f0fa1fe6"
+    },
+    {
+      "id": "cluster-5",
+      "topic": "Kubernetes deployment and infrastructure tools",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft h\u01b0\u1edbng d\u1eabn k\u00e9o container h\u00ecnh \u1ea3nh nhanh tr\u00ean Amazon EKS, tri\u1ec3n khai d\u1ecbch v\u1ee5 \u0111a c\u1ed5ng v\u1edbi Consul, s\u1eed d\u1ee5ng Helm charts cho Boundary, x\u00e2y d\u1ef1ng metrics exporter t\u00f9y ch\u1ec9nh, v\u00e0 qu\u1ea3n l\u00fd AI/ML workloads tr\u00ean Kubernetes.",
+      "article_ids": [
+        "06b6a809",
+        "83e941f3",
+        "639829db",
+        "695b8d53",
+        "3bec5ca6",
+        "621d165c"
+      ],
+      "article_count": 6,
+      "representative_id": "621d165c"
+    },
+    {
+      "id": "cluster-3",
+      "topic": "Kubernetes v1.36 graduates features and updates",
+      "summary": "Kubernetes v1.36 n\u00e2ng c\u1ea5p nhi\u1ec1u t\u00ednh n\u0103ng: Volume Group Snapshots v\u00e0 Declarative Validation l\u00ean GA, In-Place Vertical Scaling l\u00ean beta, c\u00f9ng Memory QoS alpha.",
+      "article_ids": [
+        "4e5b8cdf",
+        "865bcd7d",
+        "3951e89e",
+        "6b220076",
+        "5b3804a1"
+      ],
+      "article_count": 5,
+      "representative_id": "6b220076"
+    },
+    {
+      "id": "cluster-001",
+      "topic": "Kubernetes v1.36: new GA features and improvements",
+      "summary": "Kubernetes v1.36 gi\u1edbi thi\u1ec7u nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi l\u00ean GA nh\u01b0 PSI metrics, volume group snapshots, declarative validation, c\u00f9ng v\u1edbi in-place vertical scaling l\u00ean Beta, c\u1ea3i thi\u1ec7n qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean v\u00e0 b\u1ea3o m\u1eadt.",
+      "article_ids": [
+        "659ee31b",
+        "4e5b8cdf",
+        "865bcd7d",
+        "3951e89e",
+        "6b220076"
+      ],
+      "article_count": 5,
+      "representative_id": "659ee31b"
+    },
+    {
+      "id": "cluster-6",
+      "topic": "Optimizing AI model deployment and GPU usage",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft t\u1eadp trung v\u00e0o k\u1ef9 thu\u1eadt n\u00e9n ki\u1ebfn th\u1ee9c (knowledge distillation) \u0111\u1ec3 ch\u1ea1y AI quy m\u00f4 l\u1edbn, qu\u1ea3n l\u00fd GPU nh\u00e0n r\u1ed7i, t\u1ed1i \u01b0u h\u00f3a profiling trong PyTorch, v\u00e0 tri\u1ec3n khai AI tr\u00ean nhi\u1ec1u n\u1ec1n t\u1ea3ng \u0111\u00e1m m\u00e2y.",
+      "article_ids": [
+        "815edfe6",
+        "859cdcef",
+        "9dd06ff2",
+        "3ce97f6a",
+        "8125b5dd"
+      ],
+      "article_count": 5,
+      "representative_id": "3ce97f6a"
+    },
+    {
+      "id": "cluster-3",
+      "topic": "New features in Kubernetes v1.36 and v1.37",
+      "summary": "Kubernetes v1.36 gi\u1edbi thi\u1ec7u nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi nh\u01b0 snapshot nh\u00f3m \u1ed5 \u0111\u0129a (GA), sharded list/watch, qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean c\u1ea5p pod, v\u00e0 b\u1ea3o v\u1ec7 b\u1ed9 nh\u1edb ph\u00e2n t\u1ea7ng; \u0111\u1ed3ng th\u1eddi h\u00e9 l\u1ed9 m\u1ed9t s\u1ed1 thay \u0111\u1ed5i s\u1eafp t\u1edbi trong v1.37.",
+      "article_ids": [
+        "582a41de",
+        "4e5b8cdf",
+        "c028e7e5",
+        "590d3068",
+        "5b3804a1"
+      ],
+      "article_count": 5,
+      "representative_id": "c028e7e5"
+    },
+    {
+      "id": "cluster-kubernetes",
+      "topic": "Kubernetes v1.36 new features GA updates",
+      "summary": "Kubernetes v1.36 gi\u1edbi thi\u1ec7u c\u00e1c t\u00ednh n\u0103ng m\u1edbi nh\u01b0 Volume Group Snapshots v\u00e0 Declarative Validation \u0111\u1ea1t tr\u1ea1ng th\u00e1i GA, c\u00f9ng v\u1edbi c\u00e1c ch\u00ednh s\u00e1ch qu\u1ea3n l\u00fd kh\u00f4ng th\u1ec3 x\u00f3a, c\u1ea3i thi\u1ec7n qu\u1ea3n l\u00fd v\u00e0 b\u1ea3o m\u1eadt c\u1ee5m.",
+      "article_ids": [
+        "4e5b8cdf",
+        "865bcd7d",
+        "3951e89e"
+      ],
+      "article_count": 3,
+      "representative_id": "3951e89e"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "OpenAI Ultrafast mode accelerates GPT-5.6 Sol 14x",
+      "summary": "OpenAI gi\u1edbi thi\u1ec7u ch\u1ebf \u0111\u1ed9 Ultrafast cho GPT-5.6 Sol, ch\u1ea1y nhanh g\u1ea5p 14 l\u1ea7n nh\u1edd Cerebras, nh\u1eb1m thu h\u00fat kh\u00e1ch h\u00e0ng doanh nghi\u1ec7p.",
+      "article_ids": [
+        "6f1bf72c",
+        "3868a8d4",
+        "c0986f66"
+      ],
+      "article_count": 3,
+      "representative_id": "6f1bf72c"
+    },
+    {
+      "id": "cluster-7",
+      "topic": "Cloud native ecosystem advancements",
+      "summary": "CNCF c\u00f4ng nh\u1eadn Cloud Native Buildpacks \u0111\u1ea1t tr\u1ea1ng th\u00e1i t\u1ed1t nghi\u1ec7p, Gateway API b\u1ed5 sung TCPRoute/UDPRoute, v\u00e0 etcd ph\u00e1t h\u00e0nh phi\u00ean b\u1ea3n 3.7.0.",
+      "article_ids": [
+        "127b8d40",
+        "645624c7",
+        "f52a3dc5"
+      ],
+      "article_count": 3,
+      "representative_id": "645624c7"
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Kubernetes v1.36 new features",
+      "summary": "Kubernetes 1.36 mang \u0111\u1ebfn t\u00ednh n\u0103ng snapshot nh\u00f3m \u1ed5 \u0111\u0129a GA, c\u1ea3i ti\u1ebfn DRA, v\u00e0 m\u1edf r\u1ed9ng quy m\u00f4 d\u1ecdc t\u1ea1i ch\u1ed7 l\u00ean Beta.",
+      "article_ids": [
+        "4e5b8cdf",
+        "15c2ac0a",
+        "6b220076"
+      ],
+      "article_count": 3,
+      "representative_id": "15c2ac0a"
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 55,
+      "top_articles": [
+        {
+          "id": "50a8f76b",
+          "title": "Terabytes of credentials leaked in massive supply-chain attack",
+          "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+          "source": "Ars Technica",
+          "published_at": "2026-08-12T21:43:21+00:00",
+          "category": "technology",
+          "summary": "H\u00e0ng terabyte th\u00f4ng tin \u0111\u0103ng nh\u1eadp b\u1ecb r\u00f2 r\u1ec9 trong cu\u1ed9c t\u1ea5n c\u00f4ng chu\u1ed7i cung \u1ee9ng nh\u1eafm v\u00e0o g\u00f3i AI, \u1ea3nh h\u01b0\u1edfng 2.500 ng\u01b0\u1eddi d\u00f9ng. DevOps c\u1ea7n c\u1ea3nh gi\u00e1c v\u1edbi r\u1ee7i ro t\u1eeb c\u00e1c g\u00f3i ph\u1ee5 thu\u1ed9c v\u00e0 qu\u1ea3n l\u00fd b\u00ed m\u1eadt.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "3ca22065",
+          "title": "A Zoom Screen-Sharing Bug Let Anyone Take Over Other Devices on a Call",
+          "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+          "source": "Wired",
+          "published_at": "2026-08-11T12:37:12+00:00",
+          "category": "technology",
+          "summary": "Chrome gi\u1edbi thi\u1ec7u bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7 t\u00e0i kho\u1ea3n m\u1edbi, trong khi Zoom s\u1eeda l\u1ed7i cho ph\u00e9p chi\u1ebfm quy\u1ec1n \u0111i\u1ec1u khi\u1ec3n thi\u1ebft b\u1ecb trong cu\u1ed9c g\u1ecdi.",
+          "score": 0.9,
+          "cluster_id": "cluster-9"
+        },
+        {
+          "id": "831f72d7",
+          "title": "OpenSSH 10.5/10.5p1",
+          "url": "https://www.openssh.org/releasenotes.html#10.5",
+          "source": "Hacker News (Quality)",
+          "published_at": "2026-08-11T17:49:37+00:00",
+          "category": "technology",
+          "summary": "OpenSSH 10.5 ra m\u1eaft v\u1edbi c\u00e1c b\u1ea3n v\u00e1 b\u1ea3o m\u1eadt v\u00e0 c\u1ea3i ti\u1ebfn, c\u1ea7n c\u1eadp nh\u1eadt ngay \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o an to\u00e0n k\u1ebft n\u1ed1i SSH trong h\u1ea1 t\u1ea7ng.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "77d4093e",
+          "title": "Exploiting System Management Mode with a very long interrupt",
+          "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-08-10T16:03:14+00:00",
+          "category": "technology",
+          "summary": "Khai th\u00e1c l\u1ed7 h\u1ed5ng System Management Mode (SMM) qua ng\u1eaft r\u1ea5t d\u00e0i c\u00f3 th\u1ec3 v\u01b0\u1ee3t qua b\u1ea3o v\u1ec7 firmware, \u0111e d\u1ecda t\u00ednh to\u00e0n v\u1eb9n c\u1ee7a h\u1ec7 th\u1ed1ng \u1edf c\u1ea5p \u0111\u1ed9 ph\u1ea7n c\u1ee9ng \u2013 r\u1ee7i ro nghi\u00eam tr\u1ecdng cho DevOps qu\u1ea3n l\u00fd server v\u00e0 thi\u1ebft b\u1ecb nh\u00fang.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "64bd7759",
+          "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+          "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+          "source": "Ars Technica",
+          "published_at": "2026-08-14T18:32:14+00:00",
+          "category": "technology",
+          "summary": "L\u1ed7 h\u1ed5ng trong t\u00ednh n\u0103ng chia s\u1ebb m\u00e0n h\u00ecnh macOS \u0111ang b\u1ecb khai th\u00e1c t\u00edch c\u1ef1c, cho ph\u00e9p tin t\u1eb7c \u0111\u0103ng nh\u1eadp t\u1eeb xa kh\u00f4ng c\u1ea7n m\u1eadt kh\u1ea9u. \u0110i\u1ec1u n\u00e0y \u0111e d\u1ecda nghi\u00eam tr\u1ecdng \u0111\u1ebfn b\u1ea3o m\u1eadt h\u1ec7 th\u1ed1ng Mac trong doanh nghi\u1ec7p, c\u1ea7n v\u00e1 ngay.",
+          "score": 0.85,
+          "cluster_id": null
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 21,
+      "top_articles": [
+        {
+          "id": "c0986f66",
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "OpenAI Blog",
+          "published_at": "2026-08-13T10:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI ra m\u1eaft ch\u1ebf \u0111\u1ed9 Ultrafast cho GPT-5.6 Sol, t\u0103ng t\u1ed1c l\u00ean 14 l\u1ea7n nh\u1edd Cerebras. Gi\u00fap gi\u1ea3m \u0111\u1ed9 tr\u1ec5 \u0111\u00e1ng k\u1ec3 cho c\u00e1c \u1ee9ng d\u1ee5ng AI real-time trong h\u1ea1 t\u1ea7ng DevOps.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "3ce97f6a",
+          "title": "Native-speed vLLM transformers modeling backend",
+          "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-07-08T00:00:00+00:00",
+          "category": "ai",
+          "summary": "C\u00e1c b\u00e0i vi\u1ebft t\u1eadp trung v\u00e0o k\u1ef9 thu\u1eadt n\u00e9n ki\u1ebfn th\u1ee9c (knowledge distillation) \u0111\u1ec3 ch\u1ea1y AI quy m\u00f4 l\u1edbn, qu\u1ea3n l\u00fd GPU nh\u00e0n r\u1ed7i, t\u1ed1i \u01b0u h\u00f3a profiling trong PyTorch, v\u00e0 tri\u1ec3n khai AI tr\u00ean nhi\u1ec1u n\u1ec1n t\u1ea3ng \u0111\u00e1m m\u00e2y.",
+          "score": 0.85,
+          "cluster_id": "cluster-6"
+        },
+        {
+          "id": "b1c9322e",
+          "title": "Improving GPT\u20115.6 Sol in ChatGPT\u2014and expanding access to GPT-5.6 Luna for free users",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+          "source": "OpenAI Blog",
+          "published_at": "2026-08-06T10:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI c\u1ea3i thi\u1ec7n GPT-5.6 Sol v\u1ec1 \u0111\u1ed9 ch\u00ednh x\u00e1c v\u00e0 m\u1edf r\u1ed9ng quy\u1ec1n truy c\u1eadp GPT-5.6 Luna mi\u1ec5n ph\u00ed. \u1ea2nh h\u01b0\u1edfng \u0111\u1ebfn chi ph\u00ed v\u00e0 kh\u1ea3 n\u0103ng t\u00edch h\u1ee3p AI v\u00e0o workflow DevOps.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "57f8b7f3",
+          "title": "What We Learned by Reproducing 2,200 papers from ICML",
+          "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "category": "ai",
+          "summary": "Nghi\u00ean c\u1ee9u t\u00e1i t\u1ea1o 2.200 b\u00e0i b\u00e1o ICML cho th\u1ea5y nhi\u1ec1u k\u1ebft qu\u1ea3 kh\u00f4ng th\u1ec3 l\u1eb7p l\u1ea1i, \u0111\u1eb7t ra th\u00e1ch th\u1ee9c v\u1ec1 \u0111\u1ed9 tin c\u1eady. DevOps c\u1ea7n th\u1eadn tr\u1ecdng khi tri\u1ec3n khai m\u00f4 h\u00ecnh d\u1ef1a tr\u00ean h\u1ecdc thu\u1eadt.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "f443de94",
+          "title": "Security incident disclosure \u2014 July 2026",
+          "url": "https://huggingface.co/blog/security-incident-july-2026",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-07-16T00:00:00+00:00",
+          "category": "ai",
+          "summary": "C\u00f4ng b\u1ed1 s\u1ef1 c\u1ed1 b\u1ea3o m\u1eadt th\u00e1ng 7/2026 t\u1eeb m\u1ed9t t\u1ed5 ch\u1ee9c kh\u00f4ng x\u00e1c \u0111\u1ecbnh. Nh\u1ea5n m\u1ea1nh t\u1ea7m quan tr\u1ecdng c\u1ee7a k\u1ebf ho\u1ea1ch \u1ee9ng ph\u00f3 s\u1ef1 c\u1ed1 v\u00e0 c\u1eadp nh\u1eadt b\u1ea3n v\u00e1 k\u1ecbp th\u1eddi.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 59,
+      "top_articles": [
+        {
+          "id": "9abe87d5",
+          "title": "LiteLLM Attack Affected 2,500 Companies, 434,000 CI/CD Pipelines: CloudSEK",
+          "url": "https://devops.com/litellm-attack-affected-2500-companies-434000-ci-cd-pipelines-cloudsek/",
+          "source": "DevOps.com",
+          "published_at": "2026-08-12T16:09:40+00:00",
+          "category": "devops",
+          "summary": "Cu\u1ed9c t\u1ea5n c\u00f4ng v\u00e0o LiteLLM \u1ea3nh h\u01b0\u1edfng 2.500 c\u00f4ng ty v\u00e0 434.000 pipeline CI/CD. DevOps c\u1ea7n ki\u1ec3m tra b\u1ea3o m\u1eadt chu\u1ed7i cung \u1ee9ng v\u00e0 c\u00e1c c\u00f4ng c\u1ee5 AI/LLM trong pipeline.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "6b220076",
+          "title": "Kubernetes v1.36: In-Place Vertical Scaling for Pod-Level Resources Graduates to Beta",
+          "url": "https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/",
+          "source": "Kubernetes Blog",
+          "published_at": "2026-04-30T18:35:00+00:00",
+          "category": "devops",
+          "summary": "Kubernetes v1.36 n\u00e2ng c\u1ea5p nhi\u1ec1u t\u00ednh n\u0103ng: Volume Group Snapshots v\u00e0 Declarative Validation l\u00ean GA, In-Place Vertical Scaling l\u00ean beta, c\u00f9ng Memory QoS alpha.",
+          "score": 0.85,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "621d165c",
+          "title": "Reconciling the Past: Correcting Records for Unfixed Kubernetes CVEs",
+          "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
+          "source": "Kubernetes Blog",
+          "published_at": "2026-05-26T17:30:00+00:00",
+          "category": "devops",
+          "summary": "C\u00e1c b\u00e0i vi\u1ebft h\u01b0\u1edbng d\u1eabn k\u00e9o container h\u00ecnh \u1ea3nh nhanh tr\u00ean Amazon EKS, tri\u1ec3n khai d\u1ecbch v\u1ee5 \u0111a c\u1ed5ng v\u1edbi Consul, s\u1eed d\u1ee5ng Helm charts cho Boundary, x\u00e2y d\u1ef1ng metrics exporter t\u00f9y ch\u1ec9nh, v\u00e0 qu\u1ea3n l\u00fd AI/ML workloads tr\u00ean Kubernetes.",
+          "score": 0.85,
+          "cluster_id": "cluster-5"
+        },
+        {
+          "id": "c028e7e5",
+          "title": "Kubernetes v1.36: Server-Side Sharded List and Watch",
+          "url": "https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/",
+          "source": "Kubernetes Blog",
+          "published_at": "2026-05-06T18:35:00+00:00",
+          "category": "devops",
+          "summary": "Kubernetes v1.36 gi\u1edbi thi\u1ec7u nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi nh\u01b0 snapshot nh\u00f3m \u1ed5 \u0111\u0129a (GA), sharded list/watch, qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean c\u1ea5p pod, v\u00e0 b\u1ea3o v\u1ec7 b\u1ed9 nh\u1edb ph\u00e2n t\u1ea7ng; \u0111\u1ed3ng th\u1eddi h\u00e9 l\u1ed9 m\u1ed9t s\u1ed1 thay \u0111\u1ed5i s\u1eafp t\u1edbi trong v1.37.",
+          "score": 0.85,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "0195f476",
+          "title": "Eleven minutes, zero humans: Building a self-healing Kubernetes upgrade pipeline on Kairos",
+          "url": "https://www.cncf.io/blog/2026/08/14/eleven-minutes-zero-humans-building-a-self-healing-kubernetes-upgrade-pipeline-on-kairos/",
+          "source": "CNCF Blog",
+          "published_at": "2026-08-14T11:14:00+00:00",
+          "category": "devops",
+          "summary": "H\u01b0\u1edbng d\u1eabn x\u00e2y d\u1ef1ng pipeline n\u00e2ng c\u1ea5p Kubernetes t\u1ef1 \u0111\u1ed9ng v\u00e0 t\u1ef1 ph\u1ee5c h\u1ed3i tr\u00ean Kairos, gi\u1ea3m can thi\u1ec7p th\u1ee7 c\u00f4ng v\u00e0 r\u1ee7i ro downtime.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "world": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "vietnam": {
+      "article_count": 2,
+      "top_articles": [
+        {
+          "id": "9ac2fd08",
+          "title": "Hacker APT SilverFox ph\u00e1t t\u00e1n Claude AI gi\u1ea3, t\u1ea5n c\u00f4ng h\u00e0ng lo\u1ea1t doanh nghi\u1ec7p ch\u00e2u \u00c1",
+          "url": "https://tuoitre.vn/hacker-apt-silverfox-phat-tan-claude-ai-gia-tan-cong-hang-loat-doanh-nghiep-chau-a-100260814064326131.htm",
+          "source": "Tu\u1ed5i Tr\u1ebb Online",
+          "published_at": null,
+          "category": "vietnam",
+          "summary": "Nh\u00f3m hacker APT SilverFox ph\u00e1t t\u00e1n \u1ee9ng d\u1ee5ng Claude AI gi\u1ea3 tr\u00ean Windows, macOS v\u00e0 Linux \u0111\u1ec3 x\u00e2m nh\u1eadp v\u00e0 \u0111\u00e1nh c\u1eafp d\u1eef li\u1ec7u doanh nghi\u1ec7p ch\u00e2u \u00c1. \u0110\u00e2y l\u00e0 m\u1ed1i \u0111e d\u1ecda b\u1ea3o m\u1eadt nghi\u00eam tr\u1ecdng, DevOps c\u1ea7n c\u1ea3nh gi\u00e1c v\u1edbi t\u1ea5n c\u00f4ng chu\u1ed7i cung \u1ee9ng.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "da1cc552",
+          "title": "DeepSeek ra m\u1eaft m\u00f4 h\u00ecnh V4 Pro, t\u0103ng gi\u00e1 API 11 l\u1ea7n",
+          "url": "https://vnexpress.net/deepseek-ra-mat-mo-hinh-v4-pro-tang-gia-api-11-lan-5108914.html",
+          "source": "VnExpress C\u00f4ng ngh\u1ec7",
+          "published_at": "2026-08-14T02:21:30+00:00",
+          "category": "vietnam",
+          "summary": "DeepSeek ra m\u1eaft V4 Pro v\u1edbi gi\u00e1 API t\u0103ng 11 l\u1ea7n. DevOps c\u1ea7n \u0111\u00e1nh gi\u00e1 l\u1ea1i ng\u00e2n s\u00e1ch khi ch\u1ecdn nh\u00e0 cung c\u1ea5p AI.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "innovations": {
+      "article_count": 1,
+      "top_articles": [
+        {
+          "id": "527ad981",
+          "title": "Building a practical path to post-quantum cryptography",
+          "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-08-13T18:11:42+00:00",
+          "category": "innovations",
+          "summary": "B\u00e0i vi\u1ebft \u0111\u01b0a ra l\u1ed9 tr\u00ecnh th\u1ef1c t\u1ebf \u0111\u1ec3 chuy\u1ec3n \u0111\u1ed5i sang m\u1eadt m\u00e3 h\u1eadu l\u01b0\u1ee3ng t\u1eed. DevOps c\u1ea7n chu\u1ea9n b\u1ecb h\u1ea1 t\u1ea7ng cho m\u1ed1i \u0111e d\u1ecda t\u01b0\u01a1ng lai t\u1eeb m\u00e1y t\u00ednh l\u01b0\u1ee3ng t\u1eed.",
+          "score": 0.85,
+          "cluster_id": null
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 5,
+      "top_articles": [
+        {
+          "id": "9c196c1f",
+          "title": "How to bring your software delivery workflow into GitHub with agent apps",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-14T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "B\u1ed1n agent GitHub t\u1ef1 \u0111\u1ed9ng h\u00f3a scope, security, rollout v\u00e0 ship feature trong SDLC. DevOps t\u1ed1i \u01b0u h\u00f3a quy tr\u00ecnh giao h\u00e0ng ph\u1ea7n m\u1ec1m ngay trong GitHub.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "4bae8ecf",
+          "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+          "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+          "source": "GitHub Blog",
+          "published_at": "2026-07-29T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "C\u00e1c b\u00e0i vi\u1ebft th\u1ea3o lu\u1eadn v\u1ec1 nhu c\u1ea7u r\u00e0ng bu\u1ed9c OIDC trong GitHub Actions, b\u1ea3n v\u00e1 m\u1edbi c\u1ee7a GitLab, v\u00e0 c\u00e1ch qu\u1ea3n l\u00fd Dependabot \u0111\u1ec3 nh\u00f3m c\u1eadp nh\u1eadt, gi\u1ea3m t\u1ea7n su\u1ea5t nh\u01b0ng v\u1eabn \u0111\u1ea3m b\u1ea3o b\u1ea3o m\u1eadt.",
+          "score": 0.8,
+          "cluster_id": "cluster-4"
+        },
+        {
+          "id": "6ea2c856",
+          "title": "Using the GitHub Copilot SDK for Java",
+          "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-10T19:30:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot SDK cho Java cho ph\u00e9p l\u1eadp tr\u00ecnh vi\u00ean t\u00edch h\u1ee3p Copilot v\u00e0o code Java v\u1edbi annotations v\u00e0 virtual threads, t\u0103ng n\u0103ng su\u1ea5t.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "10e8b50a",
+          "title": "How we took malware advisories beyond npm",
+          "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-06T16:51:12+00:00",
+          "category": "open_source",
+          "summary": "GitHub m\u1edf r\u1ed9ng c\u1ea3nh b\u00e1o ph\u1ea7n m\u1ec1m \u0111\u1ed9c h\u1ea1i ra ngo\u00e0i npm b\u1eb1ng c\u00e1ch t\u00edch h\u1ee3p d\u1eef li\u1ec7u g\u00f3i \u0111\u1ed9c h\u1ea1i t\u1eeb OpenSSF v\u00e0o C\u01a1 s\u1edf d\u1eef li\u1ec7u T\u01b0 v\u1ea5n. \u0110i\u1ec1u n\u00e0y quan tr\u1ecdng v\u1edbi chuy\u00ean gia DevOps v\u00ec gi\u00fap ph\u00e1t hi\u1ec7n v\u00e0 ng\u0103n ch\u1eb7n l\u00e2y nhi\u1ec5m chu\u1ed7i cung \u1ee9ng tr\u00ean nhi\u1ec1u h\u1ec7 sinh th\u00e1i h\u01a1n, t\u0103ng c\u01b0\u1eddng b\u1ea3o m\u1eadt cho pipeline.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "a867b540",
+          "title": "GitHub availability report: July 2026",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-12T22:17:32+00:00",
+          "category": "open_source",
+          "summary": "GitHub ghi nh\u1eadn 8 s\u1ef1 c\u1ed1 trong th\u00e1ng 7/2026 g\u00e2y suy gi\u1ea3m hi\u1ec7u n\u0103ng. DevOps ph\u1ee5 thu\u1ed9c v\u00e0o GitHub c\u1ea7n theo d\u00f5i \u0111\u1ed9 tin c\u1eady v\u00e0 c\u00f3 k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 143,
+    "total_clusters": 27,
+    "days_covered": 7
+  }
+}
