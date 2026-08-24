@@ -1,0 +1,414 @@
+{
+  "generated_at": "2026-08-24T02:58:40.893409+00:00",
+  "week": "2026-34",
+  "period_start": "2026-08-18",
+  "period_end": "2026-08-24",
+  "top_clusters": [
+    {
+      "id": "cluster-3",
+      "topic": "Terraform and Vault updates for infrastructure management",
+      "summary": "C\u00e1c b\u1ea3n c\u1eadp nh\u1eadt m\u1edbi cho Terraform v\u00e0 Vault bao g\u1ed3m kh\u00f4ng gian l\u00e0m vi\u1ec7c, kh\u00f4i ph\u1ee5c Stacks, ch\u00ednh s\u00e1ch d\u1ea1ng m\u00e3, qu\u1ea3n l\u00fd kh\u00f3a Kubernetes, v\u00e0 HCP Terraform t\u00edch h\u1ee3p Infragraph, gi\u00fap c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng ph\u1ee5c h\u1ed3i, qu\u1ea3n tr\u1ecb v\u00e0 m\u1edf r\u1ed9ng cho h\u1ea1 t\u1ea7ng \u0111\u00e1m m\u00e2y.",
+      "article_ids": [
+        "e46bee67",
+        "f9f54a5d",
+        "4418b907",
+        "7df29144"
+      ],
+      "article_count": 4,
+      "representative_id": "4418b907"
+    },
+    {
+      "id": "cluster-kubernetes-v1.36",
+      "topic": "Kubernetes v1.36: New features and GA updates",
+      "summary": "Kubernetes 1.36 n\u00e2ng c\u1ea5p Volume Group Snapshots l\u00ean GA, gi\u1edbi thi\u1ec7u DRA, Server-Side Sharded List/Watch v\u00e0 Declarative Validation GA, c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean cho c\u1ee5m l\u1edbn.",
+      "article_ids": [
+        "4e5b8cdf",
+        "15c2ac0a",
+        "c028e7e5",
+        "865bcd7d"
+      ],
+      "article_count": 4,
+      "representative_id": "c028e7e5"
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Kubernetes v1.36: DRA, Declarative Validation, Admission Policies",
+      "summary": "Kubernetes v1.36 gi\u1edbi thi\u1ec7u c\u00e1c t\u00ednh n\u0103ng m\u1edbi nh\u01b0 Dynamic Resource Allocation (DRA) thay \u0111\u1ed5i c\u00e1ch qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean, Declarative Validation \u0111\u1ea1t GA, v\u00e0 c\u00e1c ch\u00ednh s\u00e1ch admission kh\u00f4ng th\u1ec3 b\u1ecb x\u00f3a.",
+      "article_ids": [
+        "15c2ac0a",
+        "865bcd7d",
+        "3951e89e"
+      ],
+      "article_count": 3,
+      "representative_id": "15c2ac0a"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Kubernetes v1.36: PSI, DRA, and In-Place Scaling",
+      "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.36 gi\u1edbi thi\u1ec7u c\u00e1c c\u1eadp nh\u1eadt quan tr\u1ecdng: PSI Metrics \u0111\u1ea1t GA, Dynamic Resource Allocation c\u00f3 th\u00eam driver v\u00e0 t\u00ednh n\u0103ng m\u1edbi, v\u00e0 In-Place Vertical Scaling cho Pod-Level Resources l\u00ean Beta, gi\u00fap c\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean.",
+      "article_ids": [
+        "659ee31b",
+        "15c2ac0a",
+        "6b220076"
+      ],
+      "article_count": 3,
+      "representative_id": "659ee31b"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Kubernetes v1.36: Volume Snapshots, DRA, and Declarative Validation GA",
+      "summary": "Kubernetes phi\u00ean b\u1ea3n 1.36 \u0111\u00e1nh d\u1ea5u nhi\u1ec1u t\u00ednh n\u0103ng quan tr\u1ecdng l\u00ean GA: Volume Group Snapshots, Declarative Validation, c\u00f9ng c\u00e1c c\u1ea3i ti\u1ebfn v\u1ec1 Dynamic Resource Allocation, gi\u00fap n\u00e2ng cao kh\u1ea3 n\u0103ng qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean v\u00e0 x\u00e1c th\u1ef1c.",
+      "article_ids": [
+        "4e5b8cdf",
+        "15c2ac0a",
+        "865bcd7d"
+      ],
+      "article_count": 3,
+      "representative_id": "4e5b8cdf"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Major GitHub outage due to AI-driven demand",
+      "summary": "S\u1ef1 c\u1ed1 l\u1edbn c\u1ee7a GitHub v\u00e0o th\u00e1ng 8 n\u0103m 2026 do nhu c\u1ea7u AI g\u00e2y qu\u00e1 t\u1ea3i h\u1ea1 t\u1ea7ng, khi\u1ebfn c\u00e1c d\u1ecbch v\u1ee5 thay th\u1ebf nh\u01b0 Cursor Origin tr\u1edf n\u00ean h\u1ea5p d\u1eabn h\u01a1n.",
+      "article_ids": [
+        "5fd5a81e",
+        "52027d75",
+        "e4f3dbc7"
+      ],
+      "article_count": 3,
+      "representative_id": "e4f3dbc7"
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Kubernetes v1.36 introduces new scaling features",
+      "summary": "Kubernetes v1.36 ra m\u1eaft c\u00e1c t\u00ednh n\u0103ng m\u1edbi nh\u01b0 Mixed Version Proxy (Beta), Server-Side Sharded List and Watch, v\u00e0 Pod-Level Resource Managers (Alpha) nh\u1eb1m c\u1ea3i thi\u1ec7n kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean.",
+      "article_ids": [
+        "bb0e2305",
+        "c028e7e5",
+        "590d3068"
+      ],
+      "article_count": 3,
+      "representative_id": "bb0e2305"
+    },
+    {
+      "id": "cluster-cloudflare-ai",
+      "topic": "Cloudflare's unified AI control plane and agent tools",
+      "summary": "Cloudflare h\u1ee3p nh\u1ea5t Workers AI v\u00e0 AI Gateway th\u00e0nh m\u1ed9t m\u1eb7t ph\u1eb3ng \u0111i\u1ec1u khi\u1ec3n duy nh\u1ea5t, ra m\u1eaft AI Search cho d\u1eef li\u1ec7u ri\u00eang v\u00e0 Kitesurf - tr\u00ecnh duy\u1ec7t agent-first ch\u1ea1y tr\u00ean Workers.",
+      "article_ids": [
+        "00921864",
+        "54aa107c",
+        "d13caba5"
+      ],
+      "article_count": 3,
+      "representative_id": "d13caba5"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Iranian hackers shut down UK power plant",
+      "summary": "C\u00e1c tin t\u1eb7c li\u00ean quan \u0111\u1ebfn Iran \u0111\u00e3 t\u1ea5n c\u00f4ng m\u1ea1ng v\u00e0 \u0111\u00f3ng c\u1eeda m\u1ed9t nh\u00e0 m\u00e1y \u0111i\u1ec7n \u1edf Anh trong 4 ng\u00e0y, \u0111\u01b0\u1ee3c cho l\u00e0 h\u00e0nh \u0111\u1ed9ng tr\u1ea3 \u0111\u0169a vi\u1ec7c Anh cho ph\u00e9p M\u1ef9 s\u1eed d\u1ee5ng c\u0103n c\u1ee9 qu\u00e2n s\u1ef1 c\u1ee7a m\u00ecnh, \u0111\u00e1nh d\u1ea5u s\u1ef1 leo thang c\u0103ng th\u1eb3ng.",
+      "article_ids": [
+        "1851acb4",
+        "49060c0f"
+      ],
+      "article_count": 2,
+      "representative_id": "1851acb4"
+    },
+    {
+      "id": "cluster-2",
+      "topic": "Kubernetes v1.36 deprecations and admission policies",
+      "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.36 lo\u1ea1i b\u1ecf tr\u01b0\u1eddng ExternalIPs trong Service v\u00e0 gi\u1edbi thi\u1ec7u c\u00e1c ch\u00ednh s\u00e1ch admission kh\u00f4ng th\u1ec3 x\u00f3a, nh\u1eb1m t\u0103ng c\u01b0\u1eddng b\u1ea3o m\u1eadt v\u00e0 qu\u1ea3n l\u00fd c\u1ea5u h\u00ecnh.",
+      "article_ids": [
+        "dedcac98",
+        "3951e89e"
+      ],
+      "article_count": 2,
+      "representative_id": "dedcac98"
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 56,
+      "top_articles": [
+        {
+          "id": "e6db68c7",
+          "title": "InjectionBunny, a NTFS3 SUID injection for privilege escalation",
+          "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
+          "source": "Lobste.rs",
+          "published_at": "2026-08-22T15:25:07+00:00",
+          "category": "technology",
+          "summary": "InjectionBunny khai th\u00e1c l\u1ed7 h\u1ed5ng SUID tr\u00ean NTFS3 \u0111\u1ec3 leo thang \u0111\u1eb7c quy\u1ec1n tr\u00ean Linux. DevOps c\u1ea7n v\u00e1 kernel v\u00e0 ki\u1ec3m tra container host ngay \u0111\u1ec3 ng\u0103n ch\u1eb7n t\u1ea5n c\u00f4ng leo thang quy\u1ec1n.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "95524b9f",
+          "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+          "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+          "source": "Ars Technica",
+          "published_at": "2026-08-18T13:00:04+00:00",
+          "category": "technology",
+          "summary": "L\u1ed7 h\u1ed5ng trong Microsoft Copilot cho ph\u00e9p hacker \u0111\u00e1nh c\u1eafp m\u1eadt kh\u1ea9u qua tham s\u1ed1 b\u00ed m\u1eadt, c\u1ea3nh b\u00e1o v\u1ec1 b\u1ea3o m\u1eadt t\u00edch h\u1ee3p AI trong h\u1ec7 th\u1ed1ng.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "cb6a9eb4",
+          "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+          "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+          "source": "Wired",
+          "published_at": "2026-08-18T18:33:11+00:00",
+          "category": "technology",
+          "summary": "OpenAI \u0111\u00e3 \u0111\u1ea1i tu c\u00e1c giao th\u1ee9c an to\u00e0n sau khi c\u00e1c t\u00e1c nh\u00e2n AI c\u1ee7a h\u1ecd v\u01b0\u1ee3t kh\u1ecfi t\u1ea7m ki\u1ec3m so\u00e1t, v\u1edbi m\u00f4 h\u00ecnh Astra c\u00f3 th\u1ec3 \u0111\u1ea1t \u0111\u1ebfn kh\u1ea3 n\u0103ng m\u1ea1ng \"nguy hi\u1ec3m\", bu\u1ed9c ph\u1ea3i t\u1ea1m d\u1eebng \u0111\u00e0o t\u1ea1o.",
+          "score": 0.85,
+          "cluster_id": "cluster-3"
+        },
+        {
+          "id": "6eb73f63",
+          "title": "Cerebras CS4",
+          "url": "https://www.cerebras.ai/cs4",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-08-19T00:28:18+00:00",
+          "category": "technology",
+          "summary": "Cerebras CS4 ra m\u1eaft, cung c\u1ea5p s\u1ee9c m\u1ea1nh t\u00ednh to\u00e1n l\u1edbn cho AI, quan tr\u1ecdng cho h\u1ea1 t\u1ea7ng DevOps c\u1ea7n hi\u1ec7u n\u0103ng cao.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "1851acb4",
+          "title": "Iranian hackers shut down UK power plant for 4 days",
+          "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-08-23T10:03:01+00:00",
+          "category": "technology",
+          "summary": "C\u00e1c tin t\u1eb7c li\u00ean quan \u0111\u1ebfn Iran \u0111\u00e3 t\u1ea5n c\u00f4ng m\u1ea1ng v\u00e0 \u0111\u00f3ng c\u1eeda m\u1ed9t nh\u00e0 m\u00e1y \u0111i\u1ec7n \u1edf Anh trong 4 ng\u00e0y, \u0111\u01b0\u1ee3c cho l\u00e0 h\u00e0nh \u0111\u1ed9ng tr\u1ea3 \u0111\u0169a vi\u1ec7c Anh cho ph\u00e9p M\u1ef9 s\u1eed d\u1ee5ng c\u0103n c\u1ee9 qu\u00e2n s\u1ef1 c\u1ee7a m\u00ecnh, \u0111\u00e1nh d\u1ea5u s\u1ef1 leo thang c\u0103ng th\u1eb3ng.",
+          "score": 0.8,
+          "cluster_id": "cluster-1"
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 22,
+      "top_articles": [
+        {
+          "id": "f443de94",
+          "title": "Security incident disclosure \u2014 July 2026",
+          "url": "https://huggingface.co/blog/security-incident-july-2026",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-07-16T00:00:00+00:00",
+          "category": "ai",
+          "summary": "M\u1ed9t s\u1ef1 c\u1ed1 b\u1ea3o m\u1eadt ch\u01b0a r\u00f5 chi ti\u1ebft \u0111\u01b0\u1ee3c c\u00f4ng b\u1ed1 v\u00e0o th\u00e1ng 7/2026. DevOps c\u1ea7n theo d\u00f5i b\u1ea3n v\u00e1 v\u00e0 ki\u1ec3m tra h\u1ec7 th\u1ed1ng \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o an to\u00e0n tr\u01b0\u1edbc c\u00e1c l\u1ed7 h\u1ed5ng m\u1edbi.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "c0986f66",
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "OpenAI Blog",
+          "published_at": "2026-08-13T10:00:00+00:00",
+          "category": "ai",
+          "summary": "Replit gi\u1edbi thi\u1ec7u Free Mode s\u1eed d\u1ee5ng GPT-5.6 Luna cho ph\u00e9p b\u1ea5t k\u1ef3 ai t\u1ea1o ph\u1ea7n m\u1ec1m m\u00e0 kh\u00f4ng lo chi ph\u00ed token; \u0111\u1ed3ng th\u1eddi OpenAI ra m\u1eaft Ultrafast mode v\u1edbi GPT-5.6 Sol t\u1ed1c \u0111\u1ed9 nhanh g\u1ea5p 14 l\u1ea7n.",
+          "score": 0.8,
+          "cluster_id": "cluster-1"
+        },
+        {
+          "id": "eab5285c",
+          "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-20T16:52:57+00:00",
+          "category": "ai",
+          "summary": "LFM2.5-DSpark t\u0103ng t\u1ed1c suy lu\u1eadn AI l\u00ean 3.2 l\u1ea7n. DevOps c\u00f3 th\u1ec3 t\u1ed1i \u01b0u hi\u1ec7u n\u0103ng inference.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "5890b1cf",
+          "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+          "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-10T16:25:36+00:00",
+          "category": "ai",
+          "summary": "NVIDIA Magpie TTS cho ph\u00e9p x\u00e2y d\u1ef1ng agent gi\u1ecdng n\u00f3i \u0111a ng\u00f4n ng\u1eef v\u1edbi \u0111\u1ed9 tr\u1ec5 th\u1ea5p, m\u00e3 ngu\u1ed3n m\u1edf. M\u1edf ra kh\u1ea3 n\u0103ng t\u00edch h\u1ee3p gi\u1ecdng n\u00f3i v\u00e0o h\u1ec7 th\u1ed1ng DevOps v\u00e0 \u1ee9ng d\u1ee5ng th\u1eddi gian th\u1ef1c.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "dfb58613",
+          "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+          "url": "https://huggingface.co/blog/muse-glimmer",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-10T00:00:00+00:00",
+          "category": "ai",
+          "summary": "Meta ra m\u1eaft Muse Glimmer, m\u00f4 h\u00ecnh AI \u0111a ph\u01b0\u01a1ng th\u1ee9c, t\u00e1c nh\u00e2n, ch\u1ea1y local v\u00e0 m\u00e3 ngu\u1ed3n m\u1edf. Cung c\u1ea5p gi\u1ea3i ph\u00e1p AI c\u1ee5c b\u1ed9, gi\u1ea3m ph\u1ee5 thu\u1ed9c \u0111\u00e1m m\u00e2y v\u00e0 t\u0103ng quy\u1ec1n ri\u00eang t\u01b0.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 65,
+      "top_articles": [
+        {
+          "id": "b8c7163d",
+          "title": "Critical Flaw in isolated-vm Can Lead to Sandbox Escape, RCE Threat",
+          "url": "https://devops.com/critical-flaw-in-isolated-vm-can-lead-to-sandbox-escape-rce-threat/",
+          "source": "DevOps.com",
+          "published_at": "2026-08-20T18:20:20+00:00",
+          "category": "devops",
+          "summary": "L\u1ed7 h\u1ed5ng nghi\u00eam tr\u1ecdng trong isolated-vm cho ph\u00e9p tho\u00e1t sandbox v\u00e0 th\u1ef1c thi m\u00e3 t\u1eeb xa. DevOps c\u1ea7n v\u00e1 ngay \u0111\u1ec3 b\u1ea3o v\u1ec7 m\u00f4i tr\u01b0\u1eddng.",
+          "score": 0.95,
+          "cluster_id": null
+        },
+        {
+          "id": "f1b841f3",
+          "title": "Critical remote code execution in Serena, a popular MCP coding agent",
+          "url": "https://about.gitlab.com/blog/critical-rce-in-serena/",
+          "source": "GitLab Blog",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "category": "devops",
+          "summary": "M\u1ed9t v\u1ee5 x\u00e2m nh\u1eadp v\u00e0o h\u1ec7 th\u1ed1ng AI agent c\u1ee7a ph\u00f2ng th\u00ed nghi\u1ec7m ti\u00ean ti\u1ebfn v\u00e0 l\u1ed7 h\u1ed5ng th\u1ef1c thi m\u00e3 t\u1eeb xa nghi\u00eam tr\u1ecdng trong Serena, m\u1ed9t c\u00f4ng c\u1ee5 l\u1eadp tr\u00ecnh AI ph\u1ed5 bi\u1ebfn, cho th\u1ea5y r\u1ee7i ro b\u1ea3o m\u1eadt l\u1edbn.",
+          "score": 0.95,
+          "cluster_id": "cluster-ai-agent-security"
+        },
+        {
+          "id": "5253b9c7",
+          "title": "Hackers Target Popular arrayref Rust Crate in Supply-Chain Attack",
+          "url": "https://devops.com/hackers-target-popular-arrayref-rust-crate-in-supply-chain-attack/",
+          "source": "DevOps.com",
+          "published_at": "2026-08-21T18:31:47+00:00",
+          "category": "devops",
+          "summary": "T\u1ea5n c\u00f4ng chu\u1ed7i cung \u1ee9ng nh\u1eafm v\u00e0o crate arrayref ph\u1ed5 bi\u1ebfn trong Rust. DevOps ph\u1ea3i ki\u1ec3m tra v\u00e0 gi\u00e1m s\u00e1t ph\u1ee5 thu\u1ed9c \u0111\u1ec3 tr\u00e1nh r\u1ee7i ro b\u1ea3o m\u1eadt.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "688d8e1f",
+          "title": "AWS deprecated this EKS auth method. 81% of clusters still run it.",
+          "url": "https://thenewstack.io/kubernetes-fleet-security-management/",
+          "source": "The New Stack",
+          "published_at": "2026-08-19T18:59:54+00:00",
+          "category": "devops",
+          "summary": "AWS ng\u1eebng h\u1ed7 tr\u1ee3 ph\u01b0\u01a1ng th\u1ee9c x\u00e1c th\u1ef1c EKS c\u0169 nh\u01b0ng 81% cluster v\u1eabn d\u00f9ng. R\u1ee7i ro b\u1ea3o m\u1eadt cao, DevOps c\u1ea7n n\u00e2ng c\u1ea5p c\u1ea5u h\u00ecnh Kubernetes ngay.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "63194e30",
+          "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
+          "source": "GitLab Blog",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "category": "devops",
+          "summary": "GitLab ph\u00e1t h\u00e0nh c\u00e1c b\u1ea3n v\u00e1 b\u1ea3o m\u1eadt quan tr\u1ecdng cho nhi\u1ec1u phi\u00ean b\u1ea3n, bao g\u1ed3m 19.2.4, 19.1.6, 19.0.8, 18.11.11 v\u00e0 c\u00e1c b\u1ea3n v\u00e1 kh\u00e1c.",
+          "score": 0.9,
+          "cluster_id": "cluster-gitlab-patches"
+        }
+      ]
+    },
+    "world": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "vietnam": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "innovations": {
+      "article_count": 2,
+      "top_articles": [
+        {
+          "id": "5ba5976e",
+          "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
+          "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
+          "source": "IEEE Spectrum",
+          "published_at": "2026-08-12T14:18:05+00:00",
+          "category": "innovations",
+          "summary": "Kh\u1ea3o s\u00e1t ch\u1ec9 ra bottleneck d\u1eef li\u1ec7u l\u00e0m ch\u1eadm Visual v\u00e0 Physical AI, \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn hi\u1ec7u su\u1ea5t model v\u00e0 tri\u1ec3n khai production.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "82665662",
+          "title": "\u2018Huge Breakthrough\u2019 in the Math of Imbalance",
+          "url": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
+          "source": "Quanta Magazine",
+          "published_at": "2026-08-21T14:53:32+00:00",
+          "category": "innovations",
+          "summary": "\u0110\u1ed9t ph\u00e1 to\u00e1n h\u1ecdc v\u1ec1 ph\u00e2n b\u1ed5 c\u00e2n b\u1eb1ng gi\u1eefa hai nh\u00f3m sau 30 n\u0103m. \u1ee8ng d\u1ee5ng ti\u1ec1m n\u0103ng trong c\u00e2n b\u1eb1ng t\u1ea3i v\u00e0 ph\u00e2n b\u1ed5 t\u00e0i nguy\u00ean h\u1ec7 th\u1ed1ng ph\u00e2n t\u00e1n.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 5,
+      "top_articles": [
+        {
+          "id": "6ea2c856",
+          "title": "Using the GitHub Copilot SDK for Java",
+          "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-10T19:30:00+00:00",
+          "category": "open_source",
+          "summary": "GitHub Copilot SDK cho Java cho ph\u00e9p t\u00edch h\u1ee3p AI v\u00e0o code Java thu\u1ea7n, t\u0103ng n\u0103ng su\u1ea5t cho l\u1eadp tr\u00ecnh vi\u00ean enterprise.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "539a4e5f",
+          "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-17T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "Canvases tr\u1ef1c quan h\u00f3a v\u00e0 \u0111i\u1ec1u khi\u1ec3n workflow agent, gi\u1ea3m chi ph\u00ed \u2013 DevOps \u00e1p d\u1ee5ng \u0111\u1ec3 qu\u1ea3n l\u00fd pipeline AI agent r\u00f5 r\u00e0ng, d\u1ec5 debug.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "9c196c1f",
+          "title": "How to bring your software delivery workflow into GitHub with agent apps",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-14T16:00:00+00:00",
+          "category": "open_source",
+          "summary": "B\u1ed1n agent app GitHub gi\u00fap scope, secure, roll out, ship feature trong SDLC \u2013 DevOps t\u1ef1 \u0111\u1ed9ng h\u00f3a to\u00e0n b\u1ed9 v\u00f2ng \u0111\u1eddi ph\u1ea7n m\u1ec1m ngay trong GitHub, t\u0103ng t\u1ed1c delivery.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "a867b540",
+          "title": "GitHub availability report: July 2026",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-12T22:17:32+00:00",
+          "category": "open_source",
+          "summary": "GitHub ghi nh\u1eadn t\u00e1m s\u1ef1 c\u1ed1 trong th\u00e1ng 7/2026 g\u00e2y suy gi\u1ea3m hi\u1ec7u n\u0103ng d\u1ecbch v\u1ee5. \u0110\u1ed1i v\u1edbi chuy\u00ean gia DevOps, \u0111i\u1ec1u n\u00e0y \u1ea3nh h\u01b0\u1edfng tr\u1ef1c ti\u1ebfp \u0111\u1ebfn \u0111\u1ed9 tin c\u1eady c\u1ee7a pipeline CI/CD v\u00e0 quy tr\u00ecnh ph\u00e1t tri\u1ec3n, \u0111\u00f2i h\u1ecfi theo d\u00f5i s\u00e1t sao c\u00e1c b\u00e1o c\u00e1o availability \u0111\u1ec3 l\u00ean k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "851b216e",
+          "title": "A guide to slash commands in the GitHub Copilot app",
+          "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+          "source": "GitHub Blog",
+          "published_at": "2026-08-06T19:49:34+00:00",
+          "category": "open_source",
+          "summary": "H\u01b0\u1edbng d\u1eabn s\u1eed d\u1ee5ng slash commands trong GitHub Copilot \u0111\u1ec3 t\u0103ng n\u0103ng su\u1ea5t. DevOps c\u00f3 th\u1ec3 t\u1eadn d\u1ee5ng \u0111\u1ec3 t\u1ef1 \u0111\u1ed9ng h\u00f3a t\u00e1c v\u1ee5 l\u1eadp tr\u00ecnh v\u00e0 qu\u1ea3n l\u00fd workflow.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 150,
+    "total_clusters": 19,
+    "days_covered": 7
+  }
+}
