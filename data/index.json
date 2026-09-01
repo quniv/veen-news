@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T05:56:05.874134+00:00",
+  "updated_at": "2026-09-01T06:58:36.667079+00:00",
   "latest_date": "2026-09-01",
   "daily": [
     {
@@ -436,6 +436,11 @@
     }
   ],
   "monthly": [
+    {
+      "month": "2026-09",
+      "path": "data/monthly/2026-09.json",
+      "article_count": 21
+    },
     {
       "month": "2026-07",
       "path": "data/monthly/2026-07.json",

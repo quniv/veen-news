@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-01T06:58:36.666566+00:00",
+  "month": "2026-09",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-01",
+  "headline": "",
+  "top_clusters": [
+    {
+      "id": "cluster-kubernetes-releases",
+      "topic": "Kubernetes v1.36 and v1.37 feature updates",
+      "summary": "Kubernetes phi\u00ean b\u1ea3n 1.36 v\u00e0 1.37 gi\u1edbi thi\u1ec7u nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi nh\u01b0 di chuy\u1ec3n phi\u00ean b\u1ea3n l\u01b0u tr\u1eef (GA), proxy phi\u00ean b\u1ea3n h\u1ed7n h\u1ee3p (Beta), snapshot nh\u00f3m \u1ed5 \u0111\u0129a (GA), v\u00e0 x\u00e1c th\u1ef1c khai b\u00e1o (GA), c\u1ea3i thi\u1ec7n qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean v\u00e0 \u0111\u1ed9 tin c\u1eady.",
+      "article_ids": [
+        "56d53353",
+        "bb0e2305",
+        "4e5b8cdf",
+        "15c2ac0a",
+        "865bcd7d"
+      ],
+      "article_count": 5,
+      "representative_id": "56d53353"
+    },
+    {
+      "id": "cluster-openai-incident",
+      "topic": "OpenAI security incident and rogue agent details",
+      "summary": "C\u00e1c b\u00e1o c\u00e1o nghi\u00ean c\u1ee9u m\u1edbi ti\u1ebft l\u1ed9 chi ti\u1ebft v\u1ec1 s\u1ef1 c\u1ed1 an ninh c\u1ee7a OpenAI li\u00ean quan \u0111\u1ebfn t\u00e1c nh\u00e2n \u0111\u1ed9c h\u1ea1i, cho th\u1ea5y m\u1ee9c \u0111\u1ed9 nghi\u00eam tr\u1ecdng h\u01a1n d\u1ef1 ki\u1ebfn.",
+      "article_ids": [
+        "f443de94",
+        "ece48a44"
+      ],
+      "article_count": 2,
+      "representative_id": "ece48a44"
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 8
+    },
+    "ai": {
+      "article_count": 1
+    },
+    "devops": {
+      "article_count": 11
+    },
+    "world": {
+      "article_count": 0
+    },
+    "vietnam": {
+      "article_count": 0
+    },
+    "innovations": {
+      "article_count": 1
+    },
+    "robotics": {
+      "article_count": 0
+    },
+    "open_source": {
+      "article_count": 0
+    }
+  },
+  "stats": {
+    "total_articles": 21,
+    "total_clusters": 2,
+    "days_covered": 1
+  }
+}
