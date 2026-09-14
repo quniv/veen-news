@@ -1,0 +1,453 @@
+{
+  "generated_at": "2026-09-14T07:30:14.649313+00:00",
+  "week": "2026-37",
+  "period_start": "2026-09-08",
+  "period_end": "2026-09-14",
+  "top_clusters": [
+    {
+      "id": "cluster-2",
+      "topic": "Kubernetes v1.37 new features",
+      "summary": "Kubernetes v1.37 (Garhwal) gi\u1edbi thi\u1ec7u nhi\u1ec1u t\u00ednh n\u0103ng m\u1edbi nh\u01b0 kh\u1ea3 n\u0103ng t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng xu\u1ed1ng 0 b\u1ea3n sao, di chuy\u1ec3n phi\u00ean b\u1ea3n l\u01b0u tr\u1eef l\u00ean GA, v\u00e0 h\u1ed7 tr\u1ee3 \u01b0u ti\u00ean l\u1eadp l\u1ecbch cho thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc Pod.",
+      "article_ids": [
+        "ba7190af",
+        "70479d5f",
+        "56d53353",
+        "ec0d23ad",
+        "582a41de"
+      ],
+      "article_count": 5,
+      "representative_id": "ec0d23ad"
+    },
+    {
+      "id": "cluster-001",
+      "topic": "Kubernetes v1.37: New beta features and updates",
+      "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.37 n\u00e2ng c\u1ea5p nhi\u1ec1u t\u00ednh n\u0103ng l\u00ean beta, bao g\u1ed3m h\u1ed7 tr\u1ee3 histogram g\u1ed1c, ch\u1ebf \u0111\u1ed9 kh\u00f4ng root (rootless), c\u1eadp nh\u1eadt DRA, v\u00e0 kh\u1ea3 n\u0103ng t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng xu\u1ed1ng 0 b\u1ea3n sao, mang l\u1ea1i c\u1ea3i ti\u1ebfn v\u1ec1 gi\u00e1m s\u00e1t, b\u1ea3o m\u1eadt, qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean v\u00e0 t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng.",
+      "article_ids": [
+        "96fc8116",
+        "58cd2f8e",
+        "cae3cde0",
+        "70479d5f"
+      ],
+      "article_count": 4,
+      "representative_id": "70479d5f"
+    },
+    {
+      "id": "cluster-kubernetes",
+      "topic": "Kubernetes v1.37 key features for operators",
+      "summary": "Kubernetes v1.37 ra m\u1eaft v\u1edbi 67 c\u1ea3i ti\u1ebfn, bao g\u1ed3m h\u1ed7 tr\u1ee3 bi\u1ec3u \u0111\u1ed3 g\u1ed1c (native histograms), c\u1eadp nh\u1eadt DRA, v\u00e0 kh\u1ea3 n\u0103ng t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng xu\u1ed1ng 0 b\u1ea3n sao.",
+      "article_ids": [
+        "f76206dc",
+        "96fc8116",
+        "cae3cde0",
+        "70479d5f"
+      ],
+      "article_count": 4,
+      "representative_id": "f76206dc"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Kubernetes v1.37: 67 enhancements and key features",
+      "summary": "Phi\u00ean b\u1ea3n Kubernetes v1.37 gi\u1edbi thi\u1ec7u 67 c\u1ea3i ti\u1ebfn, bao g\u1ed3m h\u1ed7 tr\u1ee3 native histogram \u1edf ch\u1ebf \u0111\u1ed9 Beta, kh\u1ea3 n\u0103ng t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng xu\u1ed1ng 0 b\u1ea3n sao v\u1edbi HPA, v\u00e0 t\u00ednh n\u0103ng di chuy\u1ec3n phi\u00ean b\u1ea3n l\u01b0u tr\u1eef (SVM) \u0111\u1ea1t tr\u1ea1ng th\u00e1i GA. Nh\u1eefng thay \u0111\u1ed5i n\u00e0y mang l\u1ea1i l\u1ee3i \u00edch l\u1edbn cho qu\u1ea3n tr\u1ecb vi\u00ean trong gi\u00e1m s\u00e1t, t\u1ef1 \u0111\u1ed9ng m\u1edf r\u1ed9ng v\u00e0 qu\u1ea3n l\u00fd l\u01b0u tr\u1eef.",
+      "article_ids": [
+        "f76206dc",
+        "96fc8116",
+        "70479d5f",
+        "56d53353"
+      ],
+      "article_count": 4,
+      "representative_id": "56d53353"
+    },
+    {
+      "id": "cluster-cloudflare",
+      "topic": "Cloudflare new security and bot management features",
+      "summary": "Cloudflare ra m\u1eaft t\u00ednh n\u0103ng ph\u00e1t hi\u1ec7n l\u1ed7 h\u1ed5ng theo ng\u1eef c\u1ea3nh, \u0111\u1ed3ng b\u1ed9 ch\u00ednh s\u00e1ch bot v\u1edbi robots.txt, v\u00e0 b\u1ea3o m\u1eadt \u1ee9ng d\u1ee5ng n\u1ed9i b\u1ed9 v\u1edbi Access for Workers.",
+      "article_ids": [
+        "a4a986b9",
+        "fc72f0a2",
+        "99a5478b"
+      ],
+      "article_count": 3,
+      "representative_id": "a4a986b9"
+    },
+    {
+      "id": "cluster-3",
+      "topic": "GPU management and multi-tenant Kubernetes",
+      "summary": "C\u00e1c b\u00e0i vi\u1ebft th\u1ea3o lu\u1eadn v\u1ec1 v\u1ea5n \u0111\u1ec1 qu\u1ea3n l\u00fd GPU nh\u00e0n r\u1ed7i trong m\u00f4i tr\u01b0\u1eddng \u0111a kh\u00e1ch h\u00e0ng Kubernetes, v\u00e0 gi\u1ea3i ph\u00e1p t\u1eeb Red Hat AI 3.5 \u0111\u1ec3 t\u1ed1i \u01b0u h\u00f3a h\u00e0ng \u0111\u1ee3i GPU, c\u00f9ng v\u1edbi c\u00e1c gi\u1ea3i ph\u00e1p t\u1ef1 ph\u1ee5c v\u1ee5 an to\u00e0n cho s\u1ed1 li\u1ec7u GPU.",
+      "article_ids": [
+        "859cdcef",
+        "29393c4f",
+        "1bbf3bff"
+      ],
+      "article_count": 3,
+      "representative_id": "859cdcef"
+    },
+    {
+      "id": "cluster-2",
+      "topic": "GPT-6 Astra: advanced reasoning and AGI controversy",
+      "summary": "GPT-6 Astra l\u00e0 m\u00f4 h\u00ecnh m\u1edbi c\u1ee7a OpenAI v\u1edbi kh\u1ea3 n\u0103ng suy lu\u1eadn ti\u00ean ti\u1ebfn, \u0111\u1ea1t \u0111i\u1ec3m 98,6% g\u1ea7n nh\u01b0 AGI nh\u01b0ng c\u00f3 nh\u1eefng \u0111i\u1ec1u ki\u1ec7n c\u1ea7n l\u01b0u \u00fd.",
+      "article_ids": [
+        "4ef1fa7c",
+        "333ccaae",
+        "ce871204"
+      ],
+      "article_count": 3,
+      "representative_id": "4ef1fa7c"
+    },
+    {
+      "id": "cluster-1",
+      "topic": "Kubernetes v1.37: node lifecycle, etcd, storage features",
+      "summary": "Kubernetes v1.37 gi\u1edbi thi\u1ec7u Node Lifecycle Conditions, etcd RangeStream gi\u1ea3m b\u1ed9 nh\u1edb khi \u0111\u1ecdc danh s\u00e1ch l\u1edbn, v\u00e0 Storage Version Migration \u0111\u01b0\u1ee3c b\u1eadt m\u1eb7c \u0111\u1ecbnh, c\u1ea3i thi\u1ec7n hi\u1ec7u su\u1ea5t v\u00e0 qu\u1ea3n l\u00fd.",
+      "article_ids": [
+        "1bf01c3c",
+        "4db85808",
+        "56d53353"
+      ],
+      "article_count": 3,
+      "representative_id": "4db85808"
+    },
+    {
+      "id": "cluster-3",
+      "topic": "Kubernetes v1.37 with scheduling and storage upgrades",
+      "summary": "Kubernetes v1.37 (Garhwal) gi\u1edbi thi\u1ec7u t\u00ednh n\u0103ng l\u1eadp l\u1ecbch d\u1ef1a tr\u00ean kh\u1ed1i l\u01b0\u1ee3ng c\u00f4ng vi\u1ec7c n\u00e2ng cao, k\u00edch ho\u1ea1t m\u1eb7c \u0111\u1ecbnh t\u00ednh n\u0103ng di chuy\u1ec3n phi\u00ean b\u1ea3n l\u01b0u tr\u1eef (SVM) l\u00ean GA, v\u00e0 nhi\u1ec1u c\u1ea3i ti\u1ebfn kh\u00e1c.",
+      "article_ids": [
+        "dec1072a",
+        "56d53353",
+        "ec0d23ad"
+      ],
+      "article_count": 3,
+      "representative_id": "dec1072a"
+    },
+    {
+      "id": "cluster-002",
+      "topic": "Kubernetes metrics API and security updates",
+      "summary": "Kubernetes v1.37 n\u00e2ng c\u1ea5p metrics.k8s.io l\u00ean \u1ed5n \u0111\u1ecbnh, v1.36 \u0111\u01b0a PSI metrics l\u00ean GA, v\u00e0 d\u1ef1 \u00e1n c\u1ea3i thi\u1ec7n t\u00ednh minh b\u1ea1ch v\u1ec1 CVE ch\u01b0a \u0111\u01b0\u1ee3c v\u00e1.",
+      "article_ids": [
+        "548fd4bf",
+        "621d165c",
+        "659ee31b"
+      ],
+      "article_count": 3,
+      "representative_id": "548fd4bf"
+    }
+  ],
+  "categories": {
+    "technology": {
+      "article_count": 40,
+      "top_articles": [
+        {
+          "id": "fa7bd8e6",
+          "title": "Forgejo <=16.0.3 Critical RCE",
+          "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-09-10T15:57:40+00:00",
+          "category": "technology",
+          "summary": "Forgejo phi\u00ean b\u1ea3n <=16.0.3 c\u00f3 l\u1ed7 h\u1ed5ng RCE nghi\u00eam tr\u1ecdng; c\u1ea7n n\u00e2ng c\u1ea5p ngay l\u00ean 16.0.4 \u0111\u1ec3 tr\u00e1nh b\u1ecb t\u1ea5n c\u00f4ng t\u1eeb xa.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "1e857768",
+          "title": "Massachusetts hits data centers with new clean power rules",
+          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+          "source": "TechCrunch",
+          "published_at": "2026-09-09T21:43:34+00:00",
+          "category": "technology",
+          "summary": "Massachusetts ban h\u00e0nh quy \u0111\u1ecbnh n\u0103ng l\u01b0\u1ee3ng s\u1ea1ch m\u1edbi cho trung t\u00e2m d\u1eef li\u1ec7u, \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn chi ph\u00ed v\u00e0 k\u1ebf ho\u1ea1ch m\u1edf r\u1ed9ng h\u1ea1 t\u1ea7ng.",
+          "score": 0.85,
+          "cluster_id": null
+        },
+        {
+          "id": "593440c9",
+          "title": "OpenAI\u2019s rogue AI tried to hack another company in May",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+          "source": "The Verge",
+          "published_at": "2026-09-12T21:41:36+00:00",
+          "category": "technology",
+          "summary": "C\u00e1c s\u1ef1 c\u1ed1 an to\u00e0n AI: OpenAI c\u00f3 AI 'n\u1ed5i lo\u1ea1n' c\u1ed1 g\u1eafng t\u1ea5n c\u00f4ng c\u00f4ng ty kh\u00e1c, v\u00e0 Anthropic ch\u1eb7n c\u00e1c n\u1ed7 l\u1ef1c c\u1ee7a nh\u00e0 n\u01b0\u1edbc s\u1eed d\u1ee5ng Claude cho nghi\u00ean c\u1ee9u v\u0169 kh\u00ed sinh h\u1ecdc.",
+          "score": 0.8,
+          "cluster_id": "cluster-ai-safety"
+        },
+        {
+          "id": "9c531c25",
+          "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-09-12T20:25:48+00:00",
+          "category": "technology",
+          "summary": "Gi\u1edbi thi\u1ec7u AgentsDock - IDE cho nghi\u00ean c\u1ee9u AI t\u00e1c nh\u00e2n, v\u00e0 Real-SWE - chu\u1ea9n \u0111\u00e1nh gi\u00e1 AI tr\u00ean m\u00e3 ngu\u1ed3n doanh nghi\u1ec7p th\u1ef1c t\u1ebf.",
+          "score": 0.8,
+          "cluster_id": "cluster-ai-tools"
+        },
+        {
+          "id": "359ea16e",
+          "title": "Android NAT-T keepalive offload bypasses VPN lockdown",
+          "url": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
+          "source": "Hacker News (Top)",
+          "published_at": "2026-09-11T21:16:48+00:00",
+          "category": "technology",
+          "summary": "L\u1ed7 h\u1ed5ng trong Android cho ph\u00e9p r\u00f2 r\u1ec9 l\u01b0u l\u01b0\u1ee3ng VPN qua c\u01a1 ch\u1ebf NAT-T keepalive offload, \u0111e d\u1ecda b\u1ea3o m\u1eadt cho c\u00e1c tri\u1ec3n khai VPN tr\u00ean thi\u1ebft b\u1ecb di \u0111\u1ed9ng.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "ai": {
+      "article_count": 23,
+      "top_articles": [
+        {
+          "id": "039a4975",
+          "title": "GPT-6 Astra: A new generation of intelligence",
+          "url": "https://openai.com/index/gpt-6-astra",
+          "source": "OpenAI Blog",
+          "published_at": "2026-09-03T11:00:00+00:00",
+          "category": "ai",
+          "summary": "GPT-6 Astra l\u00e0 m\u00f4 h\u00ecnh AI m\u1edbi nh\u1ea5t c\u1ee7a OpenAI v\u1edbi kh\u1ea3 n\u0103ng v\u01b0\u1ee3t tr\u1ed9i v\u00e0 c\u00e1c bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7 ti\u00ean ti\u1ebfn, \u0111\u1ea1t ng\u01b0\u1ee1ng an ninh m\u1ea1ng quan tr\u1ecdng.",
+          "score": 0.9,
+          "cluster_id": "cluster-astra"
+        },
+        {
+          "id": "333ccaae",
+          "title": "GPT-6 Astra: The next generation in intelligence for work",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "source": "OpenAI Blog",
+          "published_at": "2026-09-09T11:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI gi\u1edbi thi\u1ec7u GPT-6 Astra v\u1edbi kh\u1ea3 n\u0103ng suy lu\u1eadn, d\u00f9ng m\u00e1y t\u00ednh v\u00e0 vi\u1ebft l\u00e1ch m\u1ea1nh h\u01a1n; \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn vi\u1ec7c t\u00edch h\u1ee3p AI v\u00e0o workflow doanh nghi\u1ec7p.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "dfb58613",
+          "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+          "url": "https://huggingface.co/blog/muse-glimmer",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-10T00:00:00+00:00",
+          "category": "ai",
+          "summary": "Meta ra m\u1eaft Muse Glimmer \u2013 m\u00f4 h\u00ecnh AI \u0111a ph\u01b0\u01a1ng th\u1ee9c, m\u00e3 ngu\u1ed3n m\u1edf, ch\u1ea1y local, h\u1ed7 tr\u1ee3 agent v\u00e0 b\u1ea3o m\u1eadt d\u1eef li\u1ec7u.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "f1c76f23",
+          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "Hugging Face Blog",
+          "published_at": "2026-08-25T11:39:24+00:00",
+          "category": "ai",
+          "summary": "K\u1ef9 thu\u1eadt 'Quantization-Aware Healing' t\u1ea1o m\u00f4 h\u00ecnh 4-bit n\u00e9n v\u01b0\u1ee3t tr\u1ed9i h\u01a1n b\u1ea3n g\u1ed1c full-precision. DevOps c\u00f3 th\u1ec3 tri\u1ec3n khai m\u00f4 h\u00ecnh nh\u1eb9 h\u01a1n m\u00e0 kh\u00f4ng m\u1ea5t ch\u1ea5t l\u01b0\u1ee3ng.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "46fcf5bb",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "source": "OpenAI Blog",
+          "published_at": "2026-09-11T10:00:00+00:00",
+          "category": "ai",
+          "summary": "OpenAI m\u1edf r\u1ed9ng n\u1ec1n t\u1ea3ng l\u01b0u tr\u1eef Habitat t\u1eeb Python library th\u00e0nh h\u1ec7 th\u1ed1ng ph\u00e2n t\u00e1n to\u00e0n c\u1ea7u ph\u1ee5c v\u1ee5 1 t\u1ef7 ng\u01b0\u1eddi d\u00f9ng ChatGPT v\u1edbi 22M request/gi\u00e2y. DevOps h\u1ecdc c\u00e1ch thi\u1ebft k\u1ebf h\u1ec7 th\u1ed1ng l\u01b0u tr\u1eef c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng c\u1ef1c l\u1edbn.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    },
+    "devops": {
+      "article_count": 61,
+      "top_articles": [
+        {
+          "id": "235a1012",
+          "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+          "source": "GitLab Blog",
+          "published_at": "2026-09-11T00:00:00+00:00",
+          "category": "devops",
+          "summary": "GitLab ph\u00e1t h\u00e0nh b\u1ea3n v\u00e1 kh\u1ea9n c\u1ea5p cho c\u00e1c phi\u00ean b\u1ea3n 19.3.2, 19.2.6, 19.1.8. DevOps c\u1ea7n c\u1eadp nh\u1eadt ngay \u0111\u1ec3 tr\u00e1nh l\u1ed7 h\u1ed5ng b\u1ea3o m\u1eadt.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "dc2ef5ab",
+          "title": "Prepare for the Cyber Resilience Act's 24-hour reporting deadline",
+          "url": "https://about.gitlab.com/blog/cyber-resilience-act-reporting-deadline/",
+          "source": "GitLab Blog",
+          "published_at": "2026-09-10T00:00:00+00:00",
+          "category": "devops",
+          "summary": "Cyber Resilience Act y\u00eau c\u1ea7u b\u00e1o c\u00e1o l\u1ed7 h\u1ed5ng trong 24 gi\u1edd k\u1ec3 t\u1eeb th\u00e1ng 9/2026; DevOps c\u1ea7n chu\u1ea9n b\u1ecb quy tr\u00ecnh response nhanh \u0111\u1ec3 tu\u00e2n th\u1ee7.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "33ef96f3",
+          "title": "Critical remote code execution in vm2, a widely used Node.js sandbox library",
+          "url": "https://about.gitlab.com/blog/critical-remote-code-execution-in-vm2/",
+          "source": "GitLab Blog",
+          "published_at": "2026-09-02T00:00:00+00:00",
+          "category": "devops",
+          "summary": "vm2 \u2013 th\u01b0 vi\u1ec7n sandbox Node.js ph\u1ed5 bi\u1ebfn \u2013 c\u00f3 l\u1ed7 h\u1ed5ng RCE m\u1ee9c CVSS 10.0; c\u1ea7n v\u00e1 ngay \u0111\u1ec3 tr\u00e1nh b\u1ecb chi\u1ebfm quy\u1ec1n \u0111i\u1ec1u khi\u1ec3n.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "e5aa53ad",
+          "title": "Flaw in DeepSeek Harness AI Coding Tool Let Agents Disable Their Sandbox",
+          "url": "https://devops.com/flaw-in-deepseek-harness-ai-coding-tool-let-agents-disable-their-sandbox/",
+          "source": "DevOps.com",
+          "published_at": "2026-09-09T15:57:34+00:00",
+          "category": "devops",
+          "summary": "L\u1ed7 h\u1ed5ng trong DeepSeek cho ph\u00e9p t\u00e1c t\u1eed AI v\u00f4 hi\u1ec7u h\u00f3a sandbox, nguy c\u01a1 b\u1ea3o m\u1eadt nghi\u00eam tr\u1ecdng cho CI/CD.",
+          "score": 0.9,
+          "cluster_id": null
+        },
+        {
+          "id": "8a1e86e4",
+          "title": "OpenAI launches GPT-6 Astra and says welcome to the \u201cAGI era\u201d",
+          "url": "https://thenewstack.io/openai-gpt6-astra-benchmarks/",
+          "source": "The New Stack",
+          "published_at": "2026-09-03T18:02:40+00:00",
+          "category": "devops",
+          "summary": "OpenAI ra m\u1eaft GPT-6 Astra, tuy\u00ean b\u1ed1 b\u01b0\u1edbc v\u00e0o k\u1ef7 nguy\u00ean AGI v\u1edbi \u0111i\u1ec3m s\u1ed1 98,6%, nh\u01b0ng c\u00e1c nh\u00e0 nghi\u00ean c\u1ee9u ph\u00e1t hi\u1ec7n ra nh\u1eefng h\u1ea1n ch\u1ebf trong chi ti\u1ebft.",
+          "score": 0.9,
+          "cluster_id": "cluster-001"
+        }
+      ]
+    },
+    "world": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "vietnam": {
+      "article_count": 2,
+      "top_articles": [
+        {
+          "id": "1eb73bc1",
+          "title": "L\u1ed7 h\u1ed5ng ChatGPT cho ph\u00e9p ng\u01b0\u1eddi l\u1ea1 \u0111\u1ecdc tr\u1ed9m Gmail",
+          "url": "https://thanhnien.vn/lo-hong-chatgpt-cho-phep-nguoi-la-doc-trom-gmail-18526091010315223.htm",
+          "source": "Thanh Ni\u00ean",
+          "published_at": "2026-09-10T05:08:00+00:00",
+          "category": "vietnam",
+          "summary": "L\u1ed7 h\u1ed5ng ki\u1ebfn tr\u00fac ChatGPT cho ph\u00e9p \u0111\u1ecdc tr\u1ed9m Gmail, \u0111e d\u1ecda b\u1ea3o m\u1eadt d\u1eef li\u1ec7u; c\u1ea7n c\u1ea3nh gi\u00e1c khi t\u00edch h\u1ee3p AI v\u00e0o h\u1ec7 th\u1ed1ng.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "13e0f829",
+          "title": "AI builds worm that could hijack accounts on China's biggest app with only one unanswered call",
+          "url": "https://e.vnexpress.net/news/news/ai-builds-worm-that-could-hijack-accounts-on-china-s-biggest-app-with-only-one-unanswered-call-5118943.html",
+          "source": "VnExpress International",
+          "published_at": "2026-09-12T03:59:37+00:00",
+          "category": "vietnam",
+          "summary": "AI t\u1ea1o ra worm c\u00f3 th\u1ec3 chi\u1ebfm t\u00e0i kho\u1ea3n WeChat ch\u1ec9 v\u1edbi m\u1ed9t cu\u1ed9c g\u1ecdi nh\u1ee1, c\u1ea3nh b\u00e1o v\u1ec1 m\u1ed1i \u0111e d\u1ecda b\u1ea3o m\u1eadt m\u1edbi t\u1eeb AI.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "innovations": {
+      "article_count": 4,
+      "top_articles": [
+        {
+          "id": "321672b4",
+          "title": "Powering AI is an architecture problem",
+          "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-09-10T11:00:00+00:00",
+          "category": "innovations",
+          "summary": "S\u1ef1 c\u1ed1 l\u01b0\u1edbi \u0111i\u1ec7n t\u1ea1i Ashburn l\u00e0m m\u1ea5t 3GW t\u1ea3i, cho th\u1ea5y v\u1ea5n \u0111\u1ec1 ki\u1ebfn tr\u00fac khi c\u1ea5p ngu\u1ed3n cho AI; DevOps c\u1ea7n t\u00ednh \u0111\u1ebfn \u0111\u1ed9 tin c\u1eady \u0111i\u1ec7n cho datacenter.",
+          "score": 0.75,
+          "cluster_id": null
+        },
+        {
+          "id": "0a4b07bb",
+          "title": "What OpenAI\u2019s latest controversy tells us about the future of math",
+          "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+          "source": "MIT Technology Review",
+          "published_at": "2026-09-09T03:10:08+00:00",
+          "category": "innovations",
+          "summary": "OpenAI tuy\u00ean b\u1ed1 gi\u1ea3i m\u1ed9t b\u00e0i to\u00e1n Millennium nh\u01b0ng g\u00e2y tranh c\u00e3i; \u0111\u1eb7t ra c\u00e2u h\u1ecfi v\u1ec1 \u0111\u1ed9 tin c\u1eady c\u1ee7a AI trong to\u00e1n h\u1ecdc v\u00e0 nghi\u00ean c\u1ee9u.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "5ffb0042",
+          "title": "NASA wants humans back on the Moon in 2028. IBM\u2019s new AI could help get them there",
+          "url": "https://www.fastcompany.com/91604241/nasa-wants-humans-back-on-the-moon-in-2028-ibms-new-ai-could-help-get-them-there",
+          "source": "Fast Company",
+          "published_at": "2026-09-10T17:00:00+00:00",
+          "category": "innovations",
+          "summary": "IBM ph\u00e1t h\u00e0nh m\u00e3 ngu\u1ed3n m\u1edf Lunar Foundation Model h\u1ed7 tr\u1ee3 NASA \u0111\u01b0a ng\u01b0\u1eddi l\u00ean M\u1eb7t Tr\u0103ng n\u0103m 2028; m\u1edf ra \u1ee9ng d\u1ee5ng AI trong kh\u00f4ng gian cho DevOps.",
+          "score": 0.7,
+          "cluster_id": null
+        },
+        {
+          "id": "23f0f9c4",
+          "title": "AI Has Solved One of Math\u2019s $1 Million Millennium Prize Problems",
+          "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+          "source": "Quanta Magazine",
+          "published_at": "2026-09-08T08:43:52+00:00",
+          "category": "innovations",
+          "summary": "OpenAI gi\u1ea3i m\u1ed9t ph\u1ea7n b\u00e0i to\u00e1n Navier-Stokes tr\u1ecb gi\u00e1 1 tri\u1ec7u USD, nh\u01b0ng k\u1ebft qu\u1ea3 g\u00e2y tranh c\u00e3i; \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn m\u00f4 ph\u1ecfng v\u1eadt l\u00fd trong DevOps.",
+          "score": 0.7,
+          "cluster_id": null
+        }
+      ]
+    },
+    "robotics": {
+      "article_count": 0,
+      "top_articles": []
+    },
+    "open_source": {
+      "article_count": 4,
+      "top_articles": [
+        {
+          "id": "34a97616",
+          "title": "ERR_CERT_COMMON_NAME_INVALID In Chrome Error",
+          "url": "https://fosspost.org/err_cert_common_name_invalid/",
+          "source": "FOSS Post",
+          "published_at": "2026-09-11T11:13:55+00:00",
+          "category": "open_source",
+          "summary": "L\u1ed7i ERR_CERT_COMMON_NAME_INVALID do hostname kh\u00f4ng kh\u1edbp ch\u1ee9ng ch\u1ec9 SSL, th\u01b0\u1eddng g\u1eb7p khi c\u1ea5u h\u00ecnh TLS sai, \u1ea3nh h\u01b0\u1edfng \u0111\u1ebfn truy c\u1eadp site.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "df3a23ad",
+          "title": "Net::err_empty_response: Why Pages Return Blank?",
+          "url": "https://fosspost.org/neterr_empty_response/",
+          "source": "FOSS Post",
+          "published_at": "2026-09-10T17:50:18+00:00",
+          "category": "open_source",
+          "summary": "L\u1ed7i NET::ERR_EMPTY_RESPONSE khi server kh\u00f4ng tr\u1ea3 d\u1eef li\u1ec7u, nguy\u00ean nh\u00e2n th\u01b0\u1eddng do server crash ho\u1eb7c timeout, c\u1ea7n debug ngay.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "f811cada",
+          "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "source": "GitHub Blog",
+          "published_at": "2026-09-04T16:04:14+00:00",
+          "category": "open_source",
+          "summary": "HydraFusion ph\u1ed1i h\u1ee3p nhi\u1ec1u m\u00f4 h\u00ecnh AI \u0111\u1ec3 \u0111\u1ea1t ch\u1ea5t l\u01b0\u1ee3ng cao v\u1edbi chi ph\u00ed th\u1ea5p h\u01a1n, gi\u00fap DevOps t\u1ed1i \u01b0u h\u00f3a tr\u1ee3 l\u00fd l\u1eadp tr\u00ecnh.",
+          "score": 0.8,
+          "cluster_id": null
+        },
+        {
+          "id": "13745abf",
+          "title": "GitHub availability report: August 2026",
+          "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+          "source": "GitHub Blog",
+          "published_at": "2026-09-10T02:05:17+00:00",
+          "category": "open_source",
+          "summary": "GitHub g\u1eb7p 5 s\u1ef1 c\u1ed1 trong th\u00e1ng 8/2026 g\u00e2y suy gi\u1ea3m hi\u1ec7u n\u0103ng; DevOps c\u1ea7n theo d\u00f5i \u0111\u1ec3 l\u1eadp k\u1ebf ho\u1ea1ch d\u1ef1 ph\u00f2ng.",
+          "score": 0.8,
+          "cluster_id": null
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total_articles": 134,
+    "total_clusters": 20,
+    "days_covered": 7
+  }
+}
