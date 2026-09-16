@@ -14,6 +14,7 @@ if _env_file.exists():
 
 DATA_DIR = REPO_ROOT / "data"
 SOURCES_FILE = DATA_DIR / "sources.yaml"
+SEEN_FILE = DATA_DIR / "state" / "seen.json"
 
 TMP_RAW = Path("/tmp/veen-raw.json")
 TMP_PROCESSED = Path("/tmp/veen-processed.json")
@@ -23,3 +24,8 @@ VEEN_AI_MODEL: str = os.getenv("VEEN_AI_MODEL", "deepseek/deepseek-v4-flash")
 SCORE_THRESHOLD: float = float(os.getenv("VEEN_SCORE_THRESHOLD", "0.7"))
 BATCH_SIZE: int = int(os.getenv("VEEN_BATCH_SIZE", "25"))
 TITLE_BATCH_SIZE: int = int(os.getenv("VEEN_TITLE_BATCH_SIZE", "50"))
+
+# Crawl runs at 01:00 UTC, so a same-calendar-day filter would drop almost
+# everything; 72h is the rolling window that keeps yesterday's news.
+MAX_AGE_HOURS: float = float(os.getenv("VEEN_MAX_AGE_HOURS", "72"))
+SEEN_RETENTION_DAYS: int = int(os.getenv("VEEN_SEEN_RETENTION_DAYS", "90"))
