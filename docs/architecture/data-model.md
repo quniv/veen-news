@@ -115,7 +115,7 @@ Used inside daily, weekly, and monthly JSON files.
   "source": "OpenAI Blog",
   "published_at": "2026-06-18T08:30:00Z",
   "category": "ai",
-  "summary": "OpenAI has launched GPT-5, featuring a 1M token context window and improved reasoning. The model is available via API immediately. Pricing is similar to GPT-4o.",
+  "summary": "- OpenAI ra mắt GPT-5 với cửa sổ ngữ cảnh 1M token\n- Có sẵn qua API ngay lập tức, giá tương đương GPT-4o\n- Ảnh hưởng: cần đánh giá lại chi phí inference",
   "score": 0.92,
   "cluster_id": "cluster-a1b2c3"
 }
@@ -129,7 +129,7 @@ Used inside daily, weekly, and monthly JSON files.
 | `source` | string | Human-readable source name (from `sources.yaml`) |
 | `published_at` | ISO 8601 string | Source-reported publish time (UTC) |
 | `category` | string | One of the valid category values |
-| `summary` | string | AI-generated 2–3 sentence summary |
+| `summary` | string | AI-generated bullet points in Vietnamese — `- ` lines joined by `\n`. Render as a list, or split on newline. Always 1+ bullets; never a bare paragraph |
 | `score` | float | Relevance score 0.0–1.0 from AI pipeline |
 | `cluster_id` | string or null | Links article to a cluster; null for standalone articles |
 
@@ -141,11 +141,14 @@ Used inside daily, weekly, and monthly JSON files.
 {
   "id": "cluster-a1b2c3",
   "topic": "GPT-5 launch and benchmark comparisons",
-  "summary": "OpenAI released GPT-5 with a 1M token context window. Multiple outlets benchmarked it against Claude 4 and Gemini Ultra, with GPT-5 leading in coding tasks but trailing in long-document summarization.",
+  "summary": "- OpenAI phát hành GPT-5 với cửa sổ ngữ cảnh 1M token\n- Nhiều bên benchmark với Claude 4 và Gemini Ultra\n- Dẫn đầu về coding, kém hơn ở tóm tắt tài liệu dài",
   "article_ids": ["a3f2c1b4", "d9e7f6a2", "b5c4d3e1"],
   "article_count": 3
 }
 ```
+
+`topic` stays a plain English label. `summary` follows the same bullet format as
+the article `summary` above.
 
 ---
 
