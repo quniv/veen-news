@@ -11,7 +11,7 @@ flowchart TD
     UV["② Setup uv + install deps\nastral-sh/setup-uv@v4 + uv sync"] --> CRAWL
 
     subgraph CRAWL_STEP ["③ veen.crawl"]
-        SOURCES["data/sources.yaml\n54 active sources"] --> FETCH
+        SOURCES["data/sources.yaml\n35 active sources (54 configured)"] --> FETCH
         FETCH["httpx fetch each feed\n(sequential, domain-rate-limited)"] --> FRESH
         FRESH["Freshness window\npublished_at within 72h\n(per-source max_age_days override)"] --> DEDUP
         DEDUP["Seen ledger\ndata/state/seen.json\n90-day URL memory"] --> RAW

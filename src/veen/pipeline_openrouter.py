@@ -1,6 +1,7 @@
 """AI pipeline — OpenRouter / DeepSeek with parallel batches and two-stage filtering."""
 import json
 import logging
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -197,6 +198,28 @@ def _select_cluster_representatives(
 
 # ── Summarize ─────────────────────────────────────────────────────────────────
 
+# Leading "- ", "* ", "• ", "1. ", "2) " etc. that the model emits inconsistently
+_LIST_MARKER = re.compile(r"^\s*(?:[-*•–—·]+|\d+[.)])\s*")
+
+
+def _as_bullets(summary: str | list | None) -> str:
+    """Coerce a model summary into newline-separated `- ` bullets.
+
+    A marker-less paragraph stays one bullet; splitting Vietnamese prose on
+    sentence boundaries is not reliable enough to try.
+    """
+    if not summary:
+        return ""
+    lines = summary if isinstance(summary, list) else str(summary).split("\n")
+
+    bullets = []
+    for line in lines:
+        line = _LIST_MARKER.sub("", str(line)).strip()
+        if line:
+            bullets.append(f"- {line}")
+    return "\n".join(bullets)
+
+
 def _summarize_clusters(
     client: OpenAI, clusters_map: dict[str, list[RawArticle]]
 ) -> dict[str, dict]:
@@ -211,32 +234,47 @@ def _summarize_clusters(
     ]
     prompt = f"""For each cluster write:
 - topic: concise label (5–10 words, in English)
-- summary: 1–2 sentences IN VIETNAMESE capturing the key facts and significance
+- summary: 2–4 bullet points IN VIETNAMESE capturing the key facts and significance
+
+Summary formatting rules:
+- Every bullet starts with "- " and bullets are separated by a newline (\\n).
+- One fact per bullet, max ~20 words. No intro sentence, no paragraphs.
+- Last bullet states why it matters to a senior tech/DevOps professional.
+
+Example summary: "- GitLab vá lỗ hổng path traversal đang bị khai thác\\n- Phát hành 19.3 kèm bản vá cho các phiên bản cũ\\n- Ảnh hưởng: cần nâng cấp gấp"
 
 Clusters:
 {json.dumps(batch)}
 
-Return JSON: {{"summaries": {{"cluster_id": {{"topic": "...", "summary": "..."}}}}}}"""
+Return JSON: {{"summaries": {{"cluster_id": {{"topic": "...", "summary": "- ...\\n- ..."}}}}}}"""
 
     result = json.loads(_chat(client, prompt))
-    return result.get("summaries", {})
+    summaries = result.get("summaries", {})
+    for info in summaries.values():
+        if isinstance(info, dict):
+            info["summary"] = _as_bullets(info.get("summary", ""))
+    return summaries
 
 
 def _summarize_standalone(client: OpenAI, articles: list[RawArticle]) -> dict[str, str]:
     if not articles:
         return {}
     batch = [{"id": a.id, "title": a.title, "snippet": a.snippet[:300]} for a in articles]
-    prompt = f"""Write a 1–2 sentence summary IN VIETNAMESE for each article.
-Capture what happened and why it matters to a senior tech/DevOps professional.
-Be concise and direct.
+    prompt = f"""Write a 2–3 bullet point summary IN VIETNAMESE for each article.
+
+Formatting rules:
+- Every bullet starts with "- " and bullets are separated by a newline (\\n).
+- One fact per bullet, max ~20 words. No intro sentence, no paragraphs.
+- First bullets state what happened; the last states why it matters to a senior
+  tech/DevOps professional.
 
 Articles:
 {json.dumps(batch)}
 
-Return JSON: {{"summaries": {{"id": "tóm tắt tiếng Việt..."}}}}"""
+Return JSON: {{"summaries": {{"id": "- điểm chính\\n- điểm tiếp theo\\n- Ảnh hưởng: ..."}}}}"""
 
     result = json.loads(_chat(client, prompt))
-    return result.get("summaries", {})
+    return {k: _as_bullets(v) for k, v in result.get("summaries", {}).items()}
 
 
 # ── Daily Recap ───────────────────────────────────────────────────────────────
