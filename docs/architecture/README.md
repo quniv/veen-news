@@ -56,7 +56,16 @@ graph TB
 ## Data Flow
 
 ### Stage 1 — Crawl
-GitHub Actions triggers at 01:00 UTC. The crawler reads `data/sources.yaml`, fetches each RSS feed using `feedparser` and `httpx`, and deduplicates articles by exact URL match. Raw article objects collected: title, URL, published_at, source name, category.
+GitHub Actions triggers at 01:00 UTC. The crawler reads `data/sources.yaml` and fetches each RSS feed using `feedparser` and `httpx`. Every entry then passes two gates:
+
+```
+fetch ──▶ freshness window ──▶ seen ledger ──▶ /tmp/veen-raw.json
+          published_at            URL never
+          within 72h              crawled before
+          (per-source override)   (data/state/seen.json, 90d)
+```
+
+The ledger is permanent within its retention window, so a feed entry is only ever sent to the AI pipeline once. The freshness window is what stops a slow-publishing blog — whose RSS feed holds months of back-catalogue — from flooding the digest when it is first added. Raw article objects collected: title, URL, published_at, source name, category.
 
 ### Stage 2 — AI Processing
 The AI pipeline sends batches of article titles and snippets to OpenRouter. Four operations run in sequence:
@@ -166,4 +175,4 @@ There is no serving step of our own. Any consumer — a third-party frontend, sc
 - [Data Model](data-model.md) — JSON schemas for all data files
 - [Consuming the API](consuming-the-api.md) — how a third-party frontend can fetch and render this data
 - [Roadmap](roadmap.md) — phased implementation plan
-- ADRs: [001 Git-as-DB](adr/ADR-001-git-as-database.md) · [002 GH Actions](adr/ADR-002-github-actions-compute.md) · [003 AI Gateway](adr/ADR-003-ai-gateway.md) · [005 Source Config](adr/ADR-005-source-config.md) · [006 AI Agent Framework](adr/ADR-006-ai-agent-framework.md)
+- ADRs: [001 Git-as-DB](adr/ADR-001-git-as-database.md) · [002 GH Actions](adr/ADR-002-github-actions-compute.md) · [003 AI Gateway](adr/ADR-003-ai-gateway.md) · [005 Source Config](adr/ADR-005-source-config.md) · [006 AI Agent Framework](adr/ADR-006-ai-agent-framework.md) · [007 Crawl Deduplication](adr/ADR-007-crawl-deduplication.md)

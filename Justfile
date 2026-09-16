@@ -37,6 +37,10 @@ run: crawl ai export
 
 # ── Data ─────────────────────────────────────────────────────────────────────
 
+# Seed the dedup ledger from already-published daily files (one-off)
+backfill-seen:
+    uv run python -m veen.backfill_seen
+
 # Show recent daily digests
 data:
     @ls -lt data/daily/ | head -10

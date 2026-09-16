@@ -16,8 +16,10 @@ data/
 │   └── YYYY-MM-DD.json       ← daily digest per date
 ├── weekly/
 │   └── YYYY-WW.json          ← weekly recap (ISO week number)
-└── monthly/
-    └── YYYY-MM.json          ← monthly recap
+├── monthly/
+│   └── YYYY-MM.json          ← monthly recap
+└── state/
+    └── seen.json             ← crawler's URL memory (dedup ledger)
 ```
 
 ---
@@ -34,6 +36,9 @@ sources:
     feed_type: rss|atom    # feedparser format hint
     category: string       # maps to a top-level category key in daily JSON
     active: boolean        # false = skip without removing from config
+    max_age_days: number   # optional; widens the freshness window for this
+                           # source. Use for low-volume blogs that publish
+                           # less often than the global 72h window.
 ```
 
 **Example**:
@@ -65,6 +70,36 @@ sources:
 ```
 
 **Valid categories**: `technology`, `ai`, `devops`, `world`, `vietnam`, `innovations`, `robotics`, `open_source`
+
+---
+
+## `data/state/seen.json`
+
+The crawler's URL memory. Written by `veen.crawl`, committed alongside `data/`.
+Not a consumer-facing file — it exists so the same article is never sent to the
+AI pipeline twice. See [ADR-007](adr/ADR-007-crawl-deduplication.md).
+
+```json
+{
+  "version": 1,
+  "updated_at": "2026-09-16T01:04:00+00:00",
+  "retention_days": 90,
+  "count": 1404,
+  "entries": {
+    "00270719c43b63ae": "2026-08-10"
+  }
+}
+```
+
+| Field | Meaning |
+|-------|---------|
+| `entries` | `sha256(url)[:16]` → first date the URL was crawled |
+| `retention_days` | entries older than this are pruned on each run |
+
+URLs are hashed rather than stored whole to keep the file small and its daily
+git diff to a handful of added lines. Entries are never refreshed on re-sighting
+— a URL that ages out is caught by the freshness window instead, since by then
+it is far older than `VEEN_MAX_AGE_HOURS`.
 
 ---
 

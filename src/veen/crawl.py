@@ -9,7 +9,9 @@ import httpx
 import yaml
 
 from . import config
+from .freshness import is_fresh, max_age
 from .models import RawArticle
+from .seen import SeenLedger
 
 log = logging.getLogger(__name__)
 
@@ -28,23 +30,6 @@ def load_sources() -> list[dict]:
     with open(config.SOURCES_FILE) as f:
         data = yaml.safe_load(f)
     return [s for s in data.get("sources", []) if s.get("active", True)]
-
-
-def seen_urls() -> set[str]:
-    """Collect URLs already committed in the last 7 daily files to avoid duplicates."""
-    urls: set[str] = set()
-    daily_dir = config.DATA_DIR / "daily"
-    if not daily_dir.exists():
-        return urls
-    for f in sorted(daily_dir.glob("*.json"))[-7:]:
-        try:
-            digest = json.loads(f.read_text())
-            for articles in digest.get("categories", {}).values():
-                for a in articles:
-                    urls.add(a.get("url", ""))
-        except Exception:
-            pass
-    return urls
 
 
 def fetch_feed(source: dict, client: httpx.Client) -> list[RawArticle]:
@@ -72,14 +57,15 @@ def fetch_feed(source: dict, client: httpx.Client) -> list[RawArticle]:
     return articles
 
 
-def crawl() -> list[RawArticle]:
+def crawl(ledger: SeenLedger | None = None) -> list[RawArticle]:
     sources = load_sources()
-    known = seen_urls()
-    log.info("Crawling %d active sources, %d known URLs to skip", len(sources), len(known))
+    ledger = ledger if ledger is not None else SeenLedger.load()
+    log.info("Crawling %d active sources, %d URLs in seen ledger", len(sources), len(ledger))
 
     all_articles: list[RawArticle] = []
     seen_in_run: set[str] = set()
     last_domain_time: dict[str, float] = {}
+    n_stale = n_dup = 0
 
     with httpx.Client(headers=HEADERS) as client:
         for source in sources:
@@ -92,21 +78,36 @@ def crawl() -> list[RawArticle]:
 
             articles = fetch_feed(source, client)
             last_domain_time[domain] = time.monotonic()
+            window = max_age(source)
 
             for a in articles:
-                if a.url in known or a.url in seen_in_run:
+                if not is_fresh(a, window):
+                    n_stale += 1
+                    continue
+                # Stale check first: never ledger an article the pipeline didn't
+                # see, or widening the window later would leave it suppressed.
+                if a.url in ledger or a.url in seen_in_run:
+                    n_dup += 1
                     continue
                 seen_in_run.add(a.url)
+                ledger.add(a.url)
                 all_articles.append(a)
 
-    log.info("Crawled %d new articles total", len(all_articles))
+    log.info(
+        "Crawled %d new articles (%d stale, %d already seen)", len(all_articles), n_stale, n_dup
+    )
     return all_articles
 
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    articles = crawl()
+    ledger = SeenLedger.load()
+    articles = crawl(ledger)
     config.TMP_RAW.write_text(json.dumps([a.model_dump() for a in articles], indent=2, default=str))
+    # Saved here, not after the AI step: a failed run aborts the workflow before
+    # the commit, so git is the transaction boundary that rolls the ledger back.
+    ledger.prune()
+    ledger.save()
     print(f"✓ Fetched {len(articles)} articles → {config.TMP_RAW}")
 
 

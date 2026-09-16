@@ -35,7 +35,8 @@ veen-news/
 │   ├── pagination.json     ← page-size/count metadata for index.json
 │   ├── daily/              ← YYYY-MM-DD.json
 │   ├── weekly/             ← YYYY-WW.json
-│   └── monthly/            ← YYYY-MM.json
+│   ├── monthly/            ← YYYY-MM.json
+│   └── state/seen.json     ← crawler URL memory (dedup ledger)
 ├── src/                    ← Python crawler + AI pipeline
 ├── .github/workflows/      ← daily-crawl.yml, recaps.yml
 └── docs/
