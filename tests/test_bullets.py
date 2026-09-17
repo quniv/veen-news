@@ -34,5 +34,30 @@ class AsBulletsTests(unittest.TestCase):
         self.assertEqual(_as_bullets("- end-to-end mã hoá"), "- end-to-end mã hoá")
 
 
+class DailyRecapBulletsTests(unittest.TestCase):
+    def test_every_recap_field_is_normalized_to_bullets(self) -> None:
+        import json
+        from unittest import mock
+
+        from veen import pipeline_openrouter as po
+        from veen.models import ProcessedArticle
+
+        reply = json.dumps({
+            "full_summary": "• Một\n• Hai",
+            "global_analysis": "1. Toàn cầu\n2. Xu hướng",
+            "vietnam_analysis": "Đoạn văn không có dấu đầu dòng.",
+            "watch_list": ["Kỹ năng A", "Kỹ năng B"],
+        })
+        article = ProcessedArticle(id="a", title="t", url="u", source="s", category="ai", summary="- x")
+
+        with mock.patch.object(po, "_chat", return_value=reply):
+            recap = po._generate_daily_recap(mock.Mock(), [article])
+
+        self.assertEqual(recap.full_summary, "- Một\n- Hai")
+        self.assertEqual(recap.global_analysis, "- Toàn cầu\n- Xu hướng")
+        self.assertEqual(recap.vietnam_analysis, "- Đoạn văn không có dấu đầu dòng.")
+        self.assertEqual(recap.watch_list, "- Kỹ năng A\n- Kỹ năng B")
+
+
 if __name__ == "__main__":
     unittest.main()

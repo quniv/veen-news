@@ -65,10 +65,11 @@ class Cluster(BaseModel):
 
 
 class DailyRecap(BaseModel):
-    global_analysis: str   # Global tech landscape analysis (Vietnamese)
-    vietnam_analysis: str  # Vietnam-specific analysis (Vietnamese)
-    watch_list: str        # "Đáng theo dõi" personal insights (Vietnamese)
-    full_summary: str      # Complete narrative paragraph (Vietnamese)
+    # All fields are Vietnamese "- " bullet lines joined by "\n".
+    global_analysis: str   # Global tech landscape
+    vietnam_analysis: str  # Vietnam-specific analysis
+    watch_list: str        # "Đáng theo dõi" personal insights
+    full_summary: str      # Whole-day recap, most important first
 
 
 class ProcessedOutput(BaseModel):
