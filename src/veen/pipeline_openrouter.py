@@ -286,33 +286,38 @@ def _generate_daily_recap(client: OpenAI, articles: list[ProcessedArticle]) -> D
         for a in top
     ]
     prompt = f"""Bạn là biên tập viên của một bản tin công nghệ tiếng Việt dành cho kỹ sư cao cấp.
-Dựa trên các bài báo quan trọng nhất hôm nay, hãy viết phần tổng kết cuối ngày gồm 4 phần:
+Dựa trên các bài báo quan trọng nhất hôm nay, hãy viết phần tổng kết cuối ngày gồm 4 phần.
+TẤT CẢ 4 phần đều viết dạng gạch đầu dòng, KHÔNG viết đoạn văn.
 
-1. global_analysis: Phân tích 2–3 đoạn về bức tranh công nghệ toàn cầu hôm nay — xu hướng chính, sự kiện nổi bật, và ý nghĩa với ngành AI/DevOps/Security.
+1. full_summary: 5–7 gạch đầu dòng tóm tắt cả ngày — sự kiện quan trọng nhất trước, dòng cuối là nhận định tổng thể.
 
-2. vietnam_analysis: Phân tích 1–2 đoạn về tin tức Việt Nam — đặt trong bối cảnh khu vực, chỉ ra điểm mạnh/yếu, cơ hội/thách thức.
+2. global_analysis: 4–6 gạch đầu dòng về bức tranh công nghệ toàn cầu — xu hướng chính, sự kiện nổi bật, ý nghĩa với AI/DevOps/Security.
 
-3. watch_list: 1 đoạn ngắn về xu hướng/kỹ năng đáng đầu tư — lời khuyên cá nhân cho kỹ sư DevOps/AI Việt Nam.
+3. vietnam_analysis: 3–5 gạch đầu dòng về tin tức Việt Nam — bối cảnh khu vực, điểm mạnh/yếu, cơ hội/thách thức.
 
-4. full_summary: Đoạn văn tổng hợp 200–300 từ, kể lại toàn bộ ngày như narrative liền mạch — bắt đầu từ sự kiện quan trọng nhất, liên kết các chủ đề, kết thúc bằng nhận định tổng thể.
+4. watch_list: 2–4 gạch đầu dòng về xu hướng/kỹ năng đáng đầu tư cho kỹ sư DevOps/AI Việt Nam.
+
+Quy tắc định dạng:
+- Mỗi dòng bắt đầu bằng "- ", các dòng cách nhau bằng ký tự xuống dòng (\\n).
+- Mỗi dòng một ý, tối đa ~25 từ. Không câu mở đầu, không đoạn văn.
 
 Bài báo hôm nay:
 {json.dumps(batch, ensure_ascii=False)}
 
 Return JSON:
 {{
-  "global_analysis": "...",
-  "vietnam_analysis": "...",
-  "watch_list": "...",
-  "full_summary": "..."
+  "full_summary": "- ...\\n- ...",
+  "global_analysis": "- ...\\n- ...",
+  "vietnam_analysis": "- ...\\n- ...",
+  "watch_list": "- ...\\n- ..."
 }}"""
 
     result = json.loads(_chat(client, prompt))
     return DailyRecap(
-        global_analysis=result.get("global_analysis", ""),
-        vietnam_analysis=result.get("vietnam_analysis", ""),
-        watch_list=result.get("watch_list", ""),
-        full_summary=result.get("full_summary", ""),
+        global_analysis=_as_bullets(result.get("global_analysis", "")),
+        vietnam_analysis=_as_bullets(result.get("vietnam_analysis", "")),
+        watch_list=_as_bullets(result.get("watch_list", "")),
+        full_summary=_as_bullets(result.get("full_summary", "")),
     )
 
 
